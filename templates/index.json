@@ -250,7 +250,7 @@
           "type": "heading",
           "settings": {
             "heading": "Image banner",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "165934285774d60548-1": {
@@ -264,7 +264,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_link_1": "{{ shop.brand.favicon_url }}",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -278,10 +278,11 @@
         "165934285774d60548-2"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/gift-card-envelopes.jpg",
+        "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
