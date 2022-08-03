@@ -36,6 +36,7 @@
       ],
       "settings": {
         "image": "{{ shop.brand.cover_image }}",
+        "image_link_1": "",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -54,25 +55,37 @@
         "1659339603aedad068-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "frontpage",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         },
         "1659339603aedad068-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "frontpage",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         },
         "1659339603aedad068-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "frontpage",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         },
         "b17146e6-7ddf-4b85-8abb-af858e6f43b8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "frontpage",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
@@ -158,20 +171,20 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": false
+            "product": "sp220511fs1s",
+            "second_image": true
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
           }
         }
       },
@@ -279,6 +292,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gift-card-envelopes.jpg",
+        "image_link_1": "",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
