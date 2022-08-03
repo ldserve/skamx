@@ -755,7 +755,7 @@ class VariantSelects extends HTMLElement {
     this.toggleAddButton(true, '', false);
     this.updatePickupAvailability();
     this.removeErrorMessage();
-
+    this.updateImg()
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
@@ -869,6 +869,7 @@ class VariantSelects extends HTMLElement {
 
   setUnavailable() {
     const button = document.getElementById(`product-form-${this.dataset.section}`);
+    if(!button)return;
     const addButton = button.querySelector('[name="add"]');
     const addButtonText = button.querySelector('[name="add"] > span');
     const price = document.getElementById(`price-${this.dataset.section}`);
@@ -876,7 +877,24 @@ class VariantSelects extends HTMLElement {
     addButtonText.textContent = window.variantStrings.unavailable;
     if (price) price.classList.add('visibility-hidden');
   }
-
+  updateImg(){
+    const currentSelect=this.querySelector('.color-swatch__radio:checked')
+   if(!currentSelect) return
+   const colleItem = this.closest('li')
+   if(!colleItem)return
+    const originalImageElement =colleItem.querySelector('.media.media--transparent.media--hover-effect').children[0];
+    if (currentSelect.hasAttribute('data-image-url') && currentSelect.getAttribute('data-media-id') !== originalImageElement.getAttribute('data-media-id')) {
+        const newImageElement = document.createElement('img');
+        newImageElement.className = originalImageElement.className;
+        newImageElement.setAttribute('sizes', originalImageElement.getAttribute('sizes'));
+        newImageElement.setAttribute('data-media-id', currentSelect.getAttribute('data-media-id'));
+        newImageElement.setAttribute('loading', 'lazy');
+        newImageElement.setAttribute('whdth',1600);
+        newImageElement.setAttribute('height',1600);
+        newImageElement.setAttribute('srcset',currentSelect.getAttribute('data-image-url'));
+        originalImageElement.parentNode.replaceChild(newImageElement, originalImageElement);
+    }
+}
   getVariantData() {
     this.variantData = this.variantData || JSON.parse(this.querySelector('[type="application/json"]').textContent);
     return this.variantData;

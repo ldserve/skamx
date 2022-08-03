@@ -165,7 +165,7 @@
                       </span>
                     {%- elsif media.media_type == 'video' or media.media_type == 'external_video' -%}
                       <span class="thumbnail__badge" aria-hidden="true">
-                        {%- render 'icon-play' -%}
+                        {%- render 'icon',icon:'play' -%}
                       </span>
                     {%- endif -%}
                     <button class="thumbnail global-media-settings global-media-settings--no-shadow {% if media.preview_image.aspect_ratio > 1 %}thumbnail--wide{% else %}thumbnail--narrow{% endif %}"
@@ -335,7 +335,8 @@
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
-              {%- if block.settings.picker_type == 'button' -%}
+              {%- case block.settings.picker_type -%}
+                {%- when 'button' -%}
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
                       <fieldset class="js product-form__input">
@@ -357,7 +358,7 @@
                     {{ product.variants | json }}
                   </script>
                 </variant-radios>
-              {%- else -%}
+              {%- when 'dropdown' -%}
                 <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
                     <div class="product-form__input product-form__input--dropdown">
@@ -385,8 +386,53 @@
                     {{ product.variants | json }}
                   </script>
                 </variant-selects>
-              {%- endif -%}
+                {%- when 'block' -%}
+                {%- comment -%}色块选择{%- endcomment -%}
+                <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
+                  {%- for option in product.options_with_values -%}
+                    {%- assign option_name = option.name | downcase -%}
+                    {%- if option_name=='color' -%}
+                    <fieldset class="js product-form__input  color-swatch">
+                      <legend class="form__label">{{ option.name }}</legend>
+                      {%- for value in option.values -%}
+                        <input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                              name="{{ option.name }}"
+                              value="{{ value | escape }}"
+                              form="{{ product_form_id }}"
+                              {% if option.selected_value == value %}checked{% endif %}
+                              class="color-swatch__radio hidden"
+                        >
+                        <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class="color-swatch__item">
+                          <span style="{% render 'color-config',color: value %}" class="color--radios">{{ value }}</span>
+                        </label>
+                      {%- endfor -%}
+                    </fieldset>
+                    {%- else -%}
+                    <fieldset class="js product-form__input">
+                      <legend class="form__label">{{ option.name }}</legend>
+                      {%- for value in option.values -%}
+                        <input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                              name="{{ option.name }}"
+                              value="{{ value | escape }}"
+                              form="{{ product_form_id }}"
+                              {% if option.selected_value == value %}checked{% endif %}
+                        >
+                        <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+                          {{ value }}
+                        </label>
+                      {%- endfor -%}
+                    </fieldset>
+                    {%- endif -%}
+                  {%- endfor -%}
+                  <script type="application/json">
+                    {{ product.variants | json }}
+                  </script>
+                </variant-radios>
+                {%- comment -%}色块选择{%- endcomment -%}
+                {%- endcase -%}
             {%- endunless -%}
+                
+            
 
             <noscript class="product-form__noscript-wrapper-{{ section.id }}">
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
@@ -709,6 +755,10 @@
             {
               "value": "button",
               "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.options__2.label"
+            },
+            {
+              "value": "block",
+              "label": "圆形色块"
             }
           ],
           "default": "button",

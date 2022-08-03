@@ -22,7 +22,7 @@
 
 <noscript>
   {%- if media.media_type == 'video' or media.media_type == 'external_video' -%}
-    <span class="product__media-icon motion-reduce quick-add-hidden">{% render 'icon-play' %}</span>
+    <span class="product__media-icon motion-reduce quick-add-hidden">{%- render 'icon',icon:'play' -%}</span>
     <div class="product__media media gradient global-media-settings" style="padding-top: {{ 1 | divided_by: media.preview_image.aspect_ratio | times: 100 }}%;">
       <img
         srcset="{% if media.preview_image.width >= 493 %}{{ media.preview_image | image_url: width: 493 }} 493w,{% endif %}
@@ -130,7 +130,7 @@
         {%- render 'icon-3d-model' -%}
       {%- else -%}
         <span class="visually-hidden">{{ 'products.product.media.play_video' | t }}</span>
-        {%- render 'icon-play' -%}
+        {%- render 'icon',icon:'play' -%}
       {%- endif -%}
     </span>
     <img
