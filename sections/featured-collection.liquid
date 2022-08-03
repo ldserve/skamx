@@ -45,38 +45,6 @@
   endif
 -%}
 
-<style>
-  .collection__title--container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-
-  .hr__line {
-    background-color: #000;
-    height: 1px;
-    width: 100px;
-  }
-
-  .collection__title--container .h2 {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    text-align: center;
-  }
-
-
-
-
-
-  /* .card__content{
-    padding:10px;
-  } */
-  /* .color-radios{
-    border: none;
-  } */
-
-</style>
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">

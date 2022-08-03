@@ -103,7 +103,7 @@
 
   {%- if block.settings.button_label!=brank -%}
   <div class=" collection-item__button" >
-      <a{% if block.settings.button_link == blank %} href="{{card_collection.url }} role="link" aria-disabled="false"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
+      <a{% if block.settings.button_link == blank %} href="{{card_collection.url }}" role="link" aria-disabled="false"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
   </div>
   {%- endif -%}
 

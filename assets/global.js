@@ -880,7 +880,7 @@ class VariantSelects extends HTMLElement {
   updateImg(){
     const currentSelect=this.querySelector('.color-swatch__radio:checked')
    if(!currentSelect) return
-   const colleItem = this.closest('li')
+   const colleItem = this.closest('.card-wrapper')
    if(!colleItem)return
     const originalImageElement =colleItem.querySelector('.media.media--transparent.media--hover-effect').children[0];
     if (currentSelect.hasAttribute('data-image-url') && currentSelect.getAttribute('data-media-id') !== originalImageElement.getAttribute('data-media-id')) {

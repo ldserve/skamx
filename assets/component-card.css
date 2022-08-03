@@ -320,3 +320,21 @@
 .card-article-info {
   margin-top: 1rem;
 }
+.collection__title--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.hr__line {
+  background-color: #000;
+  height: 1px;
+  width: 100px;
+}
+
+.collection__title--container .h2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+}
