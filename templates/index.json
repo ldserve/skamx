@@ -304,6 +304,35 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "165968088065e1daef": {
+      "type": "image-list",
+      "blocks": {
+        "d2a6c910-9903-4a53-9f41-6366a898613c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift-card-envelopes.jpg",
+            "img_link": ""
+          }
+        },
+        "cd18d8b1-06a2-492b-8416-53181b8d1b2c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift-card-envelopes.jpg",
+            "img_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d2a6c910-9903-4a53-9f41-6366a898613c",
+        "cd18d8b1-06a2-492b-8416-53181b8d1b2c"
+      ],
+      "settings": {
+        "columns_desktop": 2,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -313,6 +342,7 @@
     "featured_collection",
     "collage",
     "multicolumn",
-    "16593428576233f191"
+    "16593428576233f191",
+    "165968088065e1daef"
   ]
 }
