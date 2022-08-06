@@ -78,14 +78,14 @@
             {%- endfor -%}
           </ul>
           <div class="slider-buttons no-js-hidden quick-add-hidden{% if media_count < 2 or section.settings.mobile_thumbnails == 'show' %} small-hide{% endif %}">
-            <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
+            <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon',icon:'caret' %}</button>
             <div class="slider-counter caption">
               <span class="slider-counter--current">1</span>
               <span aria-hidden="true"> / </span>
               <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
               <span class="slider-counter--total">{{ media_count }}</span>
             </div>
-            <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-caret' %}</button>
+            <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon',icon:'caret' %}</button>
           </div>
         </slider-component>
         {%- if first_3d_model -%}
@@ -104,7 +104,7 @@
         {%- endif -%}
         {%- if media_count > 1 and section.settings.gallery_layout != 'stacked' or section.settings.mobile_thumbnails == 'show' -%}
           <slider-component id="GalleryThumbnails-{{ section.id }}" class="thumbnail-slider slider-mobile-gutter quick-add-hidden{% if section.settings.mobile_thumbnails == 'hide' %} small-hide{% endif %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}">
-            <button type="button" class="slider-button slider-button--prev{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}" data-step="3">{% render 'icon-caret' %}</button>
+            <button type="button" class="slider-button slider-button--prev{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}" data-step="3">{% render 'icon',icon:'caret' %}</button>
             <ul id="Slider-Thumbnails-{{ section.id }}" class="thumbnail-list list-unstyled slider slider--mobile{% if section.settings.gallery_layout == 'thumbnail_slider' %} slider--tablet-up{% endif %}">
               {%- if featured_media != null -%}
                 {%- liquid
@@ -193,7 +193,7 @@
                 {%- endunless -%}
               {%- endfor -%}
             </ul>
-            <button type="button" class="slider-button slider-button--next{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}" name="next" aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}" data-step="3">{% render 'icon-caret' %}</button>
+            <button type="button" class="slider-button slider-button--next{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}" name="next" aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}" data-step="3">{% render 'icon',icon:'caret' %}</button>
           </slider-component>
         {%- endif -%}
       </media-gallery>
@@ -258,7 +258,7 @@
                       {{ block.settings.heading | default: block.settings.page.title }}
                     </h2>
                   </div>
-                  {% render 'icon-caret' %}
+                  {% render 'icon',icon:'caret' %}
                 </summary>
                 <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                   {{ block.settings.content }}
@@ -275,7 +275,7 @@
               <quantity-input class="quantity">
                 <button class="quantity__button no-js-hidden" name="minus" type="button">
                   <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
-                  {% render 'icon-minus' %}
+                  {% render 'icon',icon:'minus' %}
                 </button>
                 <input class="quantity__input"
                     type="number"
@@ -287,7 +287,7 @@
                   >
                 <button class="quantity__button no-js-hidden" name="plus" type="button">
                   <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}</span>
-                  {% render 'icon-plus' %}
+                  {% render 'icon',icon:'plus' %}
                 </button>
               </quantity-input>
             </div>
@@ -299,12 +299,12 @@
           {%- when 'share' -%}
             <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
               <button class="share-button__button hidden">
-                {% render 'icon-share' %}
+                {% render 'icon',icon:'share' %}
                 {{ block.settings.share_label | escape }}
               </button>
               <details id="Details-{{ block.id }}-{{ section.id }}">
                 <summary class="share-button__button">
-                  {% render 'icon-share' %}
+                  {% render 'icon',icon:'share' %}
                   {{ block.settings.share_label | escape }}
                 </summary>
                 <div id="Product-share-{{ section.id }}" class="share-button__fallback motion-reduce">
@@ -322,11 +322,11 @@
                     <label class="field__label" for="url">{{ 'general.share.share_url' | t }}</label>
                   </div>
                   <button class="share-button__close hidden no-js-hidden">
-                    {% render 'icon-close' %}
+                    {% render 'icon',icon:'close' %}
                     <span class="visually-hidden">{{ 'general.share.close' | t }}</span>
                   </button>
                   <button class="share-button__copy no-js-hidden">
-                    {% render 'icon-clipboard' %}
+                    {% render 'icon',icon:'clipboard' %}
                     <span class="visually-hidden">{{ 'general.share.copy_to_clipboard' | t }}</span>
                   </button>
                 </div>
@@ -377,7 +377,7 @@
                             </option>
                           {%- endfor -%}
                         </select>
-                        {% render 'icon-caret' %}
+                        {% render 'icon',icon:'caret' %}
                       </div>
                     </div>
                   {%- endfor -%}
@@ -451,7 +451,7 @@
                       </option>
                     {%- endfor -%}
                   </select>
-                  {% render 'icon-caret' %}
+                  {% render 'icon',icon:'caret' %}
                 </div>
               </div>
             </noscript>
@@ -509,7 +509,7 @@
               >
                 <template>
                   <pickup-availability-preview class="pickup-availability-preview">
-                    {% render 'icon-unavailable' %}
+                    {% render 'icon',icon:'unavailable' %}
                     <div class="pickup-availability-info">
                       <p class="caption-large">{{ 'products.product.pickup_availability.unavailable' | t }}</p>
                       <button class="pickup-availability-button link link--text underlined-link">{{ 'products.product.pickup_availability.refresh' | t }}</button>
@@ -546,7 +546,7 @@
         {%- endfor -%}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
           {{ 'products.product.view_full_details' | t }}
-          {% render 'icon-arrow' %}
+          {% render 'icon',icon:'arrow' %}
         </a>
       </div>
     </div>
@@ -554,7 +554,7 @@
 
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
     <div class="product-media-modal__dialog" role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
-      <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+      <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon',icon:'close' %}</button>
 
       <div class="product-media-modal__content gradient" role="document" aria-label="{{ 'products.modal.label' | t }}" tabindex="0">
         {%- liquid
@@ -585,7 +585,7 @@
   {%- for block in popups -%}
     <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
       <div role="dialog" aria-label="{{ block.settings.text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
-        <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+        <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon',icon:'close' %}</button>
         <div class="product-popup-modal__content-info">
           <h1 class="h2">{{ block.settings.page.title }}</h1>
           {{ block.settings.page.content }}

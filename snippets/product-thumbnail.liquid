@@ -79,11 +79,11 @@
     {%- liquid
       case media.media_type
       when 'video' or 'external_video'
-        render 'icon-play'
+        render 'icon',icon:'play'
       when 'model'
         render 'icon-3d-model'
       else
-        render 'icon',icon:'zoom',class:'icon-plus'
+        render 'icon',icon:'zoom',class:'icon',icon:'plus'
       endcase
     -%}
   </span>

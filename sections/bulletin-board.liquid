@@ -1,0 +1,46 @@
+
+<style>
+
+#bulletin-section-{{section.id}}{
+    margin:0;
+    padding:0;
+}
+
+.bulletin-contain{
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    color: #fff;
+}
+.line-fence{
+    width: 1px;
+    height: 70%;
+    background-color: #fff;
+}
+.bulletin__text{
+    width: 40%;
+}
+</style>
+<section id="bulletin-section-{{section.id}}">
+
+<div class="bulletin-contain">
+    <div class="bulletin__text">{%- render 'icon',icon:'arrow' -%}GET 20% OFF </div>
+    <span class="line-fence"></span>
+    <div class="bulletin__text">{%- render 'icon',icon:'arrow' -%}BUY 4 GET 20% OFF </div>
+</div>
+
+</section>
+
+
+{% schema %}
+{
+    "name":"顶部横幅",
+    "settings":[],
+    "presets": [{
+        "name":"顶部横幅"
+    }]
+}
+{% endschema %}
