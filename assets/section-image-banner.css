@@ -420,6 +420,12 @@
     flex-grow: 1;
     min-width: 22rem;
   }
+  .media[data-mobile="true"]{
+    display: block;
+  }
+  .media[data-desktop="true"]{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -431,8 +437,13 @@
   .banner--content-align-right .banner__buttons--multiple {
     justify-content: flex-end;
   }
+  .media[data-mobile="true"]{
+    display: none;
+  }
+  .media[data-desktop="true"]{
+    display: block;
+  }
 }
-
 .banner__box > * + .banner__buttons {
   margin-top: 2rem;
 }

@@ -43,8 +43,9 @@
   {%- if section.settings.image_link_1 !=blank -%}
   <a href="{{section.settings.image_link_1}}" class="banner_link" style="display:block ;"></a>
   {%- endif -%}
+
   {%- if section.settings.image != blank -%}
-    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}"  {% if section.settings.mobile_image != blank -%}data-desktop="true"{% endif %}>
       {%-liquid
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
         if section.settings.image_2 != blank
@@ -69,12 +70,12 @@
       }}
     </div>
   {%- elsif section.settings.image_2 == blank -%}
-    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}" >
       {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
     </div>
   {%- endif -%}
   {%- if section.settings.image_2 != blank -%}
-    <div class="banner__media media{% if section.settings.image != blank %} banner__media-half{% endif %}">
+    <div class="banner__media media{% if section.settings.image != blank %} banner__media-half{% endif %}"  {% if section.settings.mobile_image != blank -%}data-desktop="true"{% endif %}>
       {%-liquid
         assign image_height_2 = section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio
         if section.settings.image != blank
@@ -99,6 +100,28 @@
       }}
     </div>
   {%- endif -%}
+
+  {%- if section.settings.mobile_image != blank -%}
+    <div class="banner__media media" data-mobile="true">
+      {%-liquid
+        assign mobile_image_height = section.settings.mobile_image | divided_by: section.settings.mobile_image.aspect_ratio
+        if section.settings.mobile_image != blank
+        assign sizes = "100vw"
+        endif
+      -%}
+      {{ section.settings.mobile_image | image_url: width: 1500 | image_tag:
+        loading: 'lazy',
+        width: section.settings.mobile_image.width,
+        height: mobile_image_height,
+        class: image_class_2,
+        sizes: sizes,
+        widths: '375, 550, 750, 1100, 1500, 1780, 2000',
+        alt: section.settings.mobile_image.alt | escape
+      }}
+    </div>
+  {%- endif -%}
+
+
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
@@ -142,6 +165,10 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
+    },{
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "移动端图片"
     },
     {
       "type": "url",
