@@ -7,6 +7,9 @@
    .image-link{
     display: block;
    }
+   #section-{{section.id}}  a:not([href]){
+    cursor: default;
+   }
 </style>
 
 <ul  class="grid images-grid   grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"  role="list" aria-label="{{ 'sections.featured_collection.slider' | t }}">
