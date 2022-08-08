@@ -6,12 +6,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "heading": "NEW FOR SUMMER",
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
@@ -20,7 +21,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "ENTER NOW",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -35,10 +36,10 @@
         "button"
       ],
       "settings": {
-        "image": "{{ shop.brand.cover_image }}",
+        "image": "shopify:\/\/shop_images\/banner-2_04c83e5d-ad17-428a-acbc-8cf61a9d8df8.jpg",
         "image_link_1": "",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -108,6 +109,35 @@
         "padding_bottom": 36
       }
     },
+    "165968088065e1daef": {
+      "type": "image-list",
+      "blocks": {
+        "d2a6c910-9903-4a53-9f41-6366a898613c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "img_link": ""
+          }
+        },
+        "cd18d8b1-06a2-492b-8416-53181b8d1b2c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.jpg",
+            "img_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d2a6c910-9903-4a53-9f41-6366a898613c",
+        "cd18d8b1-06a2-492b-8416-53181b8d1b2c"
+      ],
+      "settings": {
+        "columns_desktop": 2,
+        "columns_mobile": "1",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -130,7 +160,7 @@
         "text"
       ],
       "settings": {
-        "desktop_content_position": "right",
+        "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
@@ -291,7 +321,7 @@
         "165934285774d60548-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/gift-card-envelopes.jpg",
+        "image": "shopify:\/\/shop_images\/3.jpg",
         "image_link_1": "",
         "image_overlay_opacity": 40,
         "image_height": "medium",
@@ -304,45 +334,16 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
-    },
-    "165968088065e1daef": {
-      "type": "image-list",
-      "blocks": {
-        "d2a6c910-9903-4a53-9f41-6366a898613c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gift-card-envelopes.jpg",
-            "img_link": ""
-          }
-        },
-        "cd18d8b1-06a2-492b-8416-53181b8d1b2c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gift-card-envelopes.jpg",
-            "img_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "d2a6c910-9903-4a53-9f41-6366a898613c",
-        "cd18d8b1-06a2-492b-8416-53181b8d1b2c"
-      ],
-      "settings": {
-        "columns_desktop": 2,
-        "columns_mobile": "1",
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
     }
   },
   "order": [
     "image_banner",
     "1659339603bd53fc63",
+    "165968088065e1daef",
     "rich_text",
     "featured_collection",
     "collage",
     "multicolumn",
-    "16593428576233f191",
-    "165968088065e1daef"
+    "16593428576233f191"
   ]
 }
