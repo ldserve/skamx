@@ -140,10 +140,23 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "aeabd7c0-5189-48f7-b497-a5061c79a43d": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "aeabd7c0-5189-48f7-b497-a5061c79a43d"
+        ],
         "settings": {
           "color_scheme": "accent-1",
           "newsletter_enable": true,
           "newsletter_heading": "SIGN UP FOR OUR NEWSLETTER",
+          "newsletter_info": "<p>Subscribe to receive latest trends of men's clothing via email and enjoy exclusive discount<\/p>",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
@@ -165,6 +178,20 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "bulletin-board": {
+        "type": "bulletin-board",
+        "settings": {
+          "background": "#000000",
+          "text_color": "#FFFFFF",
+          "bulletin_text1": "FREE SHIPPING OVER $79",
+          "link_1": "",
+          "bulletin_text2": "GET 20% OFF",
+          "link_2": "",
+          "time": 10,
+          "bulletin_show": false,
+          "bulletin_show_index": false
         }
       }
     },
@@ -281,7 +308,6 @@
               "type": "announcement",
               "settings": {
                 "text": "Welcome to our store",
-                "color_scheme": "background-1",
                 "link": ""
               }
             }
@@ -290,6 +316,8 @@
             "announcement-bar-0"
           ],
           "settings": {
+            "color_text": "#251a0f",
+            "color_bg": "#FFFFFF"
           }
         },
         "header": {
