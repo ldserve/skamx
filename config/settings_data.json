@@ -143,14 +143,40 @@
         "blocks": {
           "aeabd7c0-5189-48f7-b497-a5061c79a43d": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
-              "heading": "Quick links",
+              "heading": "ABOUT SKAMX",
               "menu": "footer"
+            }
+          },
+          "f6dc1fab-4111-4b2a-b9bb-cf780b827919": {
+            "type": "text",
+            "settings": {
+              "heading": "ABOUT SKAMX",
+              "subtext": "<p>Who is SKAMX<\/p><p>Terms and Condition<\/p><p>PrivacyPolicy<\/p><p>Payment Methods<\/p><p>Intellectual Property Rights<\/p><p>Terms of Service<\/p><p>Refund policy<\/p>"
+            }
+          },
+          "b6a1c821-03f5-4af0-b018-3f4ee163f910": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "HELP CENTER",
+              "menu": "footer"
+            }
+          },
+          "0fa54af1-835d-4b47-968e-8a0dd914e5bb": {
+            "type": "text",
+            "settings": {
+              "heading": "HELP CENTER",
+              "subtext": "<p>Frequently Asked Questions<\/p><p>Shipping & Delivery<\/p><p>Return Policy<\/p><p>Contact Us<\/p>"
             }
           }
         },
         "block_order": [
-          "aeabd7c0-5189-48f7-b497-a5061c79a43d"
+          "aeabd7c0-5189-48f7-b497-a5061c79a43d",
+          "f6dc1fab-4111-4b2a-b9bb-cf780b827919",
+          "b6a1c821-03f5-4af0-b018-3f4ee163f910",
+          "0fa54af1-835d-4b47-968e-8a0dd914e5bb"
         ],
         "settings": {
           "color_scheme": "accent-1",
@@ -184,7 +210,7 @@
         "type": "bulletin-board",
         "settings": {
           "background": "#000000",
-          "text_color": "#FFFFFF",
+          "text_color": "#ffffff",
           "bulletin_text1": "FREE SHIPPING OVER $79",
           "link_1": "",
           "bulletin_text2": "GET 20% OFF",
