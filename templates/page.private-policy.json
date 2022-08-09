@@ -1,0 +1,59 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16600329209c436560": {
+      "type": "rich-text",
+      "blocks": {
+        "16600329204d93174f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>WHO IS SKAMX<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16600329204d93174f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SKAMX is much more than a maker of clothing. We are here to inspire and equip people to endure freedom, work together and make the world better. We honor people who work hard, value families and friendship, and love to explore the beauty of outdoor world.We believe our actions must always speak louder than our words. HYFOL is committed to supporting people and organizations who honor these shared values and ensure to build an even better future with next generations.We are on a mission to make our brand and company a force for positive change to people all around the world. This mission is nothing new. HYFOL is committed to making the world better.<\/p>"
+          }
+        },
+        "16600329204d93174f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16600329204d93174f-0",
+        "16600329204d93174f-1",
+        "16600329204d93174f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16600329209c436560"
+  ]
+}
