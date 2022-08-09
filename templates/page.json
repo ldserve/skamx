@@ -10,7 +10,6 @@
     },
     "166003096836446902": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "1660030968f6b18434-0": {
           "type": "heading",
@@ -61,6 +60,7 @@
     },
     "16600329209c436560": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16600329204d93174f-0": {
           "type": "heading",
