@@ -148,35 +148,17 @@
               "menu": "link-list"
             }
           },
-          "f6dc1fab-4111-4b2a-b9bb-cf780b827919": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "heading": "ABOUT SKAMX",
-              "subtext": "<p><a href=\"\/pages\/who-is-skamx\" title=\"Who is SKAMX\">Who is SKAMX<\/a><\/p><p><a href=\"\/pages\/terms-and-condition\" title=\"Terms and Condition\">Terms and Condition<\/a><\/p><p><a href=\"\/pages\/privacy-policy\" title=\"Privacy Policy\">PrivacyPolicy<\/a><\/p><p><a href=\"\/pages\/payment-methods\" title=\"Payment Methods\">Payment Methods<\/a><\/p><p><a href=\"\/pages\/intellectual-property-rights\" title=\"Intellectual Property Rights\">Intellectual Property Rights<\/a><\/p><p><a href=\"\/pages\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a><\/p><p><a href=\"\/pages\/return-policy\" title=\"Return Policy\">Refund policy<\/a><\/p>"
-            }
-          },
           "b6a1c821-03f5-4af0-b018-3f4ee163f910": {
             "type": "link_list",
             "settings": {
               "heading": "HELP CENTER",
               "menu": "help-center"
             }
-          },
-          "0fa54af1-835d-4b47-968e-8a0dd914e5bb": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "heading": "HELP CENTER",
-              "subtext": "<p><a href=\"\/pages\/frequently-asked-questions\" title=\"Frequently Asked Questions\">Frequently Asked Questions<\/a><\/p><p><a href=\"\/pages\/shipping-delivery\" title=\"Shipping & Delivery\">Shipping & Delivery<\/a><\/p><p><a href=\"\/pages\/return-policy\" title=\"Return Policy\">Return Policy<\/a><\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact Us\">Contact Us<\/a><\/p>"
-            }
           }
         },
         "block_order": [
           "aeabd7c0-5189-48f7-b497-a5061c79a43d",
-          "f6dc1fab-4111-4b2a-b9bb-cf780b827919",
-          "b6a1c821-03f5-4af0-b018-3f4ee163f910",
-          "0fa54af1-835d-4b47-968e-8a0dd914e5bb"
+          "b6a1c821-03f5-4af0-b018-3f4ee163f910"
         ],
         "settings": {
           "color_scheme": "accent-1",
