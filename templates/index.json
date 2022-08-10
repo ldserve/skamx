@@ -66,8 +66,8 @@
         "1659339603aedad068-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
-            "button_label": "Button label",
+            "collection": "short",
+            "button_label": "SHOP SHORT",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -76,7 +76,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "skirt",
-            "button_label": "Button label",
+            "button_label": "SHOP SKIRT",
             "button_link": "",
             "button_style_secondary": false
           }
