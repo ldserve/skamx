@@ -85,9 +85,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=100083693192942&ref=pages_you_manage",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/SkamX_official\/",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -144,13 +144,21 @@
           "aeabd7c0-5189-48f7-b497-a5061c79a43d": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "ABOUT SKAMX",
+              "menu": "link-list"
+            }
+          },
+          "b6a1c821-03f5-4af0-b018-3f4ee163f910": {
+            "type": "link_list",
+            "settings": {
+              "heading": "HELP CENTER",
+              "menu": "help-center"
             }
           }
         },
         "block_order": [
-          "aeabd7c0-5189-48f7-b497-a5061c79a43d"
+          "aeabd7c0-5189-48f7-b497-a5061c79a43d",
+          "b6a1c821-03f5-4af0-b018-3f4ee163f910"
         ],
         "settings": {
           "color_scheme": "accent-1",
@@ -184,7 +192,7 @@
         "type": "bulletin-board",
         "settings": {
           "background": "#000000",
-          "text_color": "#FFFFFF",
+          "text_color": "#ffffff",
           "bulletin_text1": "FREE SHIPPING OVER $79",
           "link_1": "",
           "bulletin_text2": "GET 20% OFF",
