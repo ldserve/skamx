@@ -1,0 +1,77 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16618570475534dffc": {
+      "type": "rich-text",
+      "blocks": {
+        "1661857047ddf143ca-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Pay With Credit\/Debit Card<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1661857047ddf143ca-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The available credit card options are listed above. The credit card companies listed above are the most commonly used credit cards on this website. Do not worry if your credit card company is not listed, we encourage you to go ahead and make the purchase.Please note that SKAMX does not collect your credit\/debit card number or personal information when you make a payment. For questions regarding your transactions on our site, please consult your card-issuing bank for information.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1661857047ddf143ca-0",
+        "1661857047ddf143ca-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16618570959c7d4022": {
+      "type": "rich-text",
+      "blocks": {
+        "1661857095c02a778e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Pay With Paypal<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1661857095c02a778e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When you place an order with Paypal you will be redirected to the PayPal payment page, where you can confirm your payment by logging in with your PayPal username and password.You may still check out even without a PayPal account. To do so, please click on \"Pay with Debit\/Credit Card\" and you’ll be redirected to a secure page where you can enter your credit card information or complete your payment safely via PayPal<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1661857095c02a778e-0",
+        "1661857095c02a778e-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16618570475534dffc",
+    "16618570959c7d4022"
+  ]
+}
