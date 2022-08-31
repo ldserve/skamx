@@ -71,6 +71,122 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
+    "166191658076cafe14": {
+      "type": "rich-text",
+      "blocks": {
+        "1661916580490efed4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FREQUENTLY ASKED QUESTIONS<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1661916580490efed4-0"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1661916368b24a7502": {
+      "type": "multicolumn",
+      "blocks": {
+        "1661916367425005a0-0": {
+          "type": "column",
+          "settings": {
+            "title": "Order",
+            "text": "<p><strong>How to choose the size?<\/strong><\/p><p>Please refer to our \"Size Chart\" or contact our customer service representatives for help. Select the “Size Chart” tab on our product page to view the sizes offered.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1661916367425005a0-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>How can I correct my shipping address?<\/strong><\/p><p>&gt; If the order has not been shipped or assigned a tracking number, please contact our customer service representatives to update the shipping address. We can arrange delivery to the correct location.&gt; If the order has been shipped, the address can no longer be changed. Usually, the courier will contact you via phone or text message if the parcel is unsuccessfully delivered. You can also contact the courier to change the delivery address.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1661916367425005a0-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>How to check my order status?<\/strong><\/p><p>Please log into your TACTICALCLUBS account and visit \"My Orders\" to check the order status.Normally, it will take 1-5 business days to process. We will email you with a tracking number once shipped, which can be tracked here:<a href=\"https:\/\/www.17track.net\/en\" target=\"_blank\">https:\/\/www.17track.net\/en<\/a>Note: Due to the influence of the COVID-19 epidemic, there is a shortage of global transport resources. Your order may be delayed for several days.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "0667e0af-32dd-4439-aeaa-4ca907bb4925": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Can I cancel my order?<\/strong><\/p><p>Please contact our customer service representatives before the order is shipped.Note: Once the order has been shipped, it cannot be canceled.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "fa4c24d7-ac3c-441d-937d-95c6f650c8d6": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Can I change or modify my order?<\/strong><\/p><p>If the order has not been shipped, it can be modified. Please contact our customer service representatives to update the shipping address or items.Note: Once the order is shipped, the logistics courier will reject modification since it will be mixed with various other packages.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6deacdad-9152-4178-b232-20d28fb1eefb": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Why did I not get a confirmed email about my order?<\/strong><\/p><p>After your order is successfully placed, an Order Confirmation email will be sent to the email address associated with your account within 24 hours.If you did not receive the email:<\/p><p>1. Please check you have logged into the correct email box. We can only contact you through the email address left on the order.<\/p><p>2. Please check your spam emails and if your email address shielded our email.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d9d2354b-597f-4722-b3a0-ab6c1b27b89f": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>How to add a new shipping address to my account?<\/strong><\/p><p>A shipping address can be edited or added through \"My Address\".<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661916367425005a0-0",
+        "1661916367425005a0-1",
+        "1661916367425005a0-2",
+        "0667e0af-32dd-4439-aeaa-4ca907bb4925",
+        "fa4c24d7-ac3c-441d-937d-95c6f650c8d6",
+        "6deacdad-9152-4178-b232-20d28fb1eefb",
+        "d9d2354b-597f-4722-b3a0-ab6c1b27b89f"
+      ],
+      "settings": {
+        "title": "Order",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
@@ -78,6 +194,8 @@
   "order": [
     "main",
     "16619162427079e3ed",
-    "1661916198de543b89"
+    "1661916198de543b89",
+    "166191658076cafe14",
+    "1661916368b24a7502"
   ]
 }
