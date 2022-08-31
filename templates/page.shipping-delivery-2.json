@@ -7,9 +7,151 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "16619179700994eee6": {
+      "type": "multicolumn",
+      "blocks": {
+        "16619179690c56903c-0": {
+          "type": "column",
+          "settings": {
+            "title": "Shipping Area",
+            "text": "<p>Our logistics system supports worldwide shipping. But for some special locations, we may need additional information from you to make fast and safe delivery. If this happens, we will contact you as soon as possible.<\/p><p><\/p><p>If the destination address is very remote, we may charge an extra delivery fee from you to make sure our logistics partner can make a quick and safe delivery. We will also inform you by official email and help you to process the additional fee. However, we will still make our earnest effort to cover the available address as our standard delivery option.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16619179690c56903c-1": {
+          "type": "column",
+          "settings": {
+            "title": "Shipping Cost",
+            "text": "<p>The shipping cost depends on the shipping method you choose on the order settlement page and your receiving location. When you enter your specific address, and after choosing the shipping method, you will see the shipping cost on the page.<\/p><p><\/p><p>If your location is very remote, we may charge an extra delivery fee to make sure of quick and safe delivery. Though this is a rare situation from our experience, once it happened, we will contact you soon via email or any other way we can contact you. You can also cancel the order when this situation happens.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16619179690c56903c-0",
+        "16619179690c56903c-1"
+      ],
+      "settings": {
+        "title": "Shipping and Delivery",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "16619180761ca6d335": {
+      "type": "multicolumn",
+      "blocks": {
+        "1661918075fd86bfd1-0": {
+          "type": "column",
+          "settings": {
+            "title": "Method",
+            "text": "<p>Standard Shipping<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1661918075fd86bfd1-1": {
+          "type": "column",
+          "settings": {
+            "title": "Shipping Time",
+            "text": "<p>To US,UK,FR,DE,NZ: 11-21 Business Days<\/p><p>To Other Countries: 15-28 Business Days$8.9<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1661918075fd86bfd1-2": {
+          "type": "column",
+          "settings": {
+            "title": "Price",
+            "text": "<p>$8.9<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661918075fd86bfd1-0",
+        "1661918075fd86bfd1-1",
+        "1661918075fd86bfd1-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "1661918149d8a4bb7c": {
+      "type": "multicolumn",
+      "blocks": {
+        "16619181481f721b90-0": {
+          "type": "column",
+          "settings": {
+            "title": "Delivery time",
+            "text": "<p>After you complete your order on hyfol.com, we will process your order as soon as possible. So, when you make a purchase to the time you receive what you expect, it contains two parts. That is<\/p><p><\/p><p>Total time = processing time + shipping time.<\/p><p>For most situations, it takes around 5 business days to complete the processing time.<\/p><p>Shipping time varies depending on the country where you are and the shipping method you choose. For most countries, it takes 10-15 business days (Standard Shipping) or 5-9 business days (Expedited Shipping).<\/p><p>(Notice: Now, we only support the Standard Shipping method. Soon, an Expedited Shipping method will be launched.)<\/p><p><strong>It may take approximately 10 - 20 days to receive your purchased items.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16619181481f721b90-1": {
+          "type": "column",
+          "settings": {
+            "title": "Free shipping promotion",
+            "text": "<p>We will launch free shipping promotions for some countries. Please pay attention to hyfol.com<\/p><p>For detailed information and conditions for free shipping, please refer to the website or customer service email massage.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16619181481f721b90-0",
+        "16619181481f721b90-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16619179700994eee6",
+    "16619180761ca6d335",
+    "1661918149d8a4bb7c"
   ]
 }
