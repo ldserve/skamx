@@ -8,70 +8,116 @@
         "padding_bottom": 28
       }
     },
-    "16618570475534dffc": {
-      "type": "rich-text",
+    "1661913896a61d1392": {
+      "type": "multicolumn",
       "blocks": {
-        "1661857047ddf143ca-0": {
-          "type": "heading",
+        "16619138951328aeaa-0": {
+          "type": "column",
           "settings": {
-            "heading": "<p><strong>Pay With Credit\/Debit Card<\/strong><\/p>",
-            "heading_size": "h1"
+            "title": "MANAGE ORDERS",
+            "text": "<p>View and manage orders<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "1661857047ddf143ca-1": {
-          "type": "text",
+        "16619138951328aeaa-1": {
+          "type": "column",
           "settings": {
-            "text": "<p>The available credit card options are listed above. The credit card companies listed above are the most commonly used credit cards on this website. Do not worry if your credit card company is not listed, we encourage you to go ahead and make the purchase.Please note that SKAMX does not collect your credit\/debit card number or personal information when you make a payment. For questions regarding your transactions on our site, please consult your card-issuing bank for information.<\/p>"
+            "title": "EDIT ADDRESSES",
+            "text": "<p>Edit or add your addresses<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "1661857047ddf143ca-0",
-        "1661857047ddf143ca-1"
+        "16619138951328aeaa-0",
+        "16619138951328aeaa-1"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "SELF-SERVICE TOOL",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "16618570959c7d4022": {
-      "type": "rich-text",
+    "166191423162806e3a": {
+      "type": "multicolumn",
       "blocks": {
-        "1661857095c02a778e-0": {
-          "type": "heading",
+        "1661914231ee487fab-0": {
+          "type": "column",
           "settings": {
-            "heading": "<p><strong>Pay With Paypal<\/strong><\/p>",
-            "heading_size": "h1"
+            "title": "Order",
+            "text": "<p><strong>How to choose the size?<\/strong><\/p><p>Please refer to our \"Size Chart\" or contact our customer service representatives for help. Select the “Size Chart” tab on our product page to view the sizes offered.<\/p><p><strong>How can I correct my shipping address?<\/strong><\/p><p>&gt; If the order has not been shipped or assigned a tracking number, please contact our customer service representatives to update the shipping address. We can arrange delivery to the correct location.<br\/><br\/>&gt; If the order has been shipped, the address can no longer be changed. Usually, the courier will contact you via phone or text message if the parcel is unsuccessfully delivered. You can also contact the courier to change the delivery address.<\/p><p><strong>How to check my order status?<\/strong><\/p><p>Please log into your TACTICALCLUBS account and visit \"My Orders\" to check the order status.<br\/><br\/>Normally, it will take 1-5 business days to process. We will email you with a tracking number once shipped, which can be tracked here:<a href=\"https:\/\/www.17track.net\/en\" target=\"_blank\">https:\/\/www.17track.net\/en<\/a>Note: Due to the influence of the COVID-19 epidemic, there is a shortage of global transport resources. Your order may be delayed for several days.<\/p><p><strong>Can I cancel my order?<\/strong><\/p><p>Please contact our customer service representatives before the order is shipped.<br\/><br\/>Note: Once the order has been shipped, it cannot be canceled.<\/p><p><strong>Can I change or modify my order?<\/strong><\/p><p>If the order has not been shipped, it can be modified. Please contact our customer service representatives to update the shipping address or items.<br\/><br\/>Note: Once the order is shipped, the logistics courier will reject modification since it will be mixed with various other packages.<\/p><p><strong>Why did I not get a confirmed email about my order?<\/strong><\/p><p>After your order is successfully placed, an Order Confirmation email will be sent to the email address associated with your account within 24 hours.<br\/><br\/>If you did not receive the email:<br\/>1. Please check you have logged into the correct email box. We can only contact you through the email address left on the order.<br\/>2. Please check your spam emails and if your email address shielded our email.<\/p><p><strong>How to add a new shipping address to my account?<\/strong><\/p><p>A shipping address can be edited or added through \"My Address\".<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "1661857095c02a778e-1": {
-          "type": "text",
+        "1661914231ee487fab-1": {
+          "type": "column",
           "settings": {
-            "text": "<p>When you place an order with Paypal you will be redirected to the PayPal payment page, where you can confirm your payment by logging in with your PayPal username and password.You may still check out even without a PayPal account. To do so, please click on \"Pay with Debit\/Credit Card\" and you’ll be redirected to a secure page where you can enter your credit card information or complete your payment safely via PayPal<\/p>"
+            "title": "Delivery and logistics",
+            "text": "<p>How long will the order take to arrive?<\/p><p>How can I correct my shipping address?How much does it cost to my country?<\/p><p>Why didn't I get an email about my order being shipped?<\/p><p>Why was my order divided into two or more packages?<\/p><p>Why there is no tracking update?What happens if I am not at home when my package arrives?<\/p><p>Why was my package returned?<\/p><p>Why does the tracking service show that the package has been delivered, even though I did not receive anything?<\/p><p>Why did I get an \"Order Delivered\" email, but did not receive anything?<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a89aec20-78a5-49de-ab77-bfd395fb8013": {
+          "type": "column",
+          "settings": {
+            "title": "Return and refund",
+            "text": "<p>What is your return policy?<\/p><p>How can I return items?<\/p><p>Can I get a full refund for the return?How can I find my refund?<\/p><p>How long does it take for the refund to be processed?<\/p><p>Why was my refund amount incorrect?<\/p><p>Can I exchange the item I received for a different size?<\/p><p>What if I received the wrong item?What if I received an item not as described?<\/p><p>What if I received an item with a craft or fabric issue?<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "5727411c-f5b5-4250-8154-f973c5e513cf": {
+          "type": "column",
+          "settings": {
+            "title": "Payment and Promotion",
+            "text": "<p>Are there any additional fees?What if I was charged any tariffs？<\/p><p>Do you have any promotions now?<\/p><p>Why has my coupon disappeared？<\/p><p>What kind of payment methods do you have?<\/p><p>I was charged twice.<\/p><p>Why was my payment declined?<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "1661857095c02a778e-0",
-        "1661857095c02a778e-1"
+        "1661914231ee487fab-0",
+        "1661914231ee487fab-1",
+        "a89aec20-78a5-49de-ab77-bfd395fb8013",
+        "5727411c-f5b5-4250-8154-f973c5e513cf"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "FREQUENTLY ASKED QUESTIONS",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "16618570475534dffc",
-    "16618570959c7d4022"
+    "1661913896a61d1392",
+    "166191423162806e3a"
   ]
 }
