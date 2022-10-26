@@ -771,15 +771,6 @@
             "textBottom": "<p>It was a really amazing experience to wear the same and best clothes with my love.<\/p><p>.<br\/>.<\/p><p>.<br\/>#hyfol #influencer #giveaway #hyfolcostumes #hyfolinfluencer #outdoor #hikingadventures #usa #uk #kol #menstyle #mensfashion #americanflag<\/p>",
             "dateString": "2021\/12\/21"
           }
-        },
-        "43abfc06-8518-48d6-acd2-b22d0835bde0": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "pro": "t11611521ji",
-            "textBottom": "<p>I found love and then decay, I found comfort in the rain<\/p><p>.<br\/>.<br\/>.<br\/>#grungeoutfit #grungetheme #grungesociety #grungegirl #grungeblog #grunge #grungestyle #grungefashion #grungeasthetic #grungeaesthetics #grungey #softgrunge #traffy #styleinspo #style #instastyle #outfit #styleblogger #outfitoftheday #fashionstyle #fashion #fashiongram #photooftheday #ootd #fashionstyle #fashionpost #fashioninspo #fashionista #fashionaddict #instafashion<\/p>",
-            "dateString": "2021\/10\/01"
-          }
         }
       },
       "block_order": [
@@ -792,12 +783,11 @@
         "5b40460b-b748-4e3c-b9f8-e9c975ff2028",
         "5e61e2fc-71f1-4708-a703-8381e514b09a",
         "5e7e1760-3e06-4252-93d6-914ab33bf1c7",
-        "a7f27193-dc59-4595-97af-f1d896b9dd4e",
-        "43abfc06-8518-48d6-acd2-b22d0835bde0"
+        "a7f27193-dc59-4595-97af-f1d896b9dd4e"
       ],
       "settings": {
-        "title": "#Hyfol_official",
-        "description": "<p>Show us how you match<\/p><p>Label your post @<strong>Hyfol_official<\/strong><\/p>"
+        "title": "#Skamx_official",
+        "description": "<p>Show us how you match<\/p><p>Label your post @<strong>Skamx_official<\/strong><\/p>"
       }
     },
     "16486080199c077c37": {
@@ -861,34 +851,6 @@
       ],
       "settings": {
       }
-    },
-    "1653987264c334ff5e": {
-      "type": "ld-imageText",
-      "disabled": true,
-      "settings": {
-        "noMargin": true,
-        "link": "",
-        "title_align": "row",
-        "title_tb": "column-reverse",
-        "title": "Text",
-        "subtitle": "Text block",
-        "button": "SHOP NOW",
-        "show": false,
-        "title_size": 4,
-        "sub_title_size": 1.5,
-        "m_title_size": 6,
-        "m_sub_title_size": 4,
-        "sub_title_top": 10,
-        "m_sub_title_top": 10,
-        "text_color": "#ffffff",
-        "text_style": "normal",
-        "s_text_style": "normal",
-        "text_align": "center",
-        "button_color": "#ed6123",
-        "button_text_color": "#ffffff",
-        "button_color_hover": "#ffffff",
-        "button_text_color_hover": "#000000"
-      }
     }
   },
   "order": [
@@ -909,7 +871,6 @@
     "1653297879b5b9419a",
     "1640334828c8a975c8",
     "16486080199c077c37",
-    "164854339383efd708",
-    "1653987264c334ff5e"
+    "164854339383efd708"
   ]
 }
