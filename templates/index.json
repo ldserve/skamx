@@ -320,19 +320,18 @@
         "lpadding": 0
       }
     },
-    "16474248460d0593be": {
+    "16585474086f148753": {
       "type": "transparent-collection",
-      "disabled": true,
       "settings": {
-        "collection": "all",
-        "sensorsName": "NEW IN",
-        "title": "NEW IN",
-        "products_count": 18,
+        "collection": "summer-finalsale",
+        "sensorsName": "summer finalsale",
+        "title": "flash  sale",
+        "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
         "link_title": "View all",
-        "link_url": "shopify:\/\/collections\/best-sellers-1",
+        "link_url": "https:\/\/www.hyfol.com\/collections\/summer-finalsale?page=1",
         "backgroun": ""
       }
     },
@@ -423,15 +422,6 @@
         "cycle_speed": 3
       }
     },
-    "16585455879cf4cc45": {
-      "type": "no_space_img",
-      "disabled": true,
-      "settings": {
-        "sensorsName": "summer clearance",
-        "link": "https:\/\/www.hyfol.com\/collections\/summer-clearance-up-to-50-off",
-        "shadow": false
-      }
-    },
     "16500767332eb3ea11": {
       "type": "linkImg",
       "settings": {
@@ -462,6 +452,21 @@
         "rpadding": 0,
         "bpadding": 0,
         "lpadding": 0
+      }
+    },
+    "1651218774b7bce676": {
+      "type": "transparent-collection",
+      "settings": {
+        "collection": "hyfol-best-seller-1",
+        "sensorsName": "BEST SELLERS",
+        "title": "BEST SELLERS",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": "",
+        "backgroun": ""
       }
     },
     "166393398966f5d03e": {
@@ -504,38 +509,6 @@
         "web_bg_image": "shopify:\/\/shop_images\/07_1b0bd3d8-286a-4eec-a4b1-d6da6d79905c.jpg",
         "link": "https:\/\/www.hyfol.com\/collections\/summer-finalsale?page=1",
         "shadow": false
-      }
-    },
-    "1651218774b7bce676": {
-      "type": "transparent-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "hyfol-best-seller-1",
-        "sensorsName": "BEST SELLERS",
-        "title": "BEST SELLERS",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "link_title": "View all",
-        "link_url": "",
-        "backgroun": ""
-      }
-    },
-    "16585474086f148753": {
-      "type": "transparent-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "summer-finalsale",
-        "sensorsName": "summer finalsale",
-        "title": "flash  sale",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "link_title": "View all",
-        "link_url": "https:\/\/www.hyfol.com\/collections\/summer-finalsale?page=1",
-        "backgroun": ""
       }
     },
     "2085cc4d-3d60-4b10-bdbd-21379ff22696": {
@@ -921,16 +894,14 @@
     "166424926021cbf149",
     "1663931750c3ec4ea5",
     "1663931769bd8aed01",
-    "16474248460d0593be",
+    "16585474086f148753",
     "1650101273f11a55ef",
-    "16585455879cf4cc45",
     "16500767332eb3ea11",
     "164742631051d4db44",
+    "1651218774b7bce676",
     "166393398966f5d03e",
     "1663934013a93a9889",
     "1663932013ff20a453",
-    "1651218774b7bce676",
-    "16585474086f148753",
     "2085cc4d-3d60-4b10-bdbd-21379ff22696",
     "16474250424edba623",
     "1653297879b5b9419a",
