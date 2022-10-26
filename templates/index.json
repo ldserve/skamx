@@ -850,6 +850,8 @@
         "17a02184-4051-4cb1-bf90-2427b00b17b0"
       ],
       "settings": {
+        "web_bg": "#333333",
+        "web_color": "#ffffff"
       }
     }
   },
