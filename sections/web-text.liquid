@@ -1,7 +1,7 @@
 <style>
   #shopify-section-{{section.id}} .section {
-    background-color: #770202;
-    color: #ffffff;
+    background-color:{{section.settings.web_bg}};
+    color: {{section.settings.web_color}};
     margin: 0;
   }
 
@@ -71,6 +71,17 @@
 {% schema %}
 {
 	"name": "Footer-text",
+  "settings":[{
+    "type":"color",
+    "label":"背景颜色",
+    "id":"web_bg",
+    "default":"#504637"
+  },{
+    "type":"color",
+    "id":"web_color",
+    "label":"字体颜色",
+    "default":"#ffffff"
+  }],
     "blocks": [
     {
       "type": "text",
