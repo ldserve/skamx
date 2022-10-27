@@ -41,6 +41,7 @@
           "disabled": true,
           "settings": {
             "sensorsName": "finalsale",
+            "image": "shopify:\/\/shop_images\/fbb33e945397d55d9e3987396bc5b1a8.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -80,10 +81,10 @@
           "settings": {
             "heading": "bestseller1",
             "sensorsLinkName": "bestseller1",
-            "link": "shopify:\/\/collections\/hyfol-best-seller-1",
+            "link": "",
             "left": 0,
             "top": 0,
-            "width": 17,
+            "width": 11,
             "height": 100
           }
         },
@@ -92,10 +93,10 @@
           "settings": {
             "heading": "newin1",
             "sensorsLinkName": "newin1",
-            "link": "https:\/\/www.hyfol.com\/collections\/new-in-1",
-            "left": 18,
+            "link": "",
+            "left": 12,
             "top": 0,
-            "width": 8,
+            "width": 7,
             "height": 100
           }
         },
@@ -104,10 +105,10 @@
           "settings": {
             "heading": "halloween",
             "sensorsLinkName": "halloween",
-            "link": "https:\/\/www.hyfol.com\/collections\/halloween-theme-clothing",
-            "left": 28,
+            "link": "",
+            "left": 20,
             "top": 0,
-            "width": 11,
+            "width": 10,
             "height": 100
           }
         },
@@ -116,10 +117,10 @@
           "settings": {
             "heading": "for49",
             "sensorsLinkName": "for49",
-            "link": "https:\/\/www.hyfol.com\/collections\/4-for-49",
-            "left": 39,
+            "link": "",
+            "left": 31,
             "top": 0,
-            "width": 10,
+            "width": 8,
             "height": 100
           }
         },
@@ -128,11 +129,11 @@
           "settings": {
             "heading": "flashsale",
             "sensorsLinkName": "flashsale",
-            "link": "https:\/\/www.hyfol.com\/collections\/flash-sale-1",
-            "left": 50,
+            "link": "",
+            "left": 0,
             "top": 0,
-            "width": 10,
-            "height": 100
+            "width": 0,
+            "height": 0
           }
         },
         "4e72a354-81ca-4018-a5e5-0e79fc495451": {
@@ -140,11 +141,11 @@
           "settings": {
             "heading": "hoodies",
             "sensorsLinkName": "hoodies",
-            "link": "https:\/\/www.hyfol.com\/collections\/hoodies-1",
-            "left": 61,
+            "link": "",
+            "left": 0,
             "top": 0,
-            "width": 12,
-            "height": 100
+            "width": 0,
+            "height": 0
           }
         },
         "28ef0ff4-fc7d-4860-b32f-574710fa6e92": {
@@ -153,10 +154,10 @@
             "heading": "sweatshirts",
             "sensorsLinkName": "sweatshirts",
             "link": "https:\/\/www.hyfol.com\/collections\/sweatshirts-12-13",
-            "left": 75,
+            "left": 0,
             "top": 0,
-            "width": 12,
-            "height": 100
+            "width": 0,
+            "height": 0
           }
         },
         "d310177d-53ac-459b-af14-f06f640d5dd0": {
@@ -164,11 +165,11 @@
           "settings": {
             "heading": "jacket",
             "sensorsLinkName": "jacket",
-            "link": "https:\/\/www.hyfol.com\/collections\/outerwear_hyfol",
-            "left": 89,
+            "link": "",
+            "left": 0,
             "top": 0,
-            "width": 11,
-            "height": 100
+            "width": 0,
+            "height": 0
           }
         }
       },
