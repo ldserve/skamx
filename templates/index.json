@@ -668,58 +668,46 @@
             "heading": "cargopants",
             "sensorsLinkName": "cargopants",
             "link": "",
-            "left": 0,
-            "top": 0,
-            "width": 10,
-            "height": 10
+            "left": 69,
+            "top": 40,
+            "width": 30,
+            "height": 30
           }
         },
         "a3ef1afa-1856-4420-8f86-f4d23cf3c56b": {
           "type": "link",
           "settings": {
-            "heading": "(´థ౪థ）σ",
-            "sensorsLinkName": "",
+            "heading": "shoes",
+            "sensorsLinkName": "shoes",
             "link": "",
             "left": 0,
-            "top": 0,
-            "width": 10,
-            "height": 10
+            "top": 72,
+            "width": 26,
+            "height": 38
           }
         },
         "19f070c6-bfd3-4776-891c-593fb003c04d": {
           "type": "link",
           "settings": {
-            "heading": "(´థ౪థ）σ",
-            "sensorsLinkName": "",
+            "heading": "shirts",
+            "sensorsLinkName": "shirts",
             "link": "",
-            "left": 0,
-            "top": 0,
-            "width": 10,
-            "height": 10
+            "left": 34,
+            "top": 72,
+            "width": 31,
+            "height": 40
           }
         },
         "4c7ca69e-35cd-46f0-a192-8c4cfc1a9820": {
           "type": "link",
           "settings": {
-            "heading": "(´థ౪థ）σ",
-            "sensorsLinkName": "",
+            "heading": "poloshirts",
+            "sensorsLinkName": "poloshirts",
             "link": "",
-            "left": 0,
-            "top": 0,
-            "width": 10,
-            "height": 10
-          }
-        },
-        "7c2ac918-ccbb-4008-bc55-d009b4307a4e": {
-          "type": "link",
-          "settings": {
-            "heading": "(´థ౪థ）σ",
-            "sensorsLinkName": "",
-            "link": "",
-            "left": 0,
-            "top": 0,
-            "width": 10,
-            "height": 10
+            "left": 68,
+            "top": 72,
+            "width": 31,
+            "height": 34
           }
         }
       },
@@ -732,8 +720,7 @@
         "162db5f0-a4b5-438f-9562-ebb9b97ffc1c",
         "a3ef1afa-1856-4420-8f86-f4d23cf3c56b",
         "19f070c6-bfd3-4776-891c-593fb003c04d",
-        "4c7ca69e-35cd-46f0-a192-8c4cfc1a9820",
-        "7c2ac918-ccbb-4008-bc55-d009b4307a4e"
+        "4c7ca69e-35cd-46f0-a192-8c4cfc1a9820"
       ],
       "settings": {
         "linkImg_title": "",
