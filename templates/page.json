@@ -15,11 +15,46 @@
         "text": "#ffffff"
       }
     },
+    "d436c85f-f4e6-4b3e-991f-0922651867b1": {
+      "type": "offers",
+      "blocks": {
+        "template--14882387525711__d436c85f-f4e6-4b3e-991f-0922651867b1-1666864435356fe776-0": {
+          "type": "offer",
+          "settings": {
+            "title": "Method",
+            "content": "<p>Standard Shipping<\/p>"
+          }
+        },
+        "template--14882387525711__d436c85f-f4e6-4b3e-991f-0922651867b1-1666864435356fe776-1": {
+          "type": "offer",
+          "settings": {
+            "title": "Shipping Time",
+            "content": "<p>To US,UK,FR,DE,NZ: 11-21 Business Days<br\/>To Other Countries: 15-28 Business Days<\/p>"
+          }
+        },
+        "ea54972d-f61f-442b-b664-d1ad9d9848e1": {
+          "type": "offer",
+          "settings": {
+            "title": "Price",
+            "content": "<p>$8.9<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14882387525711__d436c85f-f4e6-4b3e-991f-0922651867b1-1666864435356fe776-0",
+        "template--14882387525711__d436c85f-f4e6-4b3e-991f-0922651867b1-1666864435356fe776-1",
+        "ea54972d-f61f-442b-b664-d1ad9d9848e1"
+      ],
+      "settings": {
+        "items_per_row": 3,
+        "stack_mobile": false
+      }
+    },
     "d975fa04-d21d-4822-838d-2161cf755833": {
       "type": "image-with-text-overlay",
       "settings": {
         "title": "",
-        "content": "<p>SKAMX is much more than a maker of clothing. We are here to inspire and equip people to endure freedom, work together and make the world better. We honor people who work hard, value families and friendship, and love to explore the beauty of outdoor world.We believe our actions must always speak louder than our words. SKAMX is committed to supporting people and organizations who honor these shared values and ensure to build an even better future with next generations.We are on a mission to make our brand and company a force for positive change to people all around the world. This mission is nothing new. SKAMX is committed to making the world better.<\/p>",
+        "content": "<p><strong>Delivery time<\/strong><\/p><p>After you complete your order on skamx.com, we will process your order as soon as possible. So, when you make a purchase to the time you receive what you expect, it contains two parts. That is<\/p><p>Total time = processing time + shipping time.<\/p><p>For most situations, it takes around 5 business days to complete the processing time.<\/p><p>Shipping time varies depending on the country where you are and the shipping method you choose. For most countries, it takes 10-15 business days (Standard Shipping) or 5-9 business days (Expedited Shipping).<\/p><p>(Notice: Now, we only support the Standard Shipping method. Soon, an Expedited Shipping method will be launched.)<\/p><p><strong>It may take approximately 10 - 20 days to receive your purchased items.<\/strong><\/p><p> <\/p><p><strong>Free shipping promotion<\/strong><\/p><p>We will launch free shipping promotions for some countries. Please pay attention to skamx.com<\/p><p>For detailed information and conditions for free shipping, please refer to the website or customer service email massage.<\/p>",
         "show_image_overlay": false,
         "color": "#000000"
       }
@@ -28,6 +63,7 @@
   "order": [
     "main",
     "newsletter",
+    "d436c85f-f4e6-4b3e-991f-0922651867b1",
     "d975fa04-d21d-4822-838d-2161cf755833"
   ]
 }
