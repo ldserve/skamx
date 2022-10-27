@@ -18,8 +18,17 @@
     "d975fa04-d21d-4822-838d-2161cf755833": {
       "type": "image-with-text-overlay",
       "settings": {
-        "title": "",
-        "content": "<p>SKAMX is much more than a maker of clothing. We are here to inspire and equip people to endure freedom, work together and make the world better. We honor people who work hard, value families and friendship, and love to explore the beauty of outdoor world.We believe our actions must always speak louder than our words. SKAMX is committed to supporting people and organizations who honor these shared values and ensure to build an even better future with next generations.We are on a mission to make our brand and company a force for positive change to people all around the world. This mission is nothing new. SKAMX is committed to making the world better.<\/p>",
+        "title": "Pay With Credit\/Debit Card",
+        "content": "<p>The available credit card options are listed above. The credit card companies listed above are the most commonly used credit cards on this website. Do not worry if your credit card company is not listed, we encourage you to go ahead and make the purchase.Please note that HYFOL does not collect your credit\/debit card number or personal information when you make a payment. For questions regarding your transactions on our site, please consult your card-issuing bank for information.<\/p>",
+        "show_image_overlay": false,
+        "color": "#000000"
+      }
+    },
+    "b9bdd21c-7783-42c9-aa51-05c0f4d21126": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "title": "Pay With Paypal",
+        "content": "<p>When you place an order with Paypal you will be redirected to the PayPal payment page, where you can confirm your payment by logging in with your PayPal username and password.You may still check out even without a PayPal account. To do so, please click on \"Pay with Debit\/Credit Card\" and you’ll be redirected to a secure page where you can enter your credit card information or complete your payment safely via PayPal<\/p>",
         "show_image_overlay": false,
         "color": "#000000"
       }
@@ -28,6 +37,7 @@
   "order": [
     "main",
     "newsletter",
-    "d975fa04-d21d-4822-838d-2161cf755833"
+    "d975fa04-d21d-4822-838d-2161cf755833",
+    "b9bdd21c-7783-42c9-aa51-05c0f4d21126"
   ]
 }
