@@ -115,8 +115,8 @@
         "a3ab2cb6-f89f-4bc1-b646-9fe4e3be3ccb": {
           "type": "link",
           "settings": {
-            "heading": "for49",
-            "sensorsLinkName": "for49",
+            "heading": "for491",
+            "sensorsLinkName": "for491",
             "link": "",
             "left": 31,
             "top": 0,
@@ -127,8 +127,8 @@
         "df248fe6-62ab-4deb-9e61-43d26d4546de": {
           "type": "link",
           "settings": {
-            "heading": "flashsale",
-            "sensorsLinkName": "flashsale",
+            "heading": "flashsale1",
+            "sensorsLinkName": "flashsale1",
             "link": "",
             "left": 40,
             "top": 0,
@@ -139,8 +139,8 @@
         "4e72a354-81ca-4018-a5e5-0e79fc495451": {
           "type": "link",
           "settings": {
-            "heading": "hoodies",
-            "sensorsLinkName": "hoodies",
+            "heading": "hoodies1",
+            "sensorsLinkName": "hoodies1",
             "link": "",
             "left": 50,
             "top": 0,
@@ -151,8 +151,8 @@
         "28ef0ff4-fc7d-4860-b32f-574710fa6e92": {
           "type": "link",
           "settings": {
-            "heading": "sweatshirts",
-            "sensorsLinkName": "sweatshirts",
+            "heading": "sweatshirts1",
+            "sensorsLinkName": "sweatshirts1",
             "link": "https:\/\/www.hyfol.com\/collections\/sweatshirts-12-13",
             "left": 59,
             "top": 0,
@@ -163,8 +163,8 @@
         "d310177d-53ac-459b-af14-f06f640d5dd0": {
           "type": "link",
           "settings": {
-            "heading": "jacket",
-            "sensorsLinkName": "jacket",
+            "heading": "jacket1",
+            "sensorsLinkName": "jacket1",
             "link": "",
             "left": 72,
             "top": 0,
@@ -178,9 +178,21 @@
             "heading": "cargopants1",
             "sensorsLinkName": "cargopants1",
             "link": "",
-            "left": 100,
+            "left": 80,
             "top": 0,
-            "width": 53,
+            "width": 9,
+            "height": 100
+          }
+        },
+        "c74347bb-04d5-4d7e-9ae0-13a99e3b1fba": {
+          "type": "link",
+          "settings": {
+            "heading": "poloshirts1",
+            "sensorsLinkName": "poloshirts1",
+            "link": "",
+            "left": 90,
+            "top": 0,
+            "width": 9,
             "height": 100
           }
         }
@@ -194,7 +206,8 @@
         "4e72a354-81ca-4018-a5e5-0e79fc495451",
         "28ef0ff4-fc7d-4860-b32f-574710fa6e92",
         "d310177d-53ac-459b-af14-f06f640d5dd0",
-        "163fccfb-02ba-4d1b-8a90-4a413d4f88e5"
+        "163fccfb-02ba-4d1b-8a90-4a413d4f88e5",
+        "c74347bb-04d5-4d7e-9ae0-13a99e3b1fba"
       ],
       "settings": {
         "linkImg_title": "",
