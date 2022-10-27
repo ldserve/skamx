@@ -170,7 +170,7 @@
           "mobile_logo_max_width": 120,
           "show_locale_selector": false,
           "show_currency_selector": false,
-          "navigation_menu": "link-list",
+          "navigation_menu": "",
           "navigation_mobile_menu": "main-menu",
           "desktop_navigation_layout": "inline",
           "desktop_navigation_open_trigger": "hover",
@@ -194,10 +194,10 @@
               "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
             }
           },
-          "footer-1": {
+          "244b3e68-04f8-41ec-acf1-bff4665fe23c": {
             "type": "links",
             "settings": {
-              "menu": "footer"
+              "menu": "link-list"
             }
           },
           "19a81811-3745-4280-bbc7-82cf671c27d7": {
@@ -213,7 +213,7 @@
               "subheading": "<p>Sign up for HYFOL style news<\/p>"
             }
           },
-          "244b3e68-04f8-41ec-acf1-bff4665fe23c": {
+          "2107a1ee-cc4e-4a7b-b746-4216318a6ada": {
             "type": "links",
             "settings": {
               "menu": ""
@@ -222,10 +222,10 @@
         },
         "block_order": [
           "footer-0",
-          "footer-1",
+          "244b3e68-04f8-41ec-acf1-bff4665fe23c",
           "19a81811-3745-4280-bbc7-82cf671c27d7",
           "footer-2",
-          "244b3e68-04f8-41ec-acf1-bff4665fe23c"
+          "2107a1ee-cc4e-4a7b-b746-4216318a6ada"
         ],
         "settings": {
           "show_social_media": true,
