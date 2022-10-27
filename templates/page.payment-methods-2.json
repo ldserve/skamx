@@ -42,12 +42,6 @@
         "show_image_overlay": false,
         "color": "#000000"
       }
-    },
-    "3508deb5-579d-4059-bfd2-4c8969791247": {
-      "type": "judgeme_carousel_section",
-      "settings": {
-        "maxwidth": 1080
-      }
     }
   },
   "order": [
@@ -55,7 +49,6 @@
     "newsletter",
     "37e0db3e-526a-4b9a-a7c4-8d7e731d3137",
     "d975fa04-d21d-4822-838d-2161cf755833",
-    "b9bdd21c-7783-42c9-aa51-05c0f4d21126",
-    "3508deb5-579d-4059-bfd2-4c8969791247"
+    "b9bdd21c-7783-42c9-aa51-05c0f4d21126"
   ]
 }
