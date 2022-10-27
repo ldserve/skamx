@@ -825,6 +825,62 @@
     },
     "1663934013a93a9889": {
       "type": "linkImg",
+      "blocks": {
+        "c925725c-9b2c-4eb3-88e6-1f11cd4a0b5f": {
+          "type": "link",
+          "settings": {
+            "heading": "savemore",
+            "sensorsLinkName": "savemore",
+            "link": "",
+            "left": 0,
+            "top": 0,
+            "width": 45,
+            "height": 47
+          }
+        },
+        "97904934-fa6e-4f6d-bfcf-6b950135a2e4": {
+          "type": "link",
+          "settings": {
+            "heading": "get2nd",
+            "sensorsLinkName": "get2nd",
+            "link": "",
+            "left": 50,
+            "top": 0,
+            "width": 46,
+            "height": 47
+          }
+        },
+        "06c7d764-cfca-4518-98f7-343f20b44cc2": {
+          "type": "link",
+          "settings": {
+            "heading": "for4",
+            "sensorsLinkName": "for4",
+            "link": "",
+            "left": 0,
+            "top": 54,
+            "width": 44,
+            "height": 53
+          }
+        },
+        "474fc5c8-b902-45c5-a887-4c605d305f17": {
+          "type": "link",
+          "settings": {
+            "heading": "for3",
+            "sensorsLinkName": "for3",
+            "link": "",
+            "left": 50,
+            "top": 48,
+            "width": 57,
+            "height": 53
+          }
+        }
+      },
+      "block_order": [
+        "c925725c-9b2c-4eb3-88e6-1f11cd4a0b5f",
+        "97904934-fa6e-4f6d-bfcf-6b950135a2e4",
+        "06c7d764-cfca-4518-98f7-343f20b44cc2",
+        "474fc5c8-b902-45c5-a887-4c605d305f17"
+      ],
       "settings": {
         "linkImg_title": "",
         "linkImg_content": "",
