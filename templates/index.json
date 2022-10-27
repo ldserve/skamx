@@ -130,10 +130,10 @@
             "heading": "flashsale",
             "sensorsLinkName": "flashsale",
             "link": "",
-            "left": 0,
+            "left": 40,
             "top": 0,
-            "width": 0,
-            "height": 0
+            "width": 8,
+            "height": 100
           }
         },
         "4e72a354-81ca-4018-a5e5-0e79fc495451": {
@@ -142,10 +142,10 @@
             "heading": "hoodies",
             "sensorsLinkName": "hoodies",
             "link": "",
-            "left": 0,
+            "left": 50,
             "top": 0,
-            "width": 0,
-            "height": 0
+            "width": 8,
+            "height": 100
           }
         },
         "28ef0ff4-fc7d-4860-b32f-574710fa6e92": {
@@ -154,10 +154,10 @@
             "heading": "sweatshirts",
             "sensorsLinkName": "sweatshirts",
             "link": "https:\/\/www.hyfol.com\/collections\/sweatshirts-12-13",
-            "left": 0,
+            "left": 59,
             "top": 0,
-            "width": 0,
-            "height": 0
+            "width": 9,
+            "height": 100
           }
         },
         "d310177d-53ac-459b-af14-f06f640d5dd0": {
@@ -166,10 +166,22 @@
             "heading": "jacket",
             "sensorsLinkName": "jacket",
             "link": "",
-            "left": 0,
+            "left": 72,
             "top": 0,
-            "width": 0,
-            "height": 0
+            "width": 7,
+            "height": 100
+          }
+        },
+        "163fccfb-02ba-4d1b-8a90-4a413d4f88e5": {
+          "type": "link",
+          "settings": {
+            "heading": "cargopants1",
+            "sensorsLinkName": "cargopants1",
+            "link": "",
+            "left": 100,
+            "top": 0,
+            "width": 53,
+            "height": 100
           }
         }
       },
@@ -181,7 +193,8 @@
         "df248fe6-62ab-4deb-9e61-43d26d4546de",
         "4e72a354-81ca-4018-a5e5-0e79fc495451",
         "28ef0ff4-fc7d-4860-b32f-574710fa6e92",
-        "d310177d-53ac-459b-af14-f06f640d5dd0"
+        "d310177d-53ac-459b-af14-f06f640d5dd0",
+        "163fccfb-02ba-4d1b-8a90-4a413d4f88e5"
       ],
       "settings": {
         "linkImg_title": "",
