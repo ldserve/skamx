@@ -554,22 +554,22 @@
             "heading": "poloshirts",
             "sensorsLinkName": "poloshirts",
             "link": "",
-            "left": 0,
-            "top": 0,
-            "width": 10,
-            "height": 10
+            "left": 61,
+            "top": 59,
+            "width": 18,
+            "height": 61
           }
         },
         "bcc394ca-0144-47b1-8465-4587da85c78f": {
           "type": "link",
           "settings": {
-            "heading": "(´థ౪థ）σ",
-            "sensorsLinkName": "",
+            "heading": "accessories",
+            "sensorsLinkName": "accessories",
             "link": "",
-            "left": 0,
-            "top": 0,
-            "width": 10,
-            "height": 10
+            "left": 80,
+            "top": 60,
+            "width": 20,
+            "height": 40
           }
         }
       },
