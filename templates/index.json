@@ -93,7 +93,7 @@
           "settings": {
             "heading": "newin1",
             "sensorsLinkName": "newin1",
-            "link": "https:\/\/www.skamx.com\/collections\/new-in",
+            "link": "",
             "left": 12,
             "top": 0,
             "width": 7,
@@ -105,7 +105,7 @@
           "settings": {
             "heading": "halloween",
             "sensorsLinkName": "halloween",
-            "link": "https:\/\/www.skamx.com\/collections\/halloween",
+            "link": "",
             "left": 20,
             "top": 0,
             "width": 10,
@@ -153,7 +153,7 @@
           "settings": {
             "heading": "sweatshirts1",
             "sensorsLinkName": "sweatshirts1",
-            "link": "https:\/\/www.hyfol.com\/collections\/sweatshirts-12-13",
+            "link": "",
             "left": 59,
             "top": 0,
             "width": 9,
@@ -231,7 +231,7 @@
           "settings": {
             "heading": "bestseller1",
             "sensorsLinkName": "bestseller1",
-            "link": "shopify:\/\/collections\/hyfol-best-seller-1",
+            "link": "",
             "left": 0,
             "top": 0,
             "width": 26,
@@ -243,7 +243,7 @@
           "settings": {
             "heading": "newin1",
             "sensorsLinkName": "newin1",
-            "link": "https:\/\/www.skamx.com\/collections\/new-in",
+            "link": "",
             "left": 27,
             "top": 0,
             "width": 14,
@@ -255,7 +255,7 @@
           "settings": {
             "heading": "halloween",
             "sensorsLinkName": "Halloween",
-            "link": "https:\/\/www.skamx.com\/collections\/halloween",
+            "link": "",
             "left": 44,
             "top": 0,
             "width": 16,
@@ -267,7 +267,7 @@
           "settings": {
             "heading": "for49",
             "sensorsLinkName": "for49",
-            "link": "https:\/\/www.hyfol.com\/collections\/4-for-49",
+            "link": "",
             "left": 62,
             "top": 0,
             "width": 20,
@@ -279,7 +279,7 @@
           "settings": {
             "heading": "flashsale",
             "sensorsLinkName": "flashsale",
-            "link": "https:\/\/www.hyfol.com\/collections\/flash-sale-1",
+            "link": "",
             "left": 81,
             "top": 0,
             "width": 18,
@@ -291,7 +291,7 @@
           "settings": {
             "heading": "hoodies",
             "sensorsLinkName": "hoodies",
-            "link": "https:\/\/www.hyfol.com\/collections\/hoodies-1",
+            "link": "",
             "left": 2,
             "top": 49,
             "width": 30,
@@ -303,7 +303,7 @@
           "settings": {
             "heading": "sweatshirts",
             "sensorsLinkName": "sweatshirts",
-            "link": "https:\/\/www.hyfol.com\/collections\/sweatshirts-12-13",
+            "link": "",
             "left": 36,
             "top": 49,
             "width": 29,
@@ -315,7 +315,7 @@
           "settings": {
             "heading": "jackets",
             "sensorsLinkName": "jackets",
-            "link": "https:\/\/www.hyfol.com\/collections\/outerwear_hyfol",
+            "link": "",
             "left": 71,
             "top": 48,
             "width": 62,
@@ -796,7 +796,7 @@
           "settings": {
             "heading": "for4",
             "sensorsLinkName": "for4",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/4-for-49",
             "left": 76,
             "top": 0,
             "width": 25,
@@ -856,7 +856,7 @@
           "settings": {
             "heading": "for4",
             "sensorsLinkName": "for4",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/4-for-49",
             "left": 0,
             "top": 54,
             "width": 44,
