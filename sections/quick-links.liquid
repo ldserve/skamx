@@ -26,6 +26,7 @@
     hyphens: auto;
     text-transform: none;
     transition: color 0.2s ease-in-out;
+    font-size:12px;
   }
 
   .quick-links__link:hover {
@@ -33,6 +34,7 @@
   }
 
   .quick-links__link--grow {
+    display: inline-flex;
     width: fit-content;
     white-space: nowrap;
     align-items: center;
@@ -96,8 +98,10 @@
       <div class="quick-items d-flex">
         {%- assign ofset_item = item_count | times: forloop.index0 -%}
        {%- for block in section.blocks offset: ofset_item limit: item_count -%}
-         <a href="{{ block.settings.link }}" class="quick-links__link d-flex {% if section.settings.expand_items %}quick-links__link--grow{% endif %} heading" {{ block.shopify_attributes }}>
-          <span>{{- block.settings.title | upcase -}}</span> <img src="https://cdn.shopify.com/s/files/1/0559/6237/0127/files/hot.png?v=1666868523" class="quick-hot">
+         <a href="{{ block.settings.link }}" class="quick-links__link {% if section.settings.expand_items %}quick-links__link--grow{% endif %} heading" {{ block.shopify_attributes }}>
+          <span>{{- block.settings.title | upcase -}}</span>{%- if block.settings.show_hot -%}
+          <img src="https://cdn.shopify.com/s/files/1/0559/6237/0127/files/hot.png?v=1666868523" class="quick-hot">
+          {%- endif -%}
          </a>
        {%- endfor -%}
      </div>
@@ -204,6 +208,11 @@
           "type": "url",
           "id": "link",
           "label": "Link"
+        },{
+          "type":"checkbox",
+          "id":"show_hot",
+          "label":"显示热销图标",
+          "default":true
         }
       ]
     }

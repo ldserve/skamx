@@ -9337,7 +9337,7 @@ select option {
   display: none;
   margin-bottom: 40px;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 13px));
-  background-color: #770202;
+  background-color: #333333;
 }
 .page__sub-header_bottom{
   margin-bottom: 10px;
