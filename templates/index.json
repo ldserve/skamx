@@ -33,7 +33,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.hyfol.com\/collections\/new-in-1"
+            "link": "shopify:\/\/collections\/all"
           }
         },
         "1664249260b7761d46-1": {
@@ -41,6 +41,7 @@
           "disabled": true,
           "settings": {
             "sensorsName": "finalsale",
+            "image": "shopify:\/\/shop_images\/fbb33e945397d55d9e3987396bc5b1a8.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -80,10 +81,10 @@
           "settings": {
             "heading": "bestseller1",
             "sensorsLinkName": "bestseller1",
-            "link": "shopify:\/\/collections\/hyfol-best-seller-1",
+            "link": "",
             "left": 0,
             "top": 0,
-            "width": 17,
+            "width": 11,
             "height": 100
           }
         },
@@ -92,10 +93,10 @@
           "settings": {
             "heading": "newin1",
             "sensorsLinkName": "newin1",
-            "link": "https:\/\/www.hyfol.com\/collections\/new-in-1",
-            "left": 18,
+            "link": "",
+            "left": 12,
             "top": 0,
-            "width": 8,
+            "width": 7,
             "height": 100
           }
         },
@@ -104,70 +105,94 @@
           "settings": {
             "heading": "halloween",
             "sensorsLinkName": "halloween",
-            "link": "https:\/\/www.hyfol.com\/collections\/halloween-theme-clothing",
-            "left": 28,
+            "link": "",
+            "left": 20,
             "top": 0,
-            "width": 11,
+            "width": 10,
             "height": 100
           }
         },
         "a3ab2cb6-f89f-4bc1-b646-9fe4e3be3ccb": {
           "type": "link",
           "settings": {
-            "heading": "for49",
-            "sensorsLinkName": "for49",
-            "link": "https:\/\/www.hyfol.com\/collections\/4-for-49",
-            "left": 39,
+            "heading": "for491",
+            "sensorsLinkName": "for491",
+            "link": "",
+            "left": 31,
             "top": 0,
-            "width": 10,
+            "width": 8,
             "height": 100
           }
         },
         "df248fe6-62ab-4deb-9e61-43d26d4546de": {
           "type": "link",
           "settings": {
-            "heading": "flashsale",
-            "sensorsLinkName": "flashsale",
-            "link": "https:\/\/www.hyfol.com\/collections\/flash-sale-1",
-            "left": 50,
+            "heading": "flashsale1",
+            "sensorsLinkName": "flashsale1",
+            "link": "",
+            "left": 40,
             "top": 0,
-            "width": 10,
+            "width": 8,
             "height": 100
           }
         },
         "4e72a354-81ca-4018-a5e5-0e79fc495451": {
           "type": "link",
           "settings": {
-            "heading": "hoodies",
-            "sensorsLinkName": "hoodies",
-            "link": "https:\/\/www.hyfol.com\/collections\/hoodies-1",
-            "left": 61,
+            "heading": "hoodies1",
+            "sensorsLinkName": "hoodies1",
+            "link": "",
+            "left": 50,
             "top": 0,
-            "width": 12,
+            "width": 8,
             "height": 100
           }
         },
         "28ef0ff4-fc7d-4860-b32f-574710fa6e92": {
           "type": "link",
           "settings": {
-            "heading": "sweatshirts",
-            "sensorsLinkName": "sweatshirts",
+            "heading": "sweatshirts1",
+            "sensorsLinkName": "sweatshirts1",
             "link": "https:\/\/www.hyfol.com\/collections\/sweatshirts-12-13",
-            "left": 75,
+            "left": 59,
             "top": 0,
-            "width": 12,
+            "width": 9,
             "height": 100
           }
         },
         "d310177d-53ac-459b-af14-f06f640d5dd0": {
           "type": "link",
           "settings": {
-            "heading": "jacket",
-            "sensorsLinkName": "jacket",
-            "link": "https:\/\/www.hyfol.com\/collections\/outerwear_hyfol",
-            "left": 89,
+            "heading": "jacket1",
+            "sensorsLinkName": "jacket1",
+            "link": "",
+            "left": 72,
             "top": 0,
-            "width": 11,
+            "width": 7,
+            "height": 100
+          }
+        },
+        "163fccfb-02ba-4d1b-8a90-4a413d4f88e5": {
+          "type": "link",
+          "settings": {
+            "heading": "cargopants1",
+            "sensorsLinkName": "cargopants1",
+            "link": "",
+            "left": 80,
+            "top": 0,
+            "width": 9,
+            "height": 100
+          }
+        },
+        "c74347bb-04d5-4d7e-9ae0-13a99e3b1fba": {
+          "type": "link",
+          "settings": {
+            "heading": "poloshirts1",
+            "sensorsLinkName": "poloshirts1",
+            "link": "",
+            "left": 90,
+            "top": 0,
+            "width": 9,
             "height": 100
           }
         }
@@ -180,7 +205,9 @@
         "df248fe6-62ab-4deb-9e61-43d26d4546de",
         "4e72a354-81ca-4018-a5e5-0e79fc495451",
         "28ef0ff4-fc7d-4860-b32f-574710fa6e92",
-        "d310177d-53ac-459b-af14-f06f640d5dd0"
+        "d310177d-53ac-459b-af14-f06f640d5dd0",
+        "163fccfb-02ba-4d1b-8a90-4a413d4f88e5",
+        "c74347bb-04d5-4d7e-9ae0-13a99e3b1fba"
       ],
       "settings": {
         "linkImg_title": "",
@@ -189,7 +216,7 @@
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
         "line": false,
-        "image": "shopify:\/\/shop_images\/02.jpg",
+        "image": "shopify:\/\/shop_images\/02_849f8e55-dc61-43d9-999c-a117e3935f78.jpg",
         "tpadding": 0,
         "rpadding": 0,
         "bpadding": 0,
@@ -424,6 +451,140 @@
     },
     "16500767332eb3ea11": {
       "type": "linkImg",
+      "blocks": {
+        "060e1c79-7396-42ee-9112-b3607a636833": {
+          "type": "link",
+          "settings": {
+            "heading": "hoodies",
+            "sensorsLinkName": "hoodies",
+            "link": "",
+            "left": 0,
+            "top": 0,
+            "width": 20,
+            "height": 60
+          }
+        },
+        "364ba111-1e47-4d4b-a5cd-5f33e07b58cb": {
+          "type": "link",
+          "settings": {
+            "heading": "swearshirts",
+            "sensorsLinkName": "swearshirts",
+            "link": "",
+            "left": 21,
+            "top": 0,
+            "width": 19,
+            "height": 58
+          }
+        },
+        "d00c4492-eb2b-4ac5-824e-956b746fdad9": {
+          "type": "link",
+          "settings": {
+            "heading": "jackets",
+            "sensorsLinkName": "jackets",
+            "link": "",
+            "left": 40,
+            "top": 0,
+            "width": 20,
+            "height": 59
+          }
+        },
+        "cc3e3b76-5387-45b8-8de0-07f086390707": {
+          "type": "link",
+          "settings": {
+            "heading": "cargopants",
+            "sensorsLinkName": "",
+            "link": "",
+            "left": 61,
+            "top": 0,
+            "width": 17,
+            "height": 57
+          }
+        },
+        "b4ae7096-a7e8-4271-bca0-ee1a15e658df": {
+          "type": "link",
+          "settings": {
+            "heading": "raglantees",
+            "sensorsLinkName": "raglantees",
+            "link": "",
+            "left": 80,
+            "top": 0,
+            "width": 18,
+            "height": 58
+          }
+        },
+        "fe7547ca-3a15-46c9-ba87-ccbc010a9094": {
+          "type": "link",
+          "settings": {
+            "heading": "bestseller",
+            "sensorsLinkName": "bestseller",
+            "link": "",
+            "left": 0,
+            "top": 61,
+            "width": 20,
+            "height": 60
+          }
+        },
+        "4c059594-7c18-487a-9479-47ca70579d28": {
+          "type": "link",
+          "settings": {
+            "heading": "workshirt",
+            "sensorsLinkName": "workshirt",
+            "link": "",
+            "left": 21,
+            "top": 60,
+            "width": 18,
+            "height": 49
+          }
+        },
+        "7a35b9b3-5385-4bed-a9bf-54a5254030b9": {
+          "type": "link",
+          "settings": {
+            "heading": "shoes",
+            "sensorsLinkName": "shoes",
+            "link": "",
+            "left": 41,
+            "top": 60,
+            "width": 19,
+            "height": 60
+          }
+        },
+        "5f0b5ac4-b640-4678-a067-ce29e2d1a14a": {
+          "type": "link",
+          "settings": {
+            "heading": "poloshirts",
+            "sensorsLinkName": "poloshirts",
+            "link": "",
+            "left": 61,
+            "top": 59,
+            "width": 18,
+            "height": 61
+          }
+        },
+        "bcc394ca-0144-47b1-8465-4587da85c78f": {
+          "type": "link",
+          "settings": {
+            "heading": "accessories",
+            "sensorsLinkName": "accessories",
+            "link": "",
+            "left": 80,
+            "top": 60,
+            "width": 20,
+            "height": 40
+          }
+        }
+      },
+      "block_order": [
+        "060e1c79-7396-42ee-9112-b3607a636833",
+        "364ba111-1e47-4d4b-a5cd-5f33e07b58cb",
+        "d00c4492-eb2b-4ac5-824e-956b746fdad9",
+        "cc3e3b76-5387-45b8-8de0-07f086390707",
+        "b4ae7096-a7e8-4271-bca0-ee1a15e658df",
+        "fe7547ca-3a15-46c9-ba87-ccbc010a9094",
+        "4c059594-7c18-487a-9479-47ca70579d28",
+        "7a35b9b3-5385-4bed-a9bf-54a5254030b9",
+        "5f0b5ac4-b640-4678-a067-ce29e2d1a14a",
+        "bcc394ca-0144-47b1-8465-4587da85c78f"
+      ],
       "settings": {
         "linkImg_title": "",
         "linkImg_content": "",
@@ -431,7 +592,7 @@
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
         "line": false,
-        "image": "shopify:\/\/shop_images\/04.jpg",
+        "image": "shopify:\/\/shop_images\/04_835ae0aa-b363-4e2d-94e1-d2b749a2215a.jpg",
         "tpadding": 0,
         "rpadding": 0,
         "bpadding": 0,
@@ -440,6 +601,127 @@
     },
     "164742631051d4db44": {
       "type": "linkImg",
+      "blocks": {
+        "514b2ede-94eb-4cf2-9b71-6910ac519700": {
+          "type": "link",
+          "settings": {
+            "heading": "hoodies",
+            "sensorsLinkName": "hoodies",
+            "link": "",
+            "left": 0,
+            "top": 0,
+            "width": 30,
+            "height": 36
+          }
+        },
+        "ec2a26ca-1dbc-41b3-aec5-1aee78e95b89": {
+          "type": "link",
+          "settings": {
+            "heading": "sweatshirts",
+            "sensorsLinkName": "sweatshirts",
+            "link": "",
+            "left": 32,
+            "top": 0,
+            "width": 32,
+            "height": 34
+          }
+        },
+        "5c9bea1a-9931-43f5-ad66-f062dd1b303c": {
+          "type": "link",
+          "settings": {
+            "heading": "jackets",
+            "sensorsLinkName": "jackets",
+            "link": "",
+            "left": 65,
+            "top": 0,
+            "width": 31,
+            "height": 39
+          }
+        },
+        "fa3d687c-6593-44a4-8f22-6efa7d3cb0ee": {
+          "type": "link",
+          "settings": {
+            "heading": "accesories",
+            "sensorsLinkName": "accesories",
+            "link": "",
+            "left": 0,
+            "top": 41,
+            "width": 33,
+            "height": 27
+          }
+        },
+        "1f560666-b52a-417d-99ac-2dd5a681c42d": {
+          "type": "link",
+          "settings": {
+            "heading": "raglantees",
+            "sensorsLinkName": "raglantees",
+            "link": "",
+            "left": 34,
+            "top": 41,
+            "width": 34,
+            "height": 27
+          }
+        },
+        "162db5f0-a4b5-438f-9562-ebb9b97ffc1c": {
+          "type": "link",
+          "settings": {
+            "heading": "cargopants",
+            "sensorsLinkName": "cargopants",
+            "link": "",
+            "left": 69,
+            "top": 40,
+            "width": 30,
+            "height": 30
+          }
+        },
+        "a3ef1afa-1856-4420-8f86-f4d23cf3c56b": {
+          "type": "link",
+          "settings": {
+            "heading": "shoes",
+            "sensorsLinkName": "shoes",
+            "link": "",
+            "left": 0,
+            "top": 72,
+            "width": 26,
+            "height": 38
+          }
+        },
+        "19f070c6-bfd3-4776-891c-593fb003c04d": {
+          "type": "link",
+          "settings": {
+            "heading": "shirts",
+            "sensorsLinkName": "shirts",
+            "link": "",
+            "left": 34,
+            "top": 72,
+            "width": 31,
+            "height": 40
+          }
+        },
+        "4c7ca69e-35cd-46f0-a192-8c4cfc1a9820": {
+          "type": "link",
+          "settings": {
+            "heading": "poloshirts",
+            "sensorsLinkName": "poloshirts",
+            "link": "",
+            "left": 68,
+            "top": 72,
+            "width": 31,
+            "height": 34
+          }
+        }
+      },
+      "block_order": [
+        "514b2ede-94eb-4cf2-9b71-6910ac519700",
+        "ec2a26ca-1dbc-41b3-aec5-1aee78e95b89",
+        "5c9bea1a-9931-43f5-ad66-f062dd1b303c",
+        "fa3d687c-6593-44a4-8f22-6efa7d3cb0ee",
+        "1f560666-b52a-417d-99ac-2dd5a681c42d",
+        "162db5f0-a4b5-438f-9562-ebb9b97ffc1c",
+        "a3ef1afa-1856-4420-8f86-f4d23cf3c56b",
+        "19f070c6-bfd3-4776-891c-593fb003c04d",
+        "4c7ca69e-35cd-46f0-a192-8c4cfc1a9820"
+      ],
       "settings": {
         "linkImg_title": "",
         "linkImg_content": "",
@@ -447,7 +729,7 @@
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
         "line": false,
-        "image": "shopify:\/\/shop_images\/04_57f3d187-6c2e-481e-9b33-70e67106ba12.jpg",
+        "image": "shopify:\/\/shop_images\/04_bcd0a0cb-f8dd-45c8-95b8-f50741c3296a.jpg",
         "tpadding": 0,
         "rpadding": 0,
         "bpadding": 0,
@@ -471,6 +753,62 @@
     },
     "166393398966f5d03e": {
       "type": "linkImg",
+      "blocks": {
+        "df82f8fc-ed49-4dad-a84d-0e07b3d2012b": {
+          "type": "link",
+          "settings": {
+            "heading": "savemore",
+            "sensorsLinkName": "savemore",
+            "link": "",
+            "left": 0,
+            "top": 0,
+            "width": 23,
+            "height": 100
+          }
+        },
+        "2532a193-628e-4d3d-ab09-423c581f37d2": {
+          "type": "link",
+          "settings": {
+            "heading": "get2nd",
+            "sensorsLinkName": "get2nd",
+            "link": "",
+            "left": 24,
+            "top": 0,
+            "width": 25,
+            "height": 100
+          }
+        },
+        "66219d72-a818-4991-b01c-9c1f31096a4d": {
+          "type": "link",
+          "settings": {
+            "heading": "for3",
+            "sensorsLinkName": "for3",
+            "link": "",
+            "left": 50,
+            "top": 0,
+            "width": 25,
+            "height": 100
+          }
+        },
+        "f2753cdf-68c9-486c-a6bf-60ad400477de": {
+          "type": "link",
+          "settings": {
+            "heading": "for4",
+            "sensorsLinkName": "for4",
+            "link": "",
+            "left": 76,
+            "top": 0,
+            "width": 25,
+            "height": 100
+          }
+        }
+      },
+      "block_order": [
+        "df82f8fc-ed49-4dad-a84d-0e07b3d2012b",
+        "2532a193-628e-4d3d-ab09-423c581f37d2",
+        "66219d72-a818-4991-b01c-9c1f31096a4d",
+        "f2753cdf-68c9-486c-a6bf-60ad400477de"
+      ],
       "settings": {
         "linkImg_title": "",
         "linkImg_content": "",
@@ -487,6 +825,62 @@
     },
     "1663934013a93a9889": {
       "type": "linkImg",
+      "blocks": {
+        "c925725c-9b2c-4eb3-88e6-1f11cd4a0b5f": {
+          "type": "link",
+          "settings": {
+            "heading": "savemore",
+            "sensorsLinkName": "savemore",
+            "link": "",
+            "left": 0,
+            "top": 0,
+            "width": 45,
+            "height": 47
+          }
+        },
+        "97904934-fa6e-4f6d-bfcf-6b950135a2e4": {
+          "type": "link",
+          "settings": {
+            "heading": "get2nd",
+            "sensorsLinkName": "get2nd",
+            "link": "",
+            "left": 50,
+            "top": 0,
+            "width": 46,
+            "height": 47
+          }
+        },
+        "06c7d764-cfca-4518-98f7-343f20b44cc2": {
+          "type": "link",
+          "settings": {
+            "heading": "for4",
+            "sensorsLinkName": "for4",
+            "link": "",
+            "left": 0,
+            "top": 54,
+            "width": 44,
+            "height": 53
+          }
+        },
+        "474fc5c8-b902-45c5-a887-4c605d305f17": {
+          "type": "link",
+          "settings": {
+            "heading": "for3",
+            "sensorsLinkName": "for3",
+            "link": "",
+            "left": 50,
+            "top": 48,
+            "width": 57,
+            "height": 53
+          }
+        }
+      },
+      "block_order": [
+        "c925725c-9b2c-4eb3-88e6-1f11cd4a0b5f",
+        "97904934-fa6e-4f6d-bfcf-6b950135a2e4",
+        "06c7d764-cfca-4518-98f7-343f20b44cc2",
+        "474fc5c8-b902-45c5-a887-4c605d305f17"
+      ],
       "settings": {
         "linkImg_title": "",
         "linkImg_content": "",
@@ -507,7 +901,7 @@
         "sensorsName": "",
         "bg_image": "shopify:\/\/shop_images\/08.jpg",
         "web_bg_image": "shopify:\/\/shop_images\/07_1b0bd3d8-286a-4eec-a4b1-d6da6d79905c.jpg",
-        "link": "https:\/\/www.hyfol.com\/collections\/summer-finalsale?page=1",
+        "link": "https:\/\/www.skamx.com\/collections\/summer-finalsale?page=1",
         "shadow": false
       }
     },
@@ -596,7 +990,7 @@
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
         "line": false,
-        "image": "shopify:\/\/shop_images\/09.jpg",
+        "image": "shopify:\/\/shop_images\/09_6e69841e-6832-4684-9a98-aea2be2cbb55.jpg",
         "tpadding": 0,
         "rpadding": 0,
         "bpadding": 0,
@@ -672,7 +1066,7 @@
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
         "line": false,
-        "image": "shopify:\/\/shop_images\/08_0b031d06-dd62-4e0f-a582-ecf5468a5adb.jpg",
+        "image": "shopify:\/\/shop_images\/08_41acb253-1051-4ca8-86ae-eea6be90d086.jpg",
         "tpadding": 5,
         "rpadding": 0,
         "bpadding": 0,
