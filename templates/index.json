@@ -75,13 +75,14 @@
     },
     "1663931750c3ec4ea5": {
       "type": "linkImg",
+      "disabled": true,
       "blocks": {
         "9ac5cf43-f6a6-485d-b66c-b766639f9a35": {
           "type": "link",
           "settings": {
             "heading": "bestseller1",
             "sensorsLinkName": "bestseller1",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/best-sellers",
             "left": 0,
             "top": 0,
             "width": 11,
@@ -93,7 +94,7 @@
           "settings": {
             "heading": "newin1",
             "sensorsLinkName": "newin1",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/new-in",
             "left": 12,
             "top": 0,
             "width": 7,
@@ -105,7 +106,7 @@
           "settings": {
             "heading": "halloween",
             "sensorsLinkName": "halloween",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/halloween",
             "left": 20,
             "top": 0,
             "width": 10,
@@ -117,7 +118,7 @@
           "settings": {
             "heading": "for491",
             "sensorsLinkName": "for491",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/4-for-49",
             "left": 31,
             "top": 0,
             "width": 8,
@@ -372,6 +373,13 @@
             "link": "https:\/\/www.skamx.com\/collections\/4-for-49"
           }
         },
+        "1f0fae7d-72ac-40f6-877d-95723fb0cacb": {
+          "type": "link",
+          "settings": {
+            "title": "HALLOWEEN",
+            "link": "https:\/\/www.skamx.com\/collections\/halloween"
+          }
+        },
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-3": {
           "type": "link",
           "settings": {
@@ -412,6 +420,7 @@
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-0",
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-1",
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-2",
+        "1f0fae7d-72ac-40f6-877d-95723fb0cacb",
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-3",
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-4",
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-5",
