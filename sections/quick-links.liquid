@@ -57,7 +57,6 @@
 
   @media screen and (max-width: 640px) {
     .quick-links__link {
-      padding-right: 2rem;
       font-size: 0.8rem;
     }
   }
@@ -69,6 +68,7 @@
 .quick-hot{
   width: 30px;
   height: 30px;
+  max-width:initial;
 }
 </style>
 <section class="section {% unless section.settings.show_desktop %}hidden-lap-and-up{% endunless %}" data-section-id="{{ section.id }}" data-type="quick-links">
