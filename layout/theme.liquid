@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="{{ settings.accent_color }}">
-
+    {%- comment -%}---facebook----{%- endcomment -%}
+    <meta name="facebook-domain-verification" content="482m0thxux2cdgsvo91kcxxdf3tcrz" />
+    <meta name="facebook-domain-verification" content="rttko9nl31rmz9qr1vgqbpgp0bzdf4" />
+     {%- comment -%}---facebook END----{%- endcomment -%}
     {%- capture seo_page_title -%}
       {%- if request.page_type == 'search' and search.terms != blank -%}
         {{ search.terms | split: ' AND ' | last | split: 'product_type:' | last }} - {{ shop.name }}
