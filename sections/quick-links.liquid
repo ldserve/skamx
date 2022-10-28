@@ -50,7 +50,11 @@ text-align: center;
     margin: 0 auto;
     transition: transform 0.3s ease-in-out;
   }
-
+  .quick-hot{
+  width: 30px;
+  height: 30px;
+  max-width:initial;
+}
   @media screen and (any-hover: hover) {
     .features--animate-zoom .quick-links__link:hover .quick-links__image-ie-fix {
       transform: scale(1.05);
@@ -64,7 +68,7 @@ text-align: center;
  @media screen and (max-width: 640px) {
    .quick-links__link{
     line-height: 30px;
-    padding: 0px 0.5rem 0 0;
+    padding: 0px  0 0 0.5rem;
     margin: 5px;
    }
    .quick-hot{
@@ -79,11 +83,7 @@ text-align: center;
     width: 0;
     height: 0;
   }
-.quick-hot{
-  width: 30px;
-  height: 30px;
-  max-width:initial;
-}
+
 </style>
 <section class="section {% unless section.settings.show_desktop %}hidden-lap-and-up{% endunless %}" data-section-id="{{ section.id }}" data-type="quick-links">
   <div class="quick_container">
