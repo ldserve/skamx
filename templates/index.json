@@ -33,7 +33,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/collections\/best-sellers"
           }
         },
         "1664249260b7761d46-1": {
@@ -771,7 +771,7 @@
           "settings": {
             "heading": "get2nd",
             "sensorsLinkName": "get2nd",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/buy-1-get-2nd-50-off",
             "left": 24,
             "top": 0,
             "width": 25,
