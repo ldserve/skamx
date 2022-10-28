@@ -759,7 +759,7 @@
           "settings": {
             "heading": "savemore",
             "sensorsLinkName": "savemore",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/buy-more-save-more",
             "left": 0,
             "top": 0,
             "width": 23,
@@ -783,7 +783,7 @@
           "settings": {
             "heading": "for3",
             "sensorsLinkName": "for3",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/get-any-3-for-59",
             "left": 50,
             "top": 0,
             "width": 25,
@@ -831,7 +831,7 @@
           "settings": {
             "heading": "savemore",
             "sensorsLinkName": "savemore",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/buy-more-save-more",
             "left": 0,
             "top": 0,
             "width": 45,
@@ -843,7 +843,7 @@
           "settings": {
             "heading": "get2nd",
             "sensorsLinkName": "get2nd",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/buy-1-get-2nd-50-off",
             "left": 50,
             "top": 0,
             "width": 46,
@@ -867,7 +867,7 @@
           "settings": {
             "heading": "for3",
             "sensorsLinkName": "for3",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/get-any-3-for-59",
             "left": 50,
             "top": 48,
             "width": 57,
@@ -926,11 +926,10 @@
       "blocks": {
         "ff6f97b8-1adb-4a65-93e8-533754b197fc": {
           "type": "link",
-          "disabled": true,
           "settings": {
-            "heading": "camo",
-            "sensorsLinkName": "camo",
-            "link": "https:\/\/www.hyfol.com\/collections\/camo",
+            "heading": "hoodies",
+            "sensorsLinkName": "hoodies",
+            "link": "https:\/\/www.skamx.com\/collections\/hoodies",
             "left": 0,
             "top": 0,
             "width": 24,
@@ -939,11 +938,10 @@
         },
         "342f71ba-d412-42c7-a286-e1b97c3dc993": {
           "type": "link",
-          "disabled": true,
           "settings": {
-            "heading": "patrtotic",
-            "sensorsLinkName": "patrtotic",
-            "link": "https:\/\/www.hyfol.com\/collections\/american-flag",
+            "heading": "workshirt",
+            "sensorsLinkName": "workshirt",
+            "link": "https:\/\/www.skamx.com\/collections\/work-shirt",
             "left": 25,
             "top": 0,
             "width": 24,
@@ -952,11 +950,10 @@
         },
         "9ff77147-50cf-4ea6-a2e8-88372aa19d4a": {
           "type": "link",
-          "disabled": true,
           "settings": {
             "heading": "outwear",
             "sensorsLinkName": "outwear",
-            "link": "https:\/\/www.hyfol.com\/collections\/mens-outwear",
+            "link": "https:\/\/www.skamx.com\/collections\/jackets",
             "left": 50,
             "top": 0,
             "width": 25,
@@ -965,11 +962,10 @@
         },
         "6defe89d-34bf-47d9-a1f2-91004d693ed8": {
           "type": "link",
-          "disabled": true,
           "settings": {
             "heading": "plaid",
             "sensorsLinkName": "plaid",
-            "link": "https:\/\/www.hyfol.com\/collections\/plaid",
+            "link": "https:\/\/www.skamx.com\/collections\/plaid-flannel",
             "left": 76,
             "top": 0,
             "width": 40,
@@ -1002,11 +998,10 @@
       "blocks": {
         "0736ae2f-d8f9-4699-9348-1065c0a82879": {
           "type": "link",
-          "disabled": true,
           "settings": {
-            "heading": "camo",
-            "sensorsLinkName": "camo",
-            "link": "https:\/\/www.hyfol.com\/collections\/camo",
+            "heading": "hoodies",
+            "sensorsLinkName": "hoodies",
+            "link": "https:\/\/www.skamx.com\/collections\/hoodies",
             "left": 0,
             "top": 0,
             "width": 49,
@@ -1015,11 +1010,10 @@
         },
         "17a0b0e4-b0fd-421f-ae02-f40770d11416": {
           "type": "link",
-          "disabled": true,
           "settings": {
-            "heading": "patrtotic",
-            "sensorsLinkName": "patrtotic",
-            "link": "https:\/\/www.hyfol.com\/collections\/american-flag",
+            "heading": "workshirt",
+            "sensorsLinkName": "workshirt",
+            "link": "https:\/\/www.skamx.com\/collections\/work-shirt",
             "left": 51,
             "top": 0,
             "width": 53,
@@ -1028,11 +1022,10 @@
         },
         "1a56e24f-fd33-4441-a6c2-3cf03868b44a": {
           "type": "link",
-          "disabled": true,
           "settings": {
             "heading": "outwear",
             "sensorsLinkName": "outwear",
-            "link": "https:\/\/www.hyfol.com\/collections\/mens-outwear",
+            "link": "https:\/\/www.skamx.com\/collections\/jackets",
             "left": 0,
             "top": 50,
             "width": 49,
@@ -1041,11 +1034,10 @@
         },
         "dbe8a9a1-2bdd-4552-82ae-15b0ebb1e9cf": {
           "type": "link",
-          "disabled": true,
           "settings": {
             "heading": "plaid",
             "sensorsLinkName": "plaid",
-            "link": "https:\/\/www.hyfol.com\/collections\/plaid",
+            "link": "https:\/\/www.skamx.com\/collections\/plaid-flannel",
             "left": 51,
             "top": 50,
             "width": 60,
