@@ -82,7 +82,7 @@ text-align: center;
     <div class="quick-links hidden-phone">
       {%- for block in section.blocks -%}
         <a href="{{ block.settings.link }}" class="quick-links__link {% if section.settings.expand_items %}quick-links__link--grow{% endif %} heading" {{ block.shopify_attributes }}>
-          <span>{{- block.settings.title | upcase -}}</span> <img src="https://cdn.shopify.com/s/files/1/0559/6237/0127/files/hot.png?v=1666868523" class="quick-hot">
+          <span>{{- block.settings.title | upcase -}}</span> {%- if block.settings.show_hot -%}<img src="https://cdn.shopify.com/s/files/1/0559/6237/0127/files/hot.png?v=1666868523" class="quick-hot"> {%- endif -%}
         </a>
       {%- endfor -%}
     </div>
