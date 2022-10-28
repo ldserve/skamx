@@ -38,10 +38,10 @@
         },
         "1664249260b7761d46-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "sensorsName": "finalsale",
-            "image": "shopify:\/\/shop_images\/fbb33e945397d55d9e3987396bc5b1a8.jpg",
+            "sensorsName": "sweatshirts",
+            "image": "shopify:\/\/shop_images\/fbb33e945397d55d9e3987396bc5b1a8_cf846664-c2f1-494c-a362-b1fb23dfd225.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/4c99bc535b7d12ea75937453c1ebf827_78ef607b-91e7-4131-879c-06c5fce15cac.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -57,7 +57,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.hyfol.com\/collections\/summer-finalsale?page=1"
+            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts"
           }
         }
       },
@@ -369,7 +369,8 @@
           "type": "image",
           "settings": {
             "sensorsName": "plaid",
-            "image": "shopify:\/\/shop_images\/237d557249bd41e36aeea87d8f090d2a.jpg",
+            "image": "shopify:\/\/shop_images\/237d557249bd41e36aeea87d8f090d2a_1b2d7691-0475-4745-a407-e1abf33eb565.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/5dbbfe3298a1ddad9d392830e3e50d15_f1177d98-b50f-4165-8522-786fde26bd97.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -385,15 +386,15 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.hyfol.com\/collections\/plaid"
+            "link": "https:\/\/www.skamx.com\/collections\/plaid-flannel"
           }
         },
         "1650101273ef0886ca-1": {
           "type": "image",
           "settings": {
             "sensorsName": "cargopants",
-            "image": "shopify:\/\/shop_images\/0f719d71e9a8a2dbb649b4f3475ebf96.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/2b2d82fd0d6a0f6a7e255749be197780.jpg",
+            "image": "shopify:\/\/shop_images\/0f719d71e9a8a2dbb649b4f3475ebf96_5c749b7f-e946-4afb-9ae1-9baa6cd73811.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/2b2d82fd0d6a0f6a7e255749be197780_c276b791-e004-4500-9ea2-f000521ec3b7.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -409,7 +410,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.hyfol.com\/collections\/cargo-pants"
+            "link": "https:\/\/www.skamx.com\/collections\/cargo-pants"
           }
         },
         "fb844d01-0475-4130-aeb7-a118c0a1b427": {
