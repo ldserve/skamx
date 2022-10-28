@@ -16,11 +16,12 @@
 	background-color: {{section.settings.backgroun}};
   }
 </style>
-
+{%- comment -%}
 {%- assign collection = section.settings.collection -%}
 {%- if collection.products[0].tags contains "Flash Sale" -%}
 {%- assign class_name = 'feature-flash' -%}
 {%- endif -%}
+{%- endcomment -%}
 
 <section class="section section-layout {{class_name}}" data-section-id="{{ section.id }}" data-section-type="featured-collection"
 		 data-section-settings='{{ section_settings }}'>

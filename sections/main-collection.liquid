@@ -141,6 +141,7 @@
   {%- endunless -%}
 
   {%- comment -%}Flash Sale{%- endcomment -%}
+  {%- comment -%}
   {%- if collection.products[0].tags contains "Flash Sale" -%}
     <div class="collection-flash_sale" data-type="flash-sale">
       <div class="flash-img_container"><img src="https://cdn.shopify.com/s/files/1/0595/0691/7535/files/tiem.png?v=1666332315" alt="tiem"></div>
@@ -150,6 +151,7 @@
       </span>
     </div>
   {%- endif -%}
+  {%- endcomment -%}
 {%- comment -%}Flash Sale END{%- endcomment -%}
 
   <div class="indexContainer" id="container">

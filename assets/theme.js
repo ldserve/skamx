@@ -19570,7 +19570,7 @@
                return "".concat(hours, "h:", minutes, "m:", seconds, "s");
            }
        }
-  
+  return
    var saleContainers = document.querySelectorAll('[data-type="flash-sale"]')
     saleContainers.forEach(i=>{
         var count = i.querySelector('.sale_time_count')
