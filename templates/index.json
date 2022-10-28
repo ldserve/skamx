@@ -93,7 +93,7 @@
           "settings": {
             "heading": "newin1",
             "sensorsLinkName": "newin1",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/new-in",
             "left": 12,
             "top": 0,
             "width": 7,
@@ -105,7 +105,7 @@
           "settings": {
             "heading": "halloween",
             "sensorsLinkName": "halloween",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/halloween",
             "left": 20,
             "top": 0,
             "width": 10,
@@ -243,7 +243,7 @@
           "settings": {
             "heading": "newin1",
             "sensorsLinkName": "newin1",
-            "link": "https:\/\/www.hyfol.com\/collections\/new-in-1",
+            "link": "https:\/\/www.skamx.com\/collections\/new-in",
             "left": 27,
             "top": 0,
             "width": 14,
@@ -255,7 +255,7 @@
           "settings": {
             "heading": "halloween",
             "sensorsLinkName": "Halloween",
-            "link": "https:\/\/www.hyfol.com\/collections\/halloween-theme-clothing",
+            "link": "https:\/\/www.skamx.com\/collections\/halloween",
             "left": 44,
             "top": 0,
             "width": 16,
@@ -350,9 +350,9 @@
     "16585474086f148753": {
       "type": "transparent-collection",
       "settings": {
-        "collection": "summer-finalsale",
-        "sensorsName": "summer finalsale",
-        "title": "flash  sale",
+        "collection": "new-in",
+        "sensorsName": "newin",
+        "title": "",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
@@ -457,7 +457,7 @@
           "settings": {
             "heading": "hoodies",
             "sensorsLinkName": "hoodies",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/hoodies",
             "left": 0,
             "top": 0,
             "width": 20,
@@ -469,7 +469,7 @@
           "settings": {
             "heading": "swearshirts",
             "sensorsLinkName": "swearshirts",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts",
             "left": 21,
             "top": 0,
             "width": 19,
@@ -481,7 +481,7 @@
           "settings": {
             "heading": "jackets",
             "sensorsLinkName": "jackets",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/jackets",
             "left": 40,
             "top": 0,
             "width": 20,
@@ -492,8 +492,8 @@
           "type": "link",
           "settings": {
             "heading": "cargopants",
-            "sensorsLinkName": "",
-            "link": "",
+            "sensorsLinkName": "cargopants",
+            "link": "https:\/\/www.skamx.com\/collections\/cargo-pants",
             "left": 61,
             "top": 0,
             "width": 17,
@@ -505,7 +505,7 @@
           "settings": {
             "heading": "raglantees",
             "sensorsLinkName": "raglantees",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/raglan-tees",
             "left": 80,
             "top": 0,
             "width": 18,
@@ -517,7 +517,7 @@
           "settings": {
             "heading": "bestseller",
             "sensorsLinkName": "bestseller",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/best-sellers",
             "left": 0,
             "top": 61,
             "width": 20,
@@ -529,7 +529,7 @@
           "settings": {
             "heading": "workshirt",
             "sensorsLinkName": "workshirt",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/work-shirt",
             "left": 21,
             "top": 60,
             "width": 18,
@@ -541,7 +541,7 @@
           "settings": {
             "heading": "shoes",
             "sensorsLinkName": "shoes",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/shoes-1",
             "left": 41,
             "top": 60,
             "width": 19,
@@ -553,7 +553,7 @@
           "settings": {
             "heading": "poloshirts",
             "sensorsLinkName": "poloshirts",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/cargo-shorts",
             "left": 61,
             "top": 59,
             "width": 18,
@@ -565,7 +565,7 @@
           "settings": {
             "heading": "accessories",
             "sensorsLinkName": "accessories",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/accessories-1",
             "left": 80,
             "top": 60,
             "width": 20,
@@ -607,7 +607,7 @@
           "settings": {
             "heading": "hoodies",
             "sensorsLinkName": "hoodies",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/hoodies",
             "left": 0,
             "top": 0,
             "width": 30,
@@ -619,7 +619,7 @@
           "settings": {
             "heading": "sweatshirts",
             "sensorsLinkName": "sweatshirts",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts",
             "left": 32,
             "top": 0,
             "width": 32,
@@ -631,7 +631,7 @@
           "settings": {
             "heading": "jackets",
             "sensorsLinkName": "jackets",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/jackets",
             "left": 65,
             "top": 0,
             "width": 31,
@@ -643,7 +643,7 @@
           "settings": {
             "heading": "accesories",
             "sensorsLinkName": "accesories",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/accessories-1",
             "left": 0,
             "top": 41,
             "width": 33,
@@ -655,7 +655,7 @@
           "settings": {
             "heading": "raglantees",
             "sensorsLinkName": "raglantees",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/raglan-tees",
             "left": 34,
             "top": 41,
             "width": 34,
@@ -667,7 +667,7 @@
           "settings": {
             "heading": "cargopants",
             "sensorsLinkName": "cargopants",
-            "link": "",
+            "link": "https:\/\/skamx.com\/collections\/cargo-pants",
             "left": 69,
             "top": 40,
             "width": 30,
@@ -679,7 +679,7 @@
           "settings": {
             "heading": "shoes",
             "sensorsLinkName": "shoes",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/shoes-1",
             "left": 0,
             "top": 72,
             "width": 26,
@@ -691,7 +691,7 @@
           "settings": {
             "heading": "shirts",
             "sensorsLinkName": "shirts",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/work-shirt",
             "left": 34,
             "top": 72,
             "width": 31,
@@ -703,7 +703,7 @@
           "settings": {
             "heading": "poloshirts",
             "sensorsLinkName": "poloshirts",
-            "link": "",
+            "link": "https:\/\/www.skamx.com\/collections\/cargo-shorts",
             "left": 68,
             "top": 72,
             "width": 31,
@@ -739,7 +739,7 @@
     "1651218774b7bce676": {
       "type": "transparent-collection",
       "settings": {
-        "collection": "hyfol-best-seller-1",
+        "collection": "best-sellers",
         "sensorsName": "BEST SELLERS",
         "title": "BEST SELLERS",
         "products_count": 12,
