@@ -1101,6 +1101,21 @@
         "backgroun": ""
       }
     },
+    "b77971c7-1df6-43d3-8181-bcfd45c5305b": {
+      "type": "transparent-collection",
+      "settings": {
+        "collection": "flash-sale",
+        "sensorsName": "Flash Sale",
+        "title": "Flash Sale",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": "",
+        "backgroun": ""
+      }
+    },
     "16474250424edba623": {
       "type": "linkImg",
       "blocks": {
@@ -1454,6 +1469,7 @@
     "1663934013a93a9889",
     "1663932013ff20a453",
     "2085cc4d-3d60-4b10-bdbd-21379ff22696",
+    "b77971c7-1df6-43d3-8181-bcfd45c5305b",
     "16474250424edba623",
     "0d15b382-30fc-458f-8eb4-89123997abbb",
     "1653297879b5b9419a",
