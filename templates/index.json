@@ -531,13 +531,13 @@
       "settings": {
         "collection": "new-in",
         "sensorsName": "newin",
-        "title": "",
+        "title": "NEW IN",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
         "link_title": "View all",
-        "link_url": "https:\/\/www.hyfol.com\/collections\/summer-finalsale?page=1",
+        "link_url": "https:\/\/www.skamx.com\/collections\/new-in",
         "backgroun": ""
       }
     },
@@ -927,7 +927,7 @@
         "stack_products": false,
         "show_quick_buy": false,
         "link_title": "View all",
-        "link_url": "",
+        "link_url": "https:\/\/www.skamx.com\/collections\/best-sellers",
         "backgroun": ""
       }
     },
