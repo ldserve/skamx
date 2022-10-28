@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
       }
     },
@@ -18,6 +17,7 @@
     },
     "d975fa04-d21d-4822-838d-2161cf755833": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "title": "Who is SKAMX",
         "content": "",
