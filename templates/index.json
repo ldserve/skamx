@@ -14,6 +14,7 @@
       "blocks": {
         "1664249260b7761d46-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "sensorsName": "bestseller",
             "image": "shopify:\/\/shop_images\/banner2.jpg",
@@ -81,42 +82,48 @@
           "type": "link",
           "settings": {
             "title": "BEST SELLERS",
-            "link": "https:\/\/www.skamx.com\/collections\/best-sellers"
+            "link": "https:\/\/www.skamx.com\/collections\/best-sellers",
+            "show_hot": true
           }
         },
         "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-1": {
           "type": "link",
           "settings": {
             "title": "Your link",
-            "link": ""
+            "link": "",
+            "show_hot": true
           }
         },
         "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-2": {
           "type": "link",
           "settings": {
             "title": "Your link",
-            "link": ""
+            "link": "",
+            "show_hot": true
           }
         },
         "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-3": {
           "type": "link",
           "settings": {
             "title": "Your link",
-            "link": ""
+            "link": "",
+            "show_hot": true
           }
         },
         "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-4": {
           "type": "link",
           "settings": {
             "title": "Your link",
-            "link": ""
+            "link": "",
+            "show_hot": true
           }
         },
         "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-5": {
           "type": "link",
           "settings": {
             "title": "Your link",
-            "link": ""
+            "link": "",
+            "show_hot": true
           }
         }
       },
@@ -425,63 +432,72 @@
           "type": "link",
           "settings": {
             "title": "BEST SELLERS",
-            "link": "https:\/\/www.skamx.com\/collections\/best-sellers"
+            "link": "https:\/\/www.skamx.com\/collections\/best-sellers",
+            "show_hot": true
           }
         },
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-1": {
           "type": "link",
           "settings": {
             "title": "NEW IN",
-            "link": "https:\/\/www.skamx.com\/collections\/new-in"
+            "link": "https:\/\/www.skamx.com\/collections\/new-in",
+            "show_hot": true
           }
         },
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-2": {
           "type": "link",
           "settings": {
             "title": "4 FOR $49",
-            "link": "https:\/\/www.skamx.com\/collections\/4-for-49"
+            "link": "https:\/\/www.skamx.com\/collections\/4-for-49",
+            "show_hot": true
           }
         },
         "1f0fae7d-72ac-40f6-877d-95723fb0cacb": {
           "type": "link",
           "settings": {
             "title": "HALLOWEEN",
-            "link": "https:\/\/www.skamx.com\/collections\/halloween"
+            "link": "https:\/\/www.skamx.com\/collections\/halloween",
+            "show_hot": true
           }
         },
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-3": {
           "type": "link",
           "settings": {
             "title": "CARGO PANTS",
-            "link": "https:\/\/www.skamx.com\/collections\/cargo-pants"
+            "link": "https:\/\/www.skamx.com\/collections\/cargo-pants",
+            "show_hot": true
           }
         },
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-4": {
           "type": "link",
           "settings": {
             "title": "FLASH SALE",
-            "link": "https:\/\/www.skamx.com\/collections\/flash-sale"
+            "link": "https:\/\/www.skamx.com\/collections\/flash-sale",
+            "show_hot": true
           }
         },
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-5": {
           "type": "link",
           "settings": {
             "title": "HOODIES",
-            "link": "https:\/\/www.skamx.com\/collections\/hoodies"
+            "link": "https:\/\/www.skamx.com\/collections\/hoodies",
+            "show_hot": true
           }
         },
         "ad5331e1-f888-475d-b298-91f6ee3aac78": {
           "type": "link",
           "settings": {
             "title": "SWEATSHIRTS",
-            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts"
+            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts",
+            "show_hot": true
           }
         },
         "9a537ace-0c51-4b4c-a846-9f8d791f3348": {
           "type": "link",
           "settings": {
             "title": "JACKETS",
-            "link": "https:\/\/www.skamx.com\/collections\/jackets"
+            "link": "https:\/\/www.skamx.com\/collections\/jackets",
+            "show_hot": true
           }
         }
       },
