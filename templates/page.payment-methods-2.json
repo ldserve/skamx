@@ -27,18 +27,20 @@
     },
     "d975fa04-d21d-4822-838d-2161cf755833": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
-        "title": "Pay With Credit\/Debit Card",
-        "content": "<p>The available credit card options are listed above. The credit card companies listed above are the most commonly used credit cards on this website. Do not worry if your credit card company is not listed, we encourage you to go ahead and make the purchase.Please note that SKAMX does not collect your credit\/debit card number or personal information when you make a payment. For questions regarding your transactions on our site, please consult your card-issuing bank for information.<\/p>",
+        "title": "",
+        "content": "",
         "show_image_overlay": false,
         "color": "#000000"
       }
     },
     "b9bdd21c-7783-42c9-aa51-05c0f4d21126": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
-        "title": "Pay With Paypal",
-        "content": "<p>When you place an order with Paypal you will be redirected to the PayPal payment page, where you can confirm your payment by logging in with your PayPal username and password.You may still check out even without a PayPal account. To do so, please click on \"Pay with Debit\/Credit Card\" and you’ll be redirected to a secure page where you can enter your credit card information or complete your payment safely via PayPal<\/p>",
+        "title": "",
+        "content": "",
         "show_image_overlay": false,
         "color": "#000000"
       }

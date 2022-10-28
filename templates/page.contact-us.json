@@ -55,7 +55,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "title": "",
-        "content": "<p>Welcome to SKAMX!<br\/>If you have some problems when you are visiting our website or making a purchase, please leave your massage via email.<\/p><p><strong>E-mail<\/strong>：<a href=\"mailto:contactus@hyfol.com\" target=\"_blank\">contactus@skamx.com<\/a><br\/>(Notice: Due to the time difference, your email response may be delayed. We guarantee a response within 24 hours, so please be patient.)<\/p><p><strong>Address<\/strong>：NO 81 Bao He Lu, Longgang District Room 22e, Unit 1, Building NO.4, Zhenye Luanshan Valley Shen Zhen Shi, 518172 Guangdong, China<\/p>",
+        "content": "",
         "show_image_overlay": false,
         "color": "#000000"
       }
