@@ -1103,6 +1103,7 @@
     },
     "b77971c7-1df6-43d3-8181-bcfd45c5305b": {
       "type": "transparent-collection",
+      "disabled": true,
       "settings": {
         "collection": "flash-sale",
         "sensorsName": "Flash Sale",
