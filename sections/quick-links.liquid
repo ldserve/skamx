@@ -28,7 +28,9 @@
     transition: color 0.2s ease-in-out;
     font-size:12px;
   }
-
+.quick-links.hidden-phone{
+text-align: center;
+}
   .quick-links__link:hover {
     color: var(--accent-color);
   }
@@ -52,12 +54,6 @@
   @media screen and (any-hover: hover) {
     .features--animate-zoom .quick-links__link:hover .quick-links__image-ie-fix {
       transform: scale(1.05);
-    }
-  }
-
-  @media screen and (max-width: 640px) {
-    .quick-links__link {
-      font-size: 0.8rem;
     }
   }
 
