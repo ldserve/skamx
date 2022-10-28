@@ -27,6 +27,7 @@
     },
     "d975fa04-d21d-4822-838d-2161cf755833": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "title": "",
         "content": "",
@@ -36,6 +37,7 @@
     },
     "b9bdd21c-7783-42c9-aa51-05c0f4d21126": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "title": "",
         "content": "",
