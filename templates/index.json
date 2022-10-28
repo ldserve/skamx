@@ -73,6 +73,75 @@
         "cycle_speed": 3
       }
     },
+    "7695bf3b-3147-4888-ab85-8f8e2feb06bb": {
+      "type": "quick-links",
+      "disabled": true,
+      "blocks": {
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-0": {
+          "type": "link",
+          "settings": {
+            "title": "BEST SELLERS",
+            "link": "https:\/\/www.skamx.com\/collections\/best-sellers"
+          }
+        },
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-1": {
+          "type": "link",
+          "settings": {
+            "title": "Your link",
+            "link": ""
+          }
+        },
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-2": {
+          "type": "link",
+          "settings": {
+            "title": "Your link",
+            "link": ""
+          }
+        },
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-3": {
+          "type": "link",
+          "settings": {
+            "title": "Your link",
+            "link": ""
+          }
+        },
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-4": {
+          "type": "link",
+          "settings": {
+            "title": "Your link",
+            "link": ""
+          }
+        },
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-5": {
+          "type": "link",
+          "settings": {
+            "title": "Your link",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-0",
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-1",
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-2",
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-3",
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-4",
+        "template--14882386968655__7695bf3b-3147-4888-ab85-8f8e2feb06bb-166692931988da19a9-5"
+      ],
+      "settings": {
+        "title": "Quick links",
+        "expand_items": false,
+        "show_desktop": false,
+        "link_title": "",
+        "link": "",
+        "slid_bg": "#a50102",
+        "slid_item_bg": "#ffffff",
+        "link_color": "#000000",
+        "link_radius": 18,
+        "slid_padding": 10,
+        "link_items": 4
+      }
+    },
     "1663931750c3ec4ea5": {
       "type": "linkImg",
       "disabled": true,
@@ -430,7 +499,7 @@
       "settings": {
         "title": "",
         "expand_items": true,
-        "show_desktop": false,
+        "show_desktop": true,
         "link_title": "",
         "link": "",
         "slid_bg": "#770202",
@@ -1339,6 +1408,7 @@
   "order": [
     "1663931552c2584c97",
     "166424926021cbf149",
+    "7695bf3b-3147-4888-ab85-8f8e2feb06bb",
     "1663931750c3ec4ea5",
     "1663931769bd8aed01",
     "27df4773-b50b-49da-8bc2-aa62de2f9579",
