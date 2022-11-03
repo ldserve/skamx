@@ -16582,12 +16582,20 @@ justify-content: space-between;
   color: #facf19;
   margin-top:40px;
 }
-.feature-flash .price--highlight{
-  color:#facf19 !important;
+.feature-flash .price{
+  color:#000;
 }
 .feature-flash,
 .feature-flash .product-item{
-  background: #a40001;
+  background: #c99b05;
+}
+.feature-flash .price--compare{
+  color: #000;
+  text-decoration: line-through block;
+}
+.feature-flash .product-item_text,
+.feature-flash .section__title{
+  color: #000;
 }
 .flash_sale-info{
   position: absolute;
