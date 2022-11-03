@@ -40,8 +40,8 @@
           "type": "image",
           "settings": {
             "sensorsName": "sweatshirts",
-            "image": "shopify:\/\/shop_images\/fbb33e945397d55d9e3987396bc5b1a8_cf846664-c2f1-494c-a362-b1fb23dfd225.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/4c99bc535b7d12ea75937453c1ebf827_78ef607b-91e7-4131-879c-06c5fce15cac.jpg",
+            "image": "shopify:\/\/shop_images\/skamx__02_56d7e689-bd76-407f-87d2-b8f251c7ac79.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx__02_69998aac-45af-49f7-b76a-6ff8b7e3aa8f.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -57,7 +57,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts"
+            "link": "https:\/\/www.skamx.com\/collections\/work-shirt"
           }
         }
       },
@@ -206,8 +206,8 @@
           "type": "image",
           "settings": {
             "sensorsName": "plaid",
-            "image": "shopify:\/\/shop_images\/skamx__02_3fe6be49-7281-4af1-81f4-82edf437d809.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/skamx__02_52b5426f-1285-441d-8cfb-2a0080af2fd0.jpg",
+            "image": "shopify:\/\/shop_images\/skamx__04_cf4065d6-8a45-4a8c-bb0b-5c49139411df.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx__04_2aa7b34a-d281-459c-8203-3132d56e4fdd.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -432,7 +432,7 @@
         "hidWeb": true,
         "line": false,
         "image": "shopify:\/\/shop_images\/skamx__04.jpg",
-        "tpadding": 0,
+        "tpadding": 20,
         "rpadding": 0,
         "bpadding": 0,
         "lpadding": 0
@@ -841,7 +841,7 @@
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
         "line": false,
-        "image": "shopify:\/\/shop_images\/09_6e69841e-6832-4684-9a98-aea2be2cbb55.jpg",
+        "image": "shopify:\/\/shop_images\/skamx__10_d095d4be-ed90-44e0-859c-0c1b58252d29.jpg",
         "tpadding": 0,
         "rpadding": 0,
         "bpadding": 0,
@@ -929,7 +929,7 @@
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
         "line": false,
-        "image": "shopify:\/\/shop_images\/08_41acb253-1051-4ca8-86ae-eea6be90d086.jpg",
+        "image": "shopify:\/\/shop_images\/skamx__10_5eb55682-40a2-44c0-b813-81adce3fb011.jpg",
         "tpadding": 5,
         "rpadding": 0,
         "bpadding": 0,
