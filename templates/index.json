@@ -40,8 +40,8 @@
           "type": "image",
           "settings": {
             "sensorsName": "sweatshirts",
-            "image": "shopify:\/\/shop_images\/fbb33e945397d55d9e3987396bc5b1a8_cf846664-c2f1-494c-a362-b1fb23dfd225.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/4c99bc535b7d12ea75937453c1ebf827_78ef607b-91e7-4131-879c-06c5fce15cac.jpg",
+            "image": "shopify:\/\/shop_images\/skamx__02_56d7e689-bd76-407f-87d2-b8f251c7ac79.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx__02_69998aac-45af-49f7-b76a-6ff8b7e3aa8f.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -57,7 +57,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts"
+            "link": "https:\/\/www.skamx.com\/collections\/work-shirt"
           }
         }
       },
@@ -206,8 +206,8 @@
           "type": "image",
           "settings": {
             "sensorsName": "plaid",
-            "image": "shopify:\/\/shop_images\/skamx__02_3fe6be49-7281-4af1-81f4-82edf437d809.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/skamx__02_52b5426f-1285-441d-8cfb-2a0080af2fd0.jpg",
+            "image": "shopify:\/\/shop_images\/skamx__04_cf4065d6-8a45-4a8c-bb0b-5c49139411df.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx__04_4a8cf62e-f161-4ac0-9097-341cfa9cc131.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
