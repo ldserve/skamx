@@ -196,7 +196,9 @@
         "show_quick_buy": false,
         "link_title": "View all",
         "link_url": "https:\/\/www.skamx.com\/collections\/new-in",
-        "backgroun": ""
+        "backgroun": "",
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     },
     "1650101273f11a55ef": {
@@ -432,7 +434,7 @@
         "hidWeb": true,
         "line": false,
         "image": "shopify:\/\/shop_images\/skamx__04.jpg",
-        "tpadding": 20,
+        "tpadding": 13,
         "rpadding": 0,
         "bpadding": 0,
         "lpadding": 0
@@ -587,7 +589,9 @@
         "show_quick_buy": false,
         "link_title": "View all",
         "link_url": "https:\/\/www.skamx.com\/collections\/best-sellers",
-        "backgroun": ""
+        "backgroun": "",
+        "padding_top": 13,
+        "padding_bottom": 13
       }
     },
     "166393398966f5d03e": {
@@ -658,7 +662,7 @@
         "image": "shopify:\/\/shop_images\/skamx__06.jpg",
         "tpadding": 0,
         "rpadding": 0,
-        "bpadding": 0,
+        "bpadding": 20,
         "lpadding": 0
       }
     },
@@ -757,7 +761,9 @@
         "show_quick_buy": false,
         "link_title": "View all",
         "link_url": "https:\/\/www.skamx.com\/collections\/flash-sale",
-        "backgroun": ""
+        "backgroun": "",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "b77971c7-1df6-43d3-8181-bcfd45c5305b": {
@@ -773,7 +779,9 @@
         "show_quick_buy": false,
         "link_title": "View all",
         "link_url": "",
-        "backgroun": ""
+        "backgroun": "",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "16474250424edba623": {
@@ -861,7 +869,9 @@
         "show_quick_buy": false,
         "link_title": "View all",
         "link_url": "",
-        "backgroun": ""
+        "backgroun": "",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "1653297879b5b9419a": {
