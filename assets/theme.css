@@ -16591,7 +16591,7 @@ justify-content: space-between;
 }
 .feature-flash .price--compare{
   color: #000;
-  text-decoration: line-through block !important;
+  text-decoration: line-through black !important;
 }
 .feature-flash .product-item_text,
 .feature-flash .section__title{
