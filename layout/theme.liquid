@@ -146,7 +146,7 @@
 <!-- Google Ads Remarketing Tag By Shopify_Fans -->
 
 <!-- 替换掉受众源Tag ID -->
-{% assign fa_google_ads_audience_tag_id = 319309832 %}
+{% assign fa_google_ads_audience_tag_id = 11015753172 %}
 
 <!-- 根据国家修改国家代码 -->
 {% assign fa_product_id_alpha2_code = 'US' %}
@@ -160,26 +160,17 @@
 
 <!-- 请勿修改以下内容 -->
 <!-- Global site tag (gtag.js) - Ads. -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-319309832"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11015753172"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'AW-319309832');
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEBZJC3KKB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZEBZJC3KKB');
+  gtag('config', 'AW-11015753172');
 </script>
 {% if template contains 'product' or template contains 'collection' or template contains 'index' or template contains 'search' %}
 <script>
   gtag('event', 'page_view', {
-    'send_to': 'AW-319309832',
+    'send_to': 'AW-11015753172',
     'ecomm_pagetype': '{% if template contains 'collection' %}category{% elsif template contains 'product' %}product{% elsif template contains 'search' %}searchresults{% elsif template contains 'index' %}home{% endif %}',
     {% if template contains 'product' %}
     'ecomm_prodid': 'shopify_US_{{ product.id }}_{{ product.variants.first.id }}',
