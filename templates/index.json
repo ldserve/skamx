@@ -16,8 +16,8 @@
           "type": "image",
           "settings": {
             "sensorsName": "bestseller",
-            "image": "shopify:\/\/shop_images\/sk_e12a2117-74e6-46cf-8cf0-a72b73ac907d.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/sk_e221aad4-74f9-4d80-b072-2567a8904a7c.jpg",
+            "image": "shopify:\/\/shop_images\/sk_d47f40a2-49d3-4e57-9f9e-d55f6b713cc8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/sk_b51f6ada-8a0e-4369-8e8e-2e8d834edb58.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
