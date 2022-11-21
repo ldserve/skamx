@@ -16338,8 +16338,9 @@ justify-content: space-between;
   font-size: 1.4rem;
 }
 .text-prominent{
-  font-weight:600;
+  font-weight:700;
   color:#CF0E0E;
+  font-size: 15px;
 }
 .shipping-bar-top .icon {
     font-size: 1.4rem;
