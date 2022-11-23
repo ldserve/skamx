@@ -4,7 +4,7 @@
     "autoplay_time": "3",
     "full_reduction": "<p><strong>5% OFF 2 PIECES<\/strong>,<strong>10% OFF 3 PIECES,15% OFF 4 PIECES,20% OFF 5 PIECES,25% OFF 6 PIECES<\/strong>,<strong>30% OFF 7 PIECES<\/strong><\/p>",
     "full_isOpenview": false,
-    "full_minus": "<p>ORDER 79 minus 10 CODE:SK10,ORDER 139 minus 15 CODE:SK15,ORDER 169 minus 20 CODE:SK20,ORDER 299 minus 50 CODE:SK50<\/p>",
+    "full_minus": "<p>ORDER 79 minus 10 <strong>CODE:SK10<\/strong>,ORDER 139 minus 15 <strong>CODE:SK15<\/strong>,ORDER 169 minus 20 <strong>CODE:SK20<\/strong>,ORDER 299 minus 50 <strong>CODE:SK50<\/strong><\/p>",
     "CustomPromotionUrl": "<p>Choose 3 for $59=https:\/\/www.skamx.com\/collections\/get-any-3-for-59,Buy 4 Get EXTRA 20% Off=https:\/\/www.skamx.com\/collections\/buy-more-save-more,Choose 4 for $49=https:\/\/www.skamx.com\/collections\/4-for-49,Buy 1 get 2nd 50% OFF=https:\/\/www.skamx.com\/collections\/buy-1-get-2nd-50-off<\/p>",
     "showFlake": false,
     "show_car_bar": false,
@@ -17,7 +17,7 @@
     "gradient_color_start": "#ebc918",
     "gradient_color_end": "#ee362a",
     "tag_layout": "label",
-    "activity_img_tag": "Buy 4 Get EXTRA 20% Off=https:\/\/cdn.shopifycdn.net\/s\/files\/1\/0595\/0691\/7535\/files\/tag3.png?v=1665748921,Choose 3 for $59=https:\/\/cdn.shopify.com\/s\/files\/1\/0595\/0691\/7535\/files\/5.png?v=1663667594,Buy 1 get 2nd 50% OFF=https:\/\/cdn.shopify.com\/s\/files\/1\/0595\/0691\/7535\/files\/4.png?v=1663667594,Choose 4 for $49=https:\/\/cdn.shopify.com\/s\/files\/1\/0595\/0691\/7535\/files\/4for49.png?v=1666348729",
+    "activity_img_tag": "Buy 4 Get EXTRA 20% Off=https:\/\/cdn.shopify.com\/s\/files\/1\/0559\/6237\/0127\/files\/skamx_buy_more_save_more_icon_7dea64a3-82b4-4ef3-9e07-fda9ae5a4c98.png?v=1668668770,Choose 3 for $59=https:\/\/cdn.shopify.com\/s\/files\/1\/0559\/6237\/0127\/files\/skamx_3_for_59_icon_02ba8aa2-60e6-4fa4-b61b-97944f95039a.png?v=1668668770,Buy 1 get 2nd 50% OFF=https:\/\/cdn.shopify.com\/s\/files\/1\/0559\/6237\/0127\/files\/skamx_2nd_50_off_icon_c63f0941-3bdf-42c8-a11a-4a93e89c2c1e.png?v=1668668769,Choose 4 for $49=https:\/\/cdn.shopify.com\/s\/files\/1\/0559\/6237\/0127\/files\/skamx_4_for_49_icon_379c7d9c-fb6a-4e51-b3c9-9d24c88469d2.png?v=1668668770,Flash Sale=https:\/\/cdn.shopify.com\/s\/files\/1\/0559\/6237\/0127\/files\/skamx_icon_3913f69f-d0fe-4625-ba00-739b064dbd47.png?v=1668668770",
     "brazil_house_number": true,
     "heading_color": "#1b1b1b",
     "text_color": "#212121",
@@ -89,7 +89,7 @@
     "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
     "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
     "checkout_accent_color": "#b82928",
-    "checkout_button_color": "#cb1836",
+    "checkout_button_color": "#000000",
     "checkout_error_color": "#ff0000",
     "sections": {
       "header": {

@@ -16338,8 +16338,9 @@ justify-content: space-between;
   font-size: 1.4rem;
 }
 .text-prominent{
-  font-weight:600;
+  font-weight:700;
   color:#CF0E0E;
+  font-size: 15px;
 }
 .shipping-bar-top .icon {
     font-size: 1.4rem;
@@ -16591,7 +16592,7 @@ justify-content: space-between;
 }
 .feature-flash .price--compare{
   color: #000;
-  text-decoration: line-through block;
+  text-decoration: line-through black !important;
 }
 .feature-flash .product-item_text,
 .feature-flash .section__title{
@@ -16689,4 +16690,11 @@ text-align: center;
   .flash-sale_link {
     font-size: 0.9rem;
   }
+}
+
+.mini-cart__inner .collocation .price--highlight{
+font-size: 19px;
+}
+.mini-cart__inner .collocation .price--compare{
+  font-size: 15px;
 }

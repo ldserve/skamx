@@ -18,13 +18,6 @@
         {% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}
       {%- endif -%}
     {%- endcapture -%}
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-N6T4DZD');</script>
-  <!-- End Google Tag Manager -->
   
 
     <title>{{- seo_page_title -}}</title>
@@ -146,7 +139,7 @@
 <!-- Google Ads Remarketing Tag By Shopify_Fans -->
 
 <!-- 替换掉受众源Tag ID -->
-{% assign fa_google_ads_audience_tag_id = 319309832 %}
+{% assign fa_google_ads_audience_tag_id = 11015753172 %}
 
 <!-- 根据国家修改国家代码 -->
 {% assign fa_product_id_alpha2_code = 'US' %}
@@ -156,57 +149,21 @@
 <!-- 根据上文步骤4， 修改product_id(default / product_id / sku) -->
 {% assign fa_product_id = 'default' %}
 
-<!-- Pinterest 网站声明 -->
-<meta name="p:domain_verify" content="cbb185202f36b626478a123f1f821626"/>
-<!-- Pinterest Tag -->
-<script>
-!function(e){if(!window.pintrk){window.pintrk = function () {
-window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
-  n=window.pintrk;n.queue=[],n.version="3.0";var
-  t=document.createElement("script");t.async=!0,t.src=e;var
-  r=document.getElementsByTagName("script")[0];
-  r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
-pintrk('load', '2614456934829', {em: '<user_email_address>'});
-pintrk('page');
-</script>
-<noscript>
-<img height="1" width="1" style="display:none;" alt=""
-  src="https://ct.pinterest.com/v3/?event=init&tid=2614456934829&pd[em]=<hashed_email_address>&noscript=1" />
-</noscript>
-<!-- pinterest 页面访问事件 -->
-<script>
-pintrk('track', 'pagevisit', {
-property: 'Athleta',
-line_items: [
-{product_id: "{{product.selected_or_first_available_variant.id}}",
- product_category: "{{product.type}}"
-}
-]
-});
-</script>
-<!-- end Pinterest Tag -->
-<!-- 请勿修改以下内容 -->
-<!-- Global site tag (gtag.js) - Ads. -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-319309832"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-319309832');
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEBZJC3KKB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-ZEBZJC3KKB');
+
+<!-- 请勿修改以下内容 --> 
+<!-- Global site tag (gtag.js) - Ads. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11015753172"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11015753172');
 </script>
 {% if template contains 'product' or template contains 'collection' or template contains 'index' or template contains 'search' %}
 <script>
   gtag('event', 'page_view', {
-    'send_to': 'AW-319309832',
+    'send_to': 'AW-11015753172',
     'ecomm_pagetype': '{% if template contains 'collection' %}category{% elsif template contains 'product' %}product{% elsif template contains 'search' %}searchresults{% elsif template contains 'index' %}home{% endif %}',
     {% if template contains 'product' %}
     'ecomm_prodid': 'shopify_US_{{ product.id }}_{{ product.variants.first.id }}',
@@ -334,10 +291,6 @@ line_items: [
 	</head>
 
   <body class="warehouse--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif%} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6T4DZD"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   
     {%- comment -%}Common SVG definitions that we are re-using in several places{%- endcomment -%}
     <svg class="visually-hidden">
@@ -374,52 +327,12 @@ line_items: [
       <li id="a11y-new-window-message">{{ 'general.accessibility.new_window' | t }}</li>
     </ul>
 
-<!-- **BEGIN** Hextom USB Integration // Main Include - DO NOT MODIFY -->
-    {% render 'hextom_usb_main', product: product, customer: customer %}
-    <!-- **END** Hextom USB Integration // Main Include - DO NOT MODIFY -->
 
-<!-- **BEGIN** Hextom CTB Integration // Main Include - DO NOT MODIFY -->
-    {% render 'hextom_ctb_main', product: product, customer: customer %}
-    <!-- **END** Hextom CTB Integration // Main Include - DO NOT MODIFY -->
-<!-- **BEGIN** Hextom FSB Integration // Main Include - DO NOT MODIFY -->
-    {% render 'hextom_fsb_main', product: product, customer: customer %}
-    <!-- **END** Hextom FSB Integration // Main Include - DO NOT MODIFY -->
-<!-- **BEGIN** Hextom TMS Integration // Main Include - DO NOT MODIFY -->
-    <script>
-      var hextom_tms = {
-        availableLocalesById: {'fr': {'name': 'Français', 'url': 'https://www.hyfol.com/fr'}, 'de': {'name': 'Deutsch', 'url': 'https://www.hyfol.com/de'}, 'it': {'name': 'Italiano', 'url': 'https://www.hyfol.com/it'}, 'ru': {'name': 'Русский Язык', 'url': 'https://www.hyfol.com/ru'}, 'es': {'name': 'Español', 'url': 'https://www.hyfol.com/es'}, 'en': {'name': 'English', 'url': 'https://www.hyfol.com'}},
-        availableLocales: ['fr', 'de', 'it', 'ru', 'es', 'en'],
-        primaryLocaleById: {'en': 'English'},
-        merchantSelectedLocale: "shop_base",
-        hasFlag: "yes",
-        selectorFlagMap: {'fr': 'fr', 'de': 'de', 'it': 'it', 'ru': 'ru', 'es': 'es', 'en': 'en'},
-        displayType: "language_name",
-        fontColor: "#000000",
-        backgroundColor: "#FFFFFF",
-        backgroundOpacity: "1.0",
-        buttonFontColor: "#FFFFFF",
-        buttonBackgroundColor: "#000000",
-        selectorType: "language",
-        selectorStyle: "dropdown",
-        hasFlagRegion: "",
-        defaultRegion: "",
-        primaryRegionById: {},
-        availableRegionsByCode: {},
-        availableRegions: [],
-        primaryDomain: "https://www.hyfol.com",
-        popupEnable: false,
-        popupTextColor: "#000000",
-        popupBgColor: "#FFFFFF",
-        popupBtnTextColor: "#FFFFFF",
-        popupBtnBgColor: "#000000",
-      };
-    </script>
     <script>
       /* 从checkout主题返回theme时候，初始化checkoutStep */
       sessionStorage.setItem('checkoutStep','Checkout');
     </script>
-    <script src="{{ 'tms.js' | asset_url }}" defer="defer"></script>
-    <!-- **END** Hextom TMS Integration // Main Include - DO NOT MODIFY -->
+
 
  {%- render 'shenceTrack' -%}
  {%- render 'shenceTrackBanner' -%}

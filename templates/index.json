@@ -16,8 +16,8 @@
           "type": "image",
           "settings": {
             "sensorsName": "bestseller",
-            "image": "shopify:\/\/shop_images\/83838723783f6d0934298c68ca61eced.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/0ed547cfa27a5299fb6c1182ea3555c8.jpg",
+            "image": "shopify:\/\/shop_images\/sk_d47f40a2-49d3-4e57-9f9e-d55f6b713cc8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/sk_b51f6ada-8a0e-4369-8e8e-2e8d834edb58.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -40,8 +40,8 @@
           "type": "image",
           "settings": {
             "sensorsName": "sweatshirts",
-            "image": "shopify:\/\/shop_images\/fbb33e945397d55d9e3987396bc5b1a8_cf846664-c2f1-494c-a362-b1fb23dfd225.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/4c99bc535b7d12ea75937453c1ebf827_78ef607b-91e7-4131-879c-06c5fce15cac.jpg",
+            "image": "shopify:\/\/shop_images\/skamx__02_56d7e689-bd76-407f-87d2-b8f251c7ac79.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx__02_4d8bd7b7-a597-49aa-a062-4172447ef83f.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -57,7 +57,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts"
+            "link": "https:\/\/www.skamx.com\/collections\/work-shirt"
           }
         }
       },
@@ -196,7 +196,9 @@
         "show_quick_buy": false,
         "link_title": "View all",
         "link_url": "https:\/\/www.skamx.com\/collections\/new-in",
-        "backgroun": ""
+        "backgroun": "",
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     },
     "1650101273f11a55ef": {
@@ -206,8 +208,8 @@
           "type": "image",
           "settings": {
             "sensorsName": "plaid",
-            "image": "shopify:\/\/shop_images\/skamx__02_3fe6be49-7281-4af1-81f4-82edf437d809.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/skamx__02_52b5426f-1285-441d-8cfb-2a0080af2fd0.jpg",
+            "image": "shopify:\/\/shop_images\/skamx__04_cf4065d6-8a45-4a8c-bb0b-5c49139411df.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx__04_2aa7b34a-d281-459c-8203-3132d56e4fdd.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -432,7 +434,7 @@
         "hidWeb": true,
         "line": false,
         "image": "shopify:\/\/shop_images\/skamx__04.jpg",
-        "tpadding": 0,
+        "tpadding": 13,
         "rpadding": 0,
         "bpadding": 0,
         "lpadding": 0
@@ -587,7 +589,9 @@
         "show_quick_buy": false,
         "link_title": "View all",
         "link_url": "https:\/\/www.skamx.com\/collections\/best-sellers",
-        "backgroun": ""
+        "backgroun": "",
+        "padding_top": 13,
+        "padding_bottom": 13
       }
     },
     "166393398966f5d03e": {
@@ -658,7 +662,7 @@
         "image": "shopify:\/\/shop_images\/skamx__06.jpg",
         "tpadding": 0,
         "rpadding": 0,
-        "bpadding": 0,
+        "bpadding": 20,
         "lpadding": 0
       }
     },
@@ -757,7 +761,9 @@
         "show_quick_buy": false,
         "link_title": "View all",
         "link_url": "https:\/\/www.skamx.com\/collections\/flash-sale",
-        "backgroun": ""
+        "backgroun": "",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "b77971c7-1df6-43d3-8181-bcfd45c5305b": {
@@ -773,7 +779,9 @@
         "show_quick_buy": false,
         "link_title": "View all",
         "link_url": "",
-        "backgroun": ""
+        "backgroun": "",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "16474250424edba623": {
@@ -841,7 +849,7 @@
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
         "line": false,
-        "image": "shopify:\/\/shop_images\/09_6e69841e-6832-4684-9a98-aea2be2cbb55.jpg",
+        "image": "shopify:\/\/shop_images\/skamx__10_d095d4be-ed90-44e0-859c-0c1b58252d29.jpg",
         "tpadding": 0,
         "rpadding": 0,
         "bpadding": 0,
@@ -861,7 +869,9 @@
         "show_quick_buy": false,
         "link_title": "View all",
         "link_url": "",
-        "backgroun": ""
+        "backgroun": "",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "1653297879b5b9419a": {
@@ -929,7 +939,7 @@
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
         "line": false,
-        "image": "shopify:\/\/shop_images\/08_41acb253-1051-4ca8-86ae-eea6be90d086.jpg",
+        "image": "shopify:\/\/shop_images\/skamx__10_5eb55682-40a2-44c0-b813-81adce3fb011.jpg",
         "tpadding": 5,
         "rpadding": 0,
         "bpadding": 0,

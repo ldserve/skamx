@@ -14,6 +14,9 @@
 		{%- assign text = tag | split: '-' -%}
 		{%- assign custom_tag = text[1] | strip -%}
 		{%- break -%}
+		{%- elsif tag == "Flash Sale" -%}
+		{%- assign custom_tag = tag -%}
+		{%- break -%}
 	{%- endif -%}
 {%- endfor -%}
 
@@ -114,7 +117,7 @@
 			</a>
 			{%- endif -%}
 			
-		{%- elsif  show_flash  -%}
+		{%- elsif  show_flash == "none" -%}
 			{%- comment -%}产品列表 闪购图标{%- endcomment -%}
 			<div class="product-item__label_sale product-item__label-list">
 				{%- if product.price < product.compare_at_price -%}
