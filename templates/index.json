@@ -37,6 +37,30 @@
             "link": "https:\/\/www.skamx.com\/collections\/best-sellers"
           }
         },
+        "9ebef176-2769-4f7e-903d-9120a54302a2": {
+          "type": "image",
+          "settings": {
+            "sensorsName": "Sweatshirts",
+            "image": "shopify:\/\/shop_images\/banner_a63f2381-1de6-4292-953b-2b5a90f9b191.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx_banner.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_text_font": "helvetica_n4",
+            "heading_text_font_size": 20,
+            "heading_text_color": "#ffffff",
+            "content": "",
+            "content_text_font": "helvetica_n4",
+            "content_text_font_size": 12,
+            "content_text_color": "#ffffff",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.skamx.com\/collections\/hoodies"
+          }
+        },
         "1664249260b7761d46-1": {
           "type": "image",
           "settings": {
@@ -60,36 +84,12 @@
             "button_text": "",
             "link": "https:\/\/www.skamx.com\/collections\/work-shirt"
           }
-        },
-        "9ebef176-2769-4f7e-903d-9120a54302a2": {
-          "type": "image",
-          "settings": {
-            "sensorsName": "Sweatshirts",
-            "image": "shopify:\/\/shop_images\/skamx.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/skamx_9a90f303-6873-4316-96f0-4eb7a10725c5.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "heading_text_font": "helvetica_n4",
-            "heading_text_font_size": 20,
-            "heading_text_color": "#ffffff",
-            "content": "",
-            "content_text_font": "helvetica_n4",
-            "content_text_font_size": 12,
-            "content_text_color": "#ffffff",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts"
-          }
         }
       },
       "block_order": [
         "1664249260b7761d46-0",
-        "1664249260b7761d46-1",
-        "9ebef176-2769-4f7e-903d-9120a54302a2"
+        "9ebef176-2769-4f7e-903d-9120a54302a2",
+        "1664249260b7761d46-1"
       ],
       "settings": {
         "edge_to_edge": true,
