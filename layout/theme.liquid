@@ -160,6 +160,17 @@
   gtag('js', new Date());
   gtag('config', 'AW-11015753172');
 </script>
+  {% if first_time_accessed %}
+<!-- Event snippet for RL-Cart conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11015753172/DhtnCPnwiYMYENSb3IQp',
+      'transaction_id': ''
+  });
+</script>
+{% section 'cart-template' %}
+{% section 'recently-viewed-products' %}
+{% endif %}
 {% if template contains 'product' or template contains 'collection' or template contains 'index' or template contains 'search' %}
 <script>
   gtag('event', 'page_view', {

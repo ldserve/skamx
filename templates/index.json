@@ -37,6 +37,30 @@
             "link": "https:\/\/www.skamx.com\/collections\/best-sellers"
           }
         },
+        "9ebef176-2769-4f7e-903d-9120a54302a2": {
+          "type": "image",
+          "settings": {
+            "sensorsName": "Sweatshirts",
+            "image": "shopify:\/\/shop_images\/banner_a63f2381-1de6-4292-953b-2b5a90f9b191.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx_banner.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_text_font": "helvetica_n4",
+            "heading_text_font_size": 20,
+            "heading_text_color": "#ffffff",
+            "content": "",
+            "content_text_font": "helvetica_n4",
+            "content_text_font_size": 12,
+            "content_text_color": "#ffffff",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.skamx.com\/collections\/hoodies"
+          }
+        },
         "1664249260b7761d46-1": {
           "type": "image",
           "settings": {
@@ -60,36 +84,12 @@
             "button_text": "",
             "link": "https:\/\/www.skamx.com\/collections\/work-shirt"
           }
-        },
-        "9ebef176-2769-4f7e-903d-9120a54302a2": {
-          "type": "image",
-          "settings": {
-            "sensorsName": "Sweatshirts",
-            "image": "shopify:\/\/shop_images\/skamx.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/skamx_9a90f303-6873-4316-96f0-4eb7a10725c5.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "heading_text_font": "helvetica_n4",
-            "heading_text_font_size": 20,
-            "heading_text_color": "#ffffff",
-            "content": "",
-            "content_text_font": "helvetica_n4",
-            "content_text_font_size": 12,
-            "content_text_color": "#ffffff",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts"
-          }
         }
       },
       "block_order": [
         "1664249260b7761d46-0",
-        "1664249260b7761d46-1",
-        "9ebef176-2769-4f7e-903d-9120a54302a2"
+        "9ebef176-2769-4f7e-903d-9120a54302a2",
+        "1664249260b7761d46-1"
       ],
       "settings": {
         "edge_to_edge": true,
@@ -662,9 +662,9 @@
         "f2753cdf-68c9-486c-a6bf-60ad400477de": {
           "type": "link",
           "settings": {
-            "heading": "for4",
-            "sensorsLinkName": "for4",
-            "link": "https:\/\/www.skamx.com\/collections\/4-for-49",
+            "heading": "for75",
+            "sensorsLinkName": "for75",
+            "link": "https:\/\/www.skamx.com\/collections\/hoodie-3-for-75",
             "left": 76,
             "top": 0,
             "width": 25,
@@ -685,7 +685,7 @@
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
         "line": false,
-        "image": "shopify:\/\/shop_images\/skamx__06.jpg",
+        "image": "shopify:\/\/shop_images\/skamx_1ed2e884-fd88-4e02-8ae4-bda4911a18bd.jpg",
         "tpadding": 0,
         "rpadding": 0,
         "bpadding": 20,
@@ -722,9 +722,9 @@
         "06c7d764-cfca-4518-98f7-343f20b44cc2": {
           "type": "link",
           "settings": {
-            "heading": "for4",
-            "sensorsLinkName": "for4",
-            "link": "https:\/\/www.skamx.com\/collections\/4-for-49",
+            "heading": "for3",
+            "sensorsLinkName": "for3",
+            "link": "https:\/\/www.skamx.com\/collections\/get-any-3-for-59",
             "left": 0,
             "top": 54,
             "width": 44,
@@ -734,9 +734,9 @@
         "474fc5c8-b902-45c5-a887-4c605d305f17": {
           "type": "link",
           "settings": {
-            "heading": "for3",
-            "sensorsLinkName": "for3",
-            "link": "https:\/\/www.skamx.com\/collections\/get-any-3-for-59",
+            "heading": "for75",
+            "sensorsLinkName": "for75",
+            "link": "https:\/\/www.skamx.com\/collections\/hoodie-3-for-75",
             "left": 50,
             "top": 48,
             "width": 57,
@@ -757,7 +757,7 @@
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
         "line": false,
-        "image": "shopify:\/\/shop_images\/skamx__06_5431d94a-e96f-4205-8ad4-45b4bc32b8b5.jpg",
+        "image": "shopify:\/\/shop_images\/skamx_3ea684ee-76ce-457f-aece-a068319988fc.jpg",
         "tpadding": 0,
         "rpadding": 0,
         "bpadding": 0,
