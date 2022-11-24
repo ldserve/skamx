@@ -556,7 +556,7 @@
                     newData.commodity_size = sizeChecked ? sizeChecked.value : ""
                     if (!colorChecked || !sizeChecked) return newData
                     newData.commodity_skuid = currentSku ? currentSku : ''
-                    gtag("event", "conversion", { "send_to": "AW-319309832/2I9aCIf48eYCEIiQoZgB", "transaction_id": "" });
+                    gtag('event', 'conversion', {'send_to': 'AW-11015753172/DhtnCPnwiYMYENSb3IQp'});
                     pintrk("track", "addtocart", { value: data.current_price, order_quantity: 1, currency: "USD", line_items: [{ product_id: id, product_category: data.commodity_type }] });
                     return newData
                 },
