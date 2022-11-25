@@ -38,11 +38,10 @@
         },
         "9ebef176-2769-4f7e-903d-9120a54302a2": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "sensorsName": "Sweatshirts",
-            "image": "shopify:\/\/shop_images\/banner_a63f2381-1de6-4292-953b-2b5a90f9b191.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/skamx_banner.jpg",
+            "image": "shopify:\/\/shop_images\/skamx_pc_banner_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx_banner1.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -58,11 +57,12 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.skamx.com\/collections\/hoodies"
+            "link": "shopify:\/\/collections\/flash-sale"
           }
         },
         "1664249260b7761d46-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "sensorsName": "sweatshirts",
             "image": "shopify:\/\/shop_images\/skamx__02_56d7e689-bd76-407f-87d2-b8f251c7ac79.jpg",
