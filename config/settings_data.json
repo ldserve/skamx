@@ -252,19 +252,20 @@
           "2caf8430-4f46-405e-b569-d4957d1bde1c": {
             "type": "announcement",
             "settings": {
-              "text": "FREE STANDARD SHIPPING ON ORDERS OVER $69",
+              "text": "Free Shipping On Orders Over $69",
               "link": ""
             }
           },
           "933aa31d-00c1-44a5-8b00-66ceefe87acd": {
             "type": "announcement",
             "settings": {
-              "text": "ALL TEES GET 3 FOR $59",
+              "text": "Black Friday Extra 30% Off Code: SK30",
               "link": ""
             }
           },
           "ebf3f4ad-f1dc-464f-9e19-71c2a7fc4fc3": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Winter Early Sale Buy 4 Get 20% Off",
               "link": ""

@@ -14,11 +14,10 @@
       "blocks": {
         "1664249260b7761d46-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "sensorsName": "bestseller",
-            "image": "shopify:\/\/shop_images\/sk_d47f40a2-49d3-4e57-9f9e-d55f6b713cc8.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/sk_b51f6ada-8a0e-4369-8e8e-2e8d834edb58.jpg",
+            "image": "shopify:\/\/shop_images\/skamx_pc_banner.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx_banner_45a01944-f642-46c4-93f8-8bdb3a3eda02.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -39,6 +38,7 @@
         },
         "9ebef176-2769-4f7e-903d-9120a54302a2": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "sensorsName": "Sweatshirts",
             "image": "shopify:\/\/shop_images\/banner_a63f2381-1de6-4292-953b-2b5a90f9b191.jpg",
