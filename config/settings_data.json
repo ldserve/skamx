@@ -258,6 +258,7 @@
           },
           "933aa31d-00c1-44a5-8b00-66ceefe87acd": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Black Friday Extra 30% Off Code: SK30",
               "link": ""
