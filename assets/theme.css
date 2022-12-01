@@ -1321,11 +1321,12 @@ position: absolute;
 }
 .product-collocation[data-layout] .exhibition-left{
   /* width: 30%; */
-  width: 7.6rem;
+  width: 5.6rem;
 }
 .collocation-pro{
   font-weight: 400;
-  line-height: 1.4rem;
+  font-size: 16px;
+  line-height: 20px;
   text-overflow: -o-ellipsis-lastline;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -13501,7 +13502,8 @@ shopify-payment-terms {
 
 @media screen and (max-width: 640px) {
   .announcement-bar {
-    height: 1.5rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
   }
 
   .announcement-bar__inner {
@@ -15988,7 +15990,14 @@ justify-content: space-between;
 .exhibition-right_price{
   justify-content: space-between;
   border-bottom: 1px solid #bbb7b7 ;
-   align-items: center;
+  align-items: center;
+  line-height: 16px;
+}
+.exhibition-right_price .price{
+  font-size: 18px;
+} 
+.exhibition-right_price .price--compare{
+font-size: 16px;
 }
 .block-swatch-box{
   /* margin-right: 8px; */

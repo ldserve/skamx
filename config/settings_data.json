@@ -258,6 +258,7 @@
           },
           "933aa31d-00c1-44a5-8b00-66ceefe87acd": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Black Friday Extra 30% Off Code: SK30",
               "link": ""
@@ -278,6 +279,13 @@
               "text": "BUY CARGO SHORTS GET FREE BELT",
               "link": "shopify:\/\/collections\/fathers-day1"
             }
+          },
+          "bbd1e62a-1c66-4200-b53b-ab130ff93f99": {
+            "type": "announcement",
+            "settings": {
+              "text": "EXTRA 20% OFF ON ORDERS OVER $99     ✨Code: SA20",
+              "link": ""
+            }
           }
         },
         "block_order": [
@@ -285,7 +293,8 @@
           "2caf8430-4f46-405e-b569-d4957d1bde1c",
           "933aa31d-00c1-44a5-8b00-66ceefe87acd",
           "ebf3f4ad-f1dc-464f-9e19-71c2a7fc4fc3",
-          "ccab5dcb-d3a7-4a2e-9c0e-6699c88abf2e"
+          "ccab5dcb-d3a7-4a2e-9c0e-6699c88abf2e",
+          "bbd1e62a-1c66-4200-b53b-ab130ff93f99"
         ],
         "settings": {
           "show_announcement": true,
