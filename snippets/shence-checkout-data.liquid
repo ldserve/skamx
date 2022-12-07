@@ -29,8 +29,9 @@
         cartType: {{ settings.cart_type | json }},
         customer_id: "{{ customer.id }}"
     };
-  window.pageType={{ request.page_type | json }}
+  window.pageType={{ request.page_type | default:"checkout" | json }}
 </script>
+
 <div class="sc-checkout-data"
      data-scenable="1"
      data-sctype="Checkout"
@@ -456,10 +457,10 @@
                 container: ".sc-checkout-data",
                 type: "Checkout",
                 event: 'sync',
-                customData: function (container) {
+                customData: function (container,el) {
                     let newData = Object.assign(orderHandleSendData('order'))
-                    if(sessionStorage.getItem('sensorsCheckout')){
-                        Object.assign(newData,JSON.parse(sessionStorage.getItem('sensorsCheckout')))
+                    if (sessionStorage.getItem('sensorsCheckout')) {
+                        Object.assign(newData, JSON.parse(sessionStorage.getItem('sensorsCheckout')))
                     }
                     return newData
                 }
@@ -472,9 +473,35 @@
                 customData: function (container, el) {
                     let scdata = JSON.parse(el.getAttribute('data-scdata'))
                     let newData = orderHandleSendData('detailOrder', scdata)
-                    if(sessionStorage.getItem('sensorsCheckout')){
-                        Object.assign(newData,JSON.parse(sessionStorage.getItem('sensorsCheckout')))
+                    if (sessionStorage.getItem('sensorsCheckout')) {
+                        Object.assign(newData, JSON.parse(sessionStorage.getItem('sensorsCheckout')))
                     }
+    
+                    gtag("event", "begin_checkout", {
+                        currency: newData.currency_unit,
+                        value: 7.01,
+                        coupon: newData.coupon_name,
+                        items: [
+                            {
+                                item_id: newData.commodity_spuid,
+                                item_name: newData.commodity_name,
+                                affiliation: "shopify",
+                                coupon: newData.coupon_code,
+                                currency: newData.currency_unit,
+                                discount: newData.bonus_amount/100,
+                                index: 0,
+                                item_brand: "skamx",
+                                item_category: newData.first_commodity,
+                                item_category2: newData.second_commodity,
+                                item_category3: newData.third_commodity,
+                                item_category4: "",
+                                item_category5: "",
+                                item_variant: newData.commodity_color,
+                                price: newData.order_actual_amount/100,
+                                quantity: newData.order_commodity_quantity
+                            }
+                        ]
+                    });
                     return newData
                 },
                 callback: () => {
@@ -483,6 +510,7 @@
             })
 
         }
+        
         function handeleInfomationBtn (){
             try {
                 let continueBtn = document.querySelector('#continue_button')

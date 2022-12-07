@@ -285,6 +285,21 @@ window.getFormatDate = function getFormatDate() {
           i = i.toLocaleUpperCase()
         })
       }
+      // console.log('scType',sendType, data)
+      if(['RemoveFromCart','AddToCart','CommodityDetail'].indexOf(sendType)!=-1 &&pageType!="checkout"){
+        let type=''
+        sendType=="CommodityDetail"&&(type="view_item")
+        sendType=="RemoveFromCart"&&(type="remove_from_cart")
+        sendType=="AddToCart"&&(type="add_to_cart")
+        gtag('event', type, {
+          currency: "USD", value:7.01, items: [{
+             item_id: data.commodity_spuid, item_name: data.commodity_name, affiliation: "shopify",
+             coupon: "", currency: "USD", discount: data.bonus_amount, index: 0, item_brand: "skamx", item_category: data.first_commodity,
+             item_category2: data.second_commodity, item_category3: data.third_commodity, item_category4: "", item_category5: "", 
+              item_variant: data.commodity_color, price: data.current_price,quantity:data.commodity_quantity
+          }]
+       })
+      }
       sensors.quick('isReady', function () {
         debug && console.info("准备", sendType, data);
         sensors.track(sendType, data);

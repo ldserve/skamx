@@ -39,7 +39,6 @@
          newData.commodity_size=sizeChecked?sizeChecked.querySelector('.product-form__selected-value').innerText : ""
          newData.commodity_skuid=sku
          gtag('event', 'conversion', {'send_to': 'AW-11015753172/DhtnCPnwiYMYENSb3IQp'});
-         pintrk("track","addtocart",{value:data.current_price,order_quantity:1,currency:"USD",line_items:[{product_id:id,product_category:data.commodity_type}]});
         return newData  /*返回值必须为{}*/
       },
       callback:function(){
@@ -225,7 +224,6 @@
          newData.commodity_skuid=sku
          newData.site_category = getSiteCategory()
          gtag('event', 'conversion', {'send_to': 'AW-11015753172/DhtnCPnwiYMYENSb3IQp'});
-         pintrk("track","addtocart",{value:data.current_price,order_quantity:1,currency:"USD",line_items:[{product_id:id,product_category:data.commodity_type}]});
         return newData  /*返回值必须为{}*/
       },
       callback:function(){
@@ -262,7 +260,6 @@
          newData.commodity_tag=data.commodity_tag.split(',')
          newData.site_category = getSiteCategory()
          gtag('event', 'conversion', {'send_to': 'AW-11015753172/DhtnCPnwiYMYENSb3IQp'});
-         pintrk("track","addtocart",{value:data.current_price,order_quantity:1,currency:"USD",line_items:[{product_id:id,product_category:data.commodity_type}]});
          return newData  /*返回值必须为{}*/
       },
       callback:function(){
@@ -358,7 +355,6 @@
          newData.commodity_tag=data.commodity_tag.split(',')
          newData.site_category = getSiteCategory()
          gtag('event', 'conversion', {'send_to': 'AW-11015753172/DhtnCPnwiYMYENSb3IQp'});
-         pintrk("track","addtocart",{value:data.current_price,order_quantity:1,currency:"USD",line_items:[{product_id:id,product_category:data.commodity_type}]});
          return newData  /*返回值必须为{}*/
       },
       callback:function(){
@@ -573,7 +569,6 @@
                      const sku = purchase.querySelector('input[data-sku]').getAttribute('data-sku')
                      newData.commodity_skuid = sku ? sku : "";
                      gtag('event', 'conversion', {'send_to': 'AW-11015753172/DhtnCPnwiYMYENSb3IQp'});
-                     pintrk("track", "addtocart", { value: data.current_price, order_quantity: 1, currency: "USD", line_items: [{ product_id: id ,product_category:data.commodity_type}] });
                      return newData
                   },
                   callback: function () {
