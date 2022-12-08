@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
     <meta name="referrer" content="origin">
 	{% render 'dataTrack.liquid' %}
+
  <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -13,6 +14,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-N6T4DZD');</script>
 <!-- End Google Tag Manager -->
+
+
     <!-- Pinterest 网站声明 -->
 <meta name="p:domain_verify" content="cbb185202f36b626478a123f1f821626"/>
 <!-- Pinterest Tag -->
@@ -43,11 +46,6 @@ property: 'Athleta'
     {{ checkout_stylesheets }}
     {{ checkout_scripts }}
     <script src="{{ 'shencesdk.js' | asset_url }}"></script>
-{%- comment -%}
-<!-- PLM -->
-<script src="https://www.paypal.com/sdk/js?client-id=AaoMEq4pF7_1JBTPdRANwtH_MdqLAgscO0ivoPn1JlNmpA3YdqEuxxUY2gUg9vszi8RWrvPHSoTV8tjQ&components=messages,buttons" data-namespace="paypal_sdk" async></script>
-<!-- PLM END -->
-{%- endcomment -%}
 
   </head>
   <body>
