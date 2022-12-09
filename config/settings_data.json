@@ -166,9 +166,9 @@
         ],
         "settings": {
           "enable_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/20221026-175232.png",
-          "logo_max_width": 160,
-          "mobile_logo_max_width": 120,
+          "logo": "shopify:\/\/shop_images\/skamxlogo.png",
+          "logo_max_width": 190,
+          "mobile_logo_max_width": 160,
           "show_locale_selector": false,
           "show_currency_selector": false,
           "navigation_menu": "",
