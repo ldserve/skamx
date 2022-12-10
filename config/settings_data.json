@@ -195,16 +195,16 @@
               "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
             }
           },
-          "244b3e68-04f8-41ec-acf1-bff4665fe23c": {
-            "type": "links",
-            "settings": {
-              "menu": "link-list"
-            }
-          },
           "19a81811-3745-4280-bbc7-82cf671c27d7": {
             "type": "links",
             "settings": {
               "menu": "help-center"
+            }
+          },
+          "244b3e68-04f8-41ec-acf1-bff4665fe23c": {
+            "type": "links",
+            "settings": {
+              "menu": "link-list"
             }
           },
           "footer-2": {
@@ -216,6 +216,7 @@
           },
           "2107a1ee-cc4e-4a7b-b746-4216318a6ada": {
             "type": "links",
+            "disabled": true,
             "settings": {
               "menu": ""
             }
@@ -223,8 +224,8 @@
         },
         "block_order": [
           "footer-0",
-          "244b3e68-04f8-41ec-acf1-bff4665fe23c",
           "19a81811-3745-4280-bbc7-82cf671c27d7",
+          "244b3e68-04f8-41ec-acf1-bff4665fe23c",
           "footer-2",
           "2107a1ee-cc4e-4a7b-b746-4216318a6ada"
         ],
