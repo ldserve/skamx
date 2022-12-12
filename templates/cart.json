@@ -35,8 +35,8 @@
     "1657104594e23caf5d": {
       "type": "featured-collection",
       "settings": {
-        "collection": "custompromotion-buy-4-get-20-off",
-        "title": "Buy 4 Get 20% Off",
+        "collection": "buy-more-save-more",
+        "title": "Buy more save 20% Off",
         "section_title_layout": "left",
         "products_count": 12,
         "layout": "vertical",
@@ -52,8 +52,8 @@
     "1661422901a3ed5616": {
       "type": "featured-collection",
       "settings": {
-        "collection": "summer-clearance-any-3-for-59",
-        "title": "Summer Clearance 3 For $59",
+        "collection": "get-any-3-for-59",
+        "title": "get any 3 For $59",
         "section_title_layout": "left",
         "products_count": 12,
         "layout": "vertical",
@@ -72,7 +72,7 @@
         "title": "JUST LANDED",
         "title_color": "#000000",
         "show_quick_buy": false,
-        "product_layout": "flex"
+        "product_grid": false
       }
     },
     "1657335361b9c0e6f5": {
@@ -112,6 +112,8 @@
         "2560d647-032b-456b-9d37-57dfe3feab63"
       ],
       "settings": {
+        "web_bg": "#504637",
+        "web_color": "#ffffff"
       }
     }
   },
