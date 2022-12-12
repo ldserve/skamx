@@ -5,16 +5,36 @@
       "settings": {
       }
     },
+    "c5067915-2962-4efa-b302-c43073c08d7e": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "new-in",
+        "title": "YOU MAY ALSO LIKE",
+        "section_title_layout": "left",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "background": ""
+      }
+    },
     "1651059386d9622f2b": {
       "type": "recently-viewed-products",
       "settings": {
         "title": "Recently viewed",
-        "show_quick_buy": false
+        "title_color": "#000",
+        "show_quick_buy": false,
+        "product_grid": false
       }
     }
   },
   "order": [
     "main",
+    "c5067915-2962-4efa-b302-c43073c08d7e",
     "1651059386d9622f2b"
   ]
 }
