@@ -22,7 +22,7 @@
 
       {%- if request.locale.iso_code == 'ja' -%}
         <div class="form__input-wrapper form__input-wrapper--labelled">
-          <input type="text" id="customer[last_name]" class="form__field form__field--text" name="customer[last_name]" autocomplete="family-name" required="required">
+          <input type="text" id="customer[last_name]" class="form__field form__field--text" name="customer[last_name]" autocomplete="family-name" >
           <label for="customer[last_name]" class="form__floating-label">{{ 'customer.register.last_name' | t }}</label>
         </div>
 
@@ -37,7 +37,7 @@
         </div>
 
         <div class="form__input-wrapper form__input-wrapper--labelled">
-          <input type="text" id="customer[last_name]" class="form__field form__field--text" name="customer[last_name]" autocomplete="family-name" required="required">
+          <input type="text" id="customer[last_name]" class="form__field form__field--text" name="customer[last_name]" autocomplete="family-name" >
           <label for="customer[last_name]" class="form__floating-label">{{ 'customer.register.last_name' | t }}</label>
         </div>
       {%- endif -%}
