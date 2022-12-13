@@ -50,11 +50,29 @@
         "items_per_row": 3,
         "stack_mobile": false
       }
+    },
+    "cf0ad295-0f1d-445f-9687-c6e08cc7d225": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "new-in",
+        "title": "YOU MAY ALSO LIKE",
+        "section_title_layout": "left",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "background": ""
+      }
     }
   },
   "order": [
     "main",
     "newsletter",
-    "d436c85f-f4e6-4b3e-991f-0922651867b1"
+    "d436c85f-f4e6-4b3e-991f-0922651867b1",
+    "cf0ad295-0f1d-445f-9687-c6e08cc7d225"
   ]
 }
