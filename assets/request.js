@@ -44,3 +44,7 @@ function ajax_method(url,data,method,success) {
     }
 
 }
+function postData(uri,data){
+    data=data?data:{}
+   return fetch(uri,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(data)})
+}
