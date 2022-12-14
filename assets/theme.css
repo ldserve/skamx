@@ -5219,7 +5219,7 @@ img.lazyload[data-sizes=auto] {
 
 @media screen and (min-width: 641px) {
   .product-list {
-    background: var(--background);
+/*     background: var(--background); */
     border-radius: 3px;
     border: none;
   }
