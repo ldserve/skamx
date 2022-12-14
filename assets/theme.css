@@ -11155,7 +11155,7 @@ shopify-payment-terms {
   padding: 5px;
   min-width: 0;
   flex-shrink: 0;
-  background: var(--background);
+  /* background: var(--background); */
   white-space: normal;
   text-align: center;
 }

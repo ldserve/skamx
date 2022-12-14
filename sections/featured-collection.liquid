@@ -18,6 +18,7 @@
 	#shopify-section-{{section.id}}{
 		background:{{section.settings.background}};
 	}
+	#shopify-section-{{section.id}}>.section{margin-top:{{section.settings.margin_top}}px;margin-bottom:{{section.settings.margin_bottom}}px;}
 </style>
 <section class="section" data-section-id="{{ section.id }}" data-section-type="featured-collection"
 				 data-section-settings='{{ section_settings }}'>
@@ -233,6 +234,24 @@
 		"type": "range",
 		"id": "padding_bottom",
 		"label": "PC底部填充",
+		"min": 0,
+		"max": 100,
+		"unit":"px",
+		"step": 1,
+		"default": 0
+	},{
+		"type": "range",
+		"id": "margin_top",
+		"label": "上边距",
+		"min": 0,
+		"max": 100,
+		"unit":"px",
+		"step": 1,
+		"default": 0
+	},{
+		"type": "range",
+		"id": "margin_bottom",
+		"label": "下边距",
 		"min": 0,
 		"max": 100,
 		"unit":"px",
