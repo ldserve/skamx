@@ -17036,3 +17036,8 @@ span._ks_text {
 .hidden {
   display: none !important;
 }
+.main-page .section__title,
+.main-page .product-item_text,
+.main-page .product-item__info-inner .price {
+color: inherit;
+}

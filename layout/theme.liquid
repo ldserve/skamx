@@ -326,9 +326,8 @@
     {% section 'header' %}
     {% section 'surprise' %}
 
-    <main id="main" role="main">
+    <main id="main" role="main" class="main-{{request.page_type}}}">
       {{ content_for_layout }}
-      <limespot></limespot>
     </main>
 
     {% section 'static-text-with-icons' %}
