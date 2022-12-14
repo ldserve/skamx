@@ -7,12 +7,35 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
+        "title": "Newsletter",
+        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "background": "#1e2d7d",
+        "text": "#ffffff"
+      }
+    },
+    "6f0f56df-c79b-4af1-be05-cd67a46638a6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "new-in",
+        "title": "YOU MAY ALSO LIKE",
+        "section_title_layout": "left",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "background": ""
       }
     }
   },
   "order": [
     "main",
-    "newsletter"
+    "newsletter",
+    "6f0f56df-c79b-4af1-be05-cd67a46638a6"
   ]
 }
