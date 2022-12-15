@@ -234,9 +234,9 @@
         "79cd2bfc-0629-4c7d-b333-56a486e24cfb": {
           "type": "image",
           "settings": {
-            "sensorsName": "plaid",
-            "image": "shopify:\/\/shop_images\/skamx__04_cf4065d6-8a45-4a8c-bb0b-5c49139411df.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/skamx__04_2aa7b34a-d281-459c-8203-3132d56e4fdd.jpg",
+            "sensorsName": "Special Material",
+            "image": "shopify:\/\/shop_images\/skamx_f1f0a673-8370-4ac3-a298-867ffbc25926.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx_cc3b6cfa-7859-4c14-82d8-01fe010f9c4c.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -252,7 +252,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.skamx.com\/collections\/plaid-flannel"
+            "link": "https:\/\/www.skamx.com\/collections\/special-fabric"
           }
         },
         "1650101273ef0886ca-1": {
