@@ -195,15 +195,6 @@
   });
 </script>
 {% endif %}
-<!-- Event snippet for purchase conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-11046052146/cuDTCPP-qIUYELLClZMp',
-      'value': 1.0,
-      'currency': 'USD',
-      'transaction_id': ''
-  });
-</script>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11046052146"></script>
 <script>
@@ -213,6 +204,20 @@
 
   gtag('config', 'AW-11046052146');
 </script>
+  <!-- Event snippet for purchase conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11046052146/cuDTCPP-qIUYELLClZMp',
+      'value': 1.0,
+      'currency': 'USD',
+      'transaction_id': ''
+  });
+</script>
+  <!-- Event snippet for cart conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-11046052146/tjs4CJPfqYUYELLClZMp'});
+</script>
+
 <!-- Global site tag (gtag.js) - Ads. -->
 {% if fa_prices_with_decimal_separator == true %}
   {% if template contains 'product' %}
