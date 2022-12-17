@@ -66,6 +66,7 @@
     },
     "16485495641ce5a0ce": {
       "type": "web-text",
+      "disabled": true,
       "blocks": {
         "b0f72010-1c19-48e6-9bbd-17402c18fd45": {
           "type": "text",
