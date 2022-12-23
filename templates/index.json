@@ -12,6 +12,30 @@
     "166424926021cbf149": {
       "type": "slideshow",
       "blocks": {
+        "1664249260b7761d46-0": {
+          "type": "image",
+          "settings": {
+            "sensorsName": "hoodiesandsweatshirts",
+            "image": "shopify:\/\/shop_images\/skamx_bb169e8c-9fbd-4ee8-b089-52ee28a684e5.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx_f44fc678-e57c-4abd-b8e1-a48e6757560c.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_text_font": "helvetica_n4",
+            "heading_text_font_size": 20,
+            "heading_text_color": "#ffffff",
+            "content": "",
+            "content_text_font": "helvetica_n4",
+            "content_text_font_size": 12,
+            "content_text_color": "#ffffff",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.skamx.com\/collections\/hoodies-and-sweatshirts"
+          }
+        },
         "1664249260b7761d46-1": {
           "type": "image",
           "settings": {
@@ -34,31 +58,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify:\/\/collections\/best-sellers"
-          }
-        },
-        "1664249260b7761d46-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "sensorsName": "bestseller",
-            "image": "shopify:\/\/shop_images\/skamx_pc_banner.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/skamx_banner_45a01944-f642-46c4-93f8-8bdb3a3eda02.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "heading_text_font": "helvetica_n4",
-            "heading_text_font_size": 20,
-            "heading_text_color": "#ffffff",
-            "content": "",
-            "content_text_font": "helvetica_n4",
-            "content_text_font_size": 12,
-            "content_text_color": "#ffffff",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.skamx.com\/collections\/best-sellers"
           }
         },
         "9ebef176-2769-4f7e-903d-9120a54302a2": {
@@ -88,8 +87,8 @@
         }
       },
       "block_order": [
-        "1664249260b7761d46-1",
         "1664249260b7761d46-0",
+        "1664249260b7761d46-1",
         "9ebef176-2769-4f7e-903d-9120a54302a2"
       ],
       "settings": {
