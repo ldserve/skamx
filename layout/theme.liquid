@@ -1,5 +1,29 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
+
+{% comment %} <!-- Global site tag (gtag.js) - Google Ads: 1046052146 --> {% endcomment %}
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1046052146"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-1046052146');
+</script>
+
+{% if template contains 'product' or template contains 'collection' or template contains 'index' or template contains 'search' %}
+<script>
+  gtag('event', 'page_view', {
+    'send_to': 'AW-1046052146',
+    'ecomm_pagetype': '{% if template contains 'collection' %}category{% elsif template contains 'product' %}product{% elsif template contains 'search' %}searchresults{% elsif template contains 'index' %}home{% endif %}',
+    {% if template contains 'product' %}
+    'ecomm_prodid': 'shopify_US_{{ product.id }}_{{ product.variants.first.id }}',
+    'ecomm_totalvalue': '{{ product.price_min | money_without_currency | remove: ","}}',
+    {% endif %}
+  });
+</script>
+{% endif %}
+{% comment %} ---------------------------Google END----------------------------- {% endcomment %}
   <head>
 
   <meta name="google-site-verification" content="yADmnGmSHgZnf7juru-IiQjT1sr_Eg4_7YovyXVnqVQ" />
