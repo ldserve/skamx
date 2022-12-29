@@ -121,8 +121,8 @@
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-2": {
           "type": "link",
           "settings": {
-            "title": "Christmas",
-            "link": "https:\/\/www.skamx.com\/collections\/christmas-gift",
+            "title": "active wear",
+            "link": "https:\/\/www.skamx.com\/collections\/active-wear",
             "show_hot": true
           }
         },
@@ -230,6 +230,30 @@
     "1650101273f11a55ef": {
       "type": "slideshow",
       "blocks": {
+        "1650101273ef0886ca-1": {
+          "type": "image",
+          "settings": {
+            "sensorsName": "active wear",
+            "image": "shopify:\/\/shop_images\/skamx_banner_4becc789-05c2-451c-8d3d-025211c7bd22.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx_banner_f3a7c615-14ec-4929-966a-89b4b77c08b0.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_text_font": "helvetica_n4",
+            "heading_text_font_size": 20,
+            "heading_text_color": "#ffffff",
+            "content": "",
+            "content_text_font": "helvetica_n4",
+            "content_text_font_size": 12,
+            "content_text_color": "#ffffff",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.skamx.com\/collections\/active-wear"
+          }
+        },
         "79cd2bfc-0629-4c7d-b333-56a486e24cfb": {
           "type": "image",
           "settings": {
@@ -252,31 +276,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "https:\/\/www.skamx.com\/collections\/special-fabric"
-          }
-        },
-        "1650101273ef0886ca-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "sensorsName": "cargopants",
-            "image": "shopify:\/\/shop_images\/0f719d71e9a8a2dbb649b4f3475ebf96_5c749b7f-e946-4afb-9ae1-9baa6cd73811.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/2b2d82fd0d6a0f6a7e255749be197780_c276b791-e004-4500-9ea2-f000521ec3b7.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "heading_text_font": "helvetica_n4",
-            "heading_text_font_size": 20,
-            "heading_text_color": "#ffffff",
-            "content": "",
-            "content_text_font": "helvetica_n4",
-            "content_text_font_size": 12,
-            "content_text_color": "#ffffff",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.skamx.com\/collections\/cargo-pants"
           }
         },
         "fb844d01-0475-4130-aeb7-a118c0a1b427": {
@@ -304,8 +303,8 @@
         }
       },
       "block_order": [
-        "79cd2bfc-0629-4c7d-b333-56a486e24cfb",
         "1650101273ef0886ca-1",
+        "79cd2bfc-0629-4c7d-b333-56a486e24cfb",
         "fb844d01-0475-4130-aeb7-a118c0a1b427"
       ],
       "settings": {
