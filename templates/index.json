@@ -497,7 +497,7 @@
           "settings": {
             "heading": "jackets",
             "sensorsLinkName": "jackets",
-            "link": "https:\/\/www.skamx.com\/collections\/jackets",
+            "link": "https:\/\/www.skamx.com\/collections\/polo-shirts",
             "left": 65,
             "top": 0,
             "width": 31,
@@ -569,7 +569,7 @@
           "settings": {
             "heading": "poloshirts",
             "sensorsLinkName": "poloshirts",
-            "link": "https:\/\/www.skamx.com\/collections\/cargo-shorts",
+            "link": "https:\/\/www.skamx.com\/collections\/jackets",
             "left": 68,
             "top": 72,
             "width": 31,
@@ -595,7 +595,7 @@
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
         "line": false,
-        "image": "shopify:\/\/shop_images\/skamx__06_75d11ba7-2c7e-4642-985d-aa49367717a7.jpg",
+        "image": "shopify:\/\/shop_images\/skamx__06_48140fcb-e235-4518-bdff-58dfb733916f.jpg",
         "tpadding": 13,
         "rpadding": 0,
         "bpadding": 0,
