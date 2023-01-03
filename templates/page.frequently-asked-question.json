@@ -22,12 +22,12 @@
           "type": "text",
           "settings": {
             "title_text": "MANAGE ORDERS",
-            "centont_text": "<p>View and manage orders<\/p>",
+            "centont_text": "<p>You'll receive order status updates once your order has been placed and shipped. You can also track your order by clicking <a href=\"\/pages\/track-your-order\" title=\"track your order\">TRACK YOUR ORDER<\/a>. Otherwise, send us an email at <a href=\"mailto:contactus@skamx.com\" target=\"_blank\">contactus@skamx.com<\/a> and we'll happily check it for you!<\/p>",
             "title_size": 16,
             "margin_top": 16,
             "margin_botton": 16,
             "border_top_size": 1,
-            "border_color": "#CCCCCC",
+            "border_color": "#cccccc",
             "details_margin_botton": 14
           }
         },
@@ -35,12 +35,12 @@
           "type": "text",
           "settings": {
             "title_text": "EDIT ADDRESSES",
-            "centont_text": "<p>Edit or add your addresses<\/p>",
+            "centont_text": "<p>Due to our quick order processing times, we are unable to change the details in your order once it has been confirmed and processed. If you wish to change the shipping address, please contact us via email <a href=\"mailto:contactus@skamx.com\" target=\"_blank\">contactus@skamx.com<\/a> ASAP.<\/p>",
             "title_size": 16,
             "margin_top": 16,
             "margin_botton": 16,
             "border_top_size": 1,
-            "border_color": "#CCCCCC",
+            "border_color": "#cccccc",
             "details_margin_botton": 14
           }
         }
@@ -72,7 +72,7 @@
             "margin_top": 16,
             "margin_botton": 16,
             "border_top_size": 1,
-            "border_color": "#CCCCCC",
+            "border_color": "#cccccc",
             "details_margin_botton": 14
           }
         },
@@ -85,7 +85,7 @@
             "margin_top": 16,
             "margin_botton": 16,
             "border_top_size": 1,
-            "border_color": "#CCCCCC",
+            "border_color": "#cccccc",
             "details_margin_botton": 14
           }
         },
@@ -98,7 +98,7 @@
             "margin_top": 16,
             "margin_botton": 16,
             "border_top_size": 1,
-            "border_color": "#CCCCCC",
+            "border_color": "#cccccc",
             "details_margin_botton": 14
           }
         },
@@ -111,7 +111,7 @@
             "margin_top": 16,
             "margin_botton": 16,
             "border_top_size": 1,
-            "border_color": "#CCCCCC",
+            "border_color": "#cccccc",
             "details_margin_botton": 14
           }
         }
