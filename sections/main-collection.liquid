@@ -1369,6 +1369,9 @@
 				<img src="#{primary_media_src}" alt="">
 			</noscript>
 		</div>
+    <div class="activity-img-ui ">
+				<img src="#{tagUrl}" alt="ERRER">
+    </div>
 	</a>
 	<div class="product-item__info">
 		<div class="product-item__swatch-list">
@@ -1451,7 +1454,6 @@
         dom.querySelector('.color-swatch__radio').setAttribute('checked', 'checked');
         let max = dom.querySelectorAll('.color-swatch');
         if (max.length > 4) {
-          console.log(max.length)
           max[3].classList.add('color-swatch--view-more')
         }
         return dom.querySelector('.product-item');
@@ -1473,7 +1475,15 @@
         data.tag_string=''
         let tag_string=product.tags.find(i=>i.includes('CustomPromotion'))
         tag_string &&(data.tag_string=tag_string.split('-')[1])
+        let customTag={{settings.activity_img_tag  |json}}
+        customTag&&customTag.split(',').forEach(i=>{
+          let T=i.split('=')
+          if(data.tag_string==T[0]){
+            data.tagUrl=T[1]
+          }
+        })
         let colorTemplate={{settings.color_swatch_config | newline_to_br | split: '<br />' |json }}
+      
         // ----- END ----
 
         data.url = '/products/' + product.handle;
