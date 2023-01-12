@@ -16,52 +16,6 @@
       "settings": {
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "disabled": true,
-      "settings": {
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
-        "background": "#1e2d7d",
-        "text": "#ffffff"
-      }
-    },
-    "d436c85f-f4e6-4b3e-991f-0922651867b1": {
-      "type": "offers",
-      "disabled": true,
-      "blocks": {
-        "template--14882387525711__d436c85f-f4e6-4b3e-991f-0922651867b1-1666864435356fe776-0": {
-          "type": "offer",
-          "settings": {
-            "title": "Method",
-            "content": "<p>Standard Shipping<\/p>"
-          }
-        },
-        "template--14882387525711__d436c85f-f4e6-4b3e-991f-0922651867b1-1666864435356fe776-1": {
-          "type": "offer",
-          "settings": {
-            "title": "Shipping Time",
-            "content": "<p>To US,UK,FR,DE,NZ: 11-21 Business Days<br\/>To Other Countries: 15-28 Business Days<\/p>"
-          }
-        },
-        "ea54972d-f61f-442b-b664-d1ad9d9848e1": {
-          "type": "offer",
-          "settings": {
-            "title": "Price",
-            "content": "<p>$8.9<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14882387525711__d436c85f-f4e6-4b3e-991f-0922651867b1-1666864435356fe776-0",
-        "template--14882387525711__d436c85f-f4e6-4b3e-991f-0922651867b1-1666864435356fe776-1",
-        "ea54972d-f61f-442b-b664-d1ad9d9848e1"
-      ],
-      "settings": {
-        "items_per_row": 3,
-        "stack_mobile": false
-      }
-    },
     "4fc46bb4-55cd-4335-9ee7-6b32132e9ca6": {
       "type": "no_space_img",
       "settings": {
@@ -126,17 +80,18 @@
       "type": "no_space_img",
       "settings": {
         "sensorsName": "",
-        "bg_image": "shopify:\/\/shop_images\/09_93ac5f78-9d4b-415f-80d7-084c60973df1.jpg",
+        "bg_image": "shopify:\/\/shop_images\/usbg.png",
         "web_bg_image": "shopify:\/\/shop_images\/09_0811f09e-9189-459c-a420-85fccba55f2f.jpg",
         "link": "",
         "shadow": false
       }
     },
-    "22190514-f7cd-4244-970b-850b8597c9cd": {
-      "type": "custom-html",
+    "f4272799-a4d2-4691-96c3-7c3d52a5c027": {
+      "type": "custom-liquid",
       "settings": {
         "title": "",
-        "html": "<div>Leandow(Hong Kong)Limited<br>\nADDRESS:11\/F SUCCESS COMM BLDG 245-251 HENNESSY RD, HONG KONG<\/div>"
+        "include_margins": true,
+        "liquid": "{%- style -%}\n#shopify-section-{{section.id}}{background:#FFF;}\t\t\t\t\n.section{\nmargin:0;\npadding:10px 0 40px;\t\t\t\t{%- endstyle -%}\n<div>Leandow(Hong Kong)Limited<br>\nADDRESS:11\/F SUCCESS COMM BLDG 245-251 HENNESSY RD, HONG KONG<\/div>"
       }
     },
     "cf0ad295-0f1d-445f-9687-c6e08cc7d225": {
@@ -162,8 +117,6 @@
   "order": [
     "93ee7aec-bb9f-45b2-b98a-0a356ff43944",
     "main",
-    "newsletter",
-    "d436c85f-f4e6-4b3e-991f-0922651867b1",
     "4fc46bb4-55cd-4335-9ee7-6b32132e9ca6",
     "912d9a55-ac02-4661-87c7-0a09ed904a50",
     "ac61df80-e05d-4014-b4c1-dd3eda55cedd",
@@ -171,7 +124,7 @@
     "b9be338c-a528-4236-a0d2-9e9c5a330f21",
     "5303b234-8891-46b0-999d-11dd03890abf",
     "570e956b-a95f-4227-8b62-82b45f4e5e4f",
-    "22190514-f7cd-4244-970b-850b8597c9cd",
+    "f4272799-a4d2-4691-96c3-7c3d52a5c027",
     "cf0ad295-0f1d-445f-9687-c6e08cc7d225"
   ]
 }
