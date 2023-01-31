@@ -24,7 +24,8 @@
 </script>
 {% endif %}
 {% comment %} ---------------------------Google END----------------------------- {% endcomment %}
-  <head>
+  
+<head>
 
   <meta name="google-site-verification" content="yADmnGmSHgZnf7juru-IiQjT1sr_Eg4_7YovyXVnqVQ" />
 {% include 'kiwiSizing' %}
@@ -354,7 +355,12 @@
 
       obApi('track', 'PAGE_VIEW');
 		</script>
-		<!-- outbrain 营销代码 end -->
+		{% comment %} <!-- outbrain 营销代码 end --> {% endcomment %}
+
+    {%- comment -%}----Customers-------{%- endcomment -%}
+    {%- if request.page_type contains 'customers' -%}
+    <link rel="stylesheet" href="{{'account.css' | asset_url}}">
+    {%- endif -%}
 	</head>
 
   <body class="warehouse--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif%} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">

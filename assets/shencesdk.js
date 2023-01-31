@@ -9,13 +9,19 @@
   for (var i = 0; i < ifs.length; i++) {
     w[n][ifs[i]] = w[n].call(null, ifs[i]);
   }
-  if (!w[n]._t) {
+ /*  if (!w[n]._t) {
     x = d.createElement(s), y = d.getElementsByTagName(s)[0];
     x.async = 1;
     x.src = p;
     x.setAttribute('charset', 'UTF-8');
     w[n].para = para;
     y.parentNode.insertBefore(x, y);
+  } */
+  if(!sensors){
+    w.sensors=function (){}
+    w.sensors.setProfile=function(){}
+    w.sensors.track=function(){}
+    w.sensors.quick=function(){}
   }
 })({
   // sdk_url: 'https://cdn.shopifycdn.net/s/files/1/0595/0691/7535/files/sensorsdata.min.js?v=1639989639',//v1.20.2

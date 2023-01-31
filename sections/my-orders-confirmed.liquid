@@ -1,8 +1,8 @@
 <div class="card">
 	{%- if customer.orders.size != 0 -%}
-		{%- paginate customer.orders by 8 -%}
+		{%- paginate customer.orders by 16 -%}
 			{%- for order in customer.orders -%}
-				{% if order.fulfillment_status=="partial"  or order.fulfillment_status=='in progress' %}
+				{%- if order.financial_status=='paid' and order.fulfillment_status=="unfulfilled" -%}
 					<div class="order-box">
 						<div class="order-title">
 							<div class="title-info">
@@ -45,7 +45,7 @@
 							</div>
 						</div>
 					</div>
-				{% endif %}
+				{%- endif -%}
 			{%- endfor -%}
 		{%- render 'pagination', paginate: paginate -%}
 		{% assign dm_paginate_by = paginate.page_size %}
@@ -53,14 +53,9 @@
 	{%- endif -%}
 </div>
 
-<style>
-
-</style>
-
-
 {% schema %}
 {
-	"name": "my-orders-shipped",
+	"name": "my-orders-processing",
 	"settings": [
 	]
 }
