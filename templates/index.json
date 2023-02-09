@@ -472,7 +472,7 @@
           "settings": {
             "heading": "hoodies",
             "sensorsLinkName": "hoodies",
-            "link": "https:\/\/www.skamx.com\/collections\/hoodies",
+            "link": "shopify:\/\/collections\/raglan-tees",
             "left": 0,
             "top": 0,
             "width": 30,
@@ -484,7 +484,7 @@
           "settings": {
             "heading": "sweatshirts",
             "sensorsLinkName": "sweatshirts",
-            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts",
+            "link": "shopify:\/\/collections\/active-wear",
             "left": 32,
             "top": 0,
             "width": 32,
@@ -496,7 +496,7 @@
           "settings": {
             "heading": "jackets",
             "sensorsLinkName": "jackets",
-            "link": "https:\/\/www.skamx.com\/collections\/polo-shirts",
+            "link": "shopify:\/\/collections\/polo-shirts",
             "left": 65,
             "top": 0,
             "width": 31,
@@ -520,7 +520,7 @@
           "settings": {
             "heading": "raglantees",
             "sensorsLinkName": "raglantees",
-            "link": "https:\/\/www.skamx.com\/collections\/raglan-tees",
+            "link": "shopify:\/\/collections\/sweatshirts",
             "left": 34,
             "top": 41,
             "width": 34,
@@ -544,7 +544,7 @@
           "settings": {
             "heading": "accessories",
             "sensorsLinkName": "accessories",
-            "link": "https:\/\/www.skamx.com\/collections\/accessories-1",
+            "link": "shopify:\/\/collections\/women",
             "left": 0,
             "top": 72,
             "width": 26,
@@ -594,7 +594,7 @@
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
         "line": false,
-        "image": "shopify:\/\/shop_images\/skamx__06_48140fcb-e235-4518-bdff-58dfb733916f.jpg",
+        "image": "shopify:\/\/shop_images\/skamx__06_0b6a1550-fd06-4a5a-9091-6f96aea093ed.jpg",
         "tpadding": 13,
         "rpadding": 0,
         "bpadding": 0,
