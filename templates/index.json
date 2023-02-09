@@ -405,9 +405,9 @@
         "7a35b9b3-5385-4bed-a9bf-54a5254030b9": {
           "type": "link",
           "settings": {
-            "heading": "shoes",
-            "sensorsLinkName": "shoes",
-            "link": "https:\/\/www.skamx.com\/collections\/shoes-1",
+            "heading": "women",
+            "sensorsLinkName": "women",
+            "link": "shopify:\/\/collections\/women",
             "left": 41,
             "top": 60,
             "width": 19,
