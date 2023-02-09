@@ -345,8 +345,8 @@
         "d00c4492-eb2b-4ac5-824e-956b746fdad9": {
           "type": "link",
           "settings": {
-            "heading": "Active Wear",
-            "sensorsLinkName": "Active Wear",
+            "heading": "active wear",
+            "sensorsLinkName": "active wear",
             "link": "shopify:\/\/collections\/active-wear",
             "left": 40,
             "top": 0,
