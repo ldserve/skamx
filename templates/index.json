@@ -12,6 +12,30 @@
     "166424926021cbf149": {
       "type": "slideshow",
       "blocks": {
+        "1664249260b7761d46-1": {
+          "type": "image",
+          "settings": {
+            "sensorsName": "bestseller",
+            "image": "shopify:\/\/shop_images\/skamx_banner_cf5dd8a5-ce95-410e-b65f-e139bb74ed81.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx_045f8786-8ab1-405a-9283-4092865e9bbd.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_text_font": "helvetica_n4",
+            "heading_text_font_size": 20,
+            "heading_text_color": "#ffffff",
+            "content": "",
+            "content_text_font": "helvetica_n4",
+            "content_text_font_size": 12,
+            "content_text_color": "#ffffff",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.skamx.com\/collections\/long-sleeve-t-shirt"
+          }
+        },
         "9ebef176-2769-4f7e-903d-9120a54302a2": {
           "type": "image",
           "settings": {
@@ -34,31 +58,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "https:\/\/www.skamx.com\/collections\/st-patricks-day"
-          }
-        },
-        "1664249260b7761d46-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "sensorsName": "bestseller",
-            "image": "shopify:\/\/shop_images\/skamx_pc.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/skamx_18e04972-f3eb-49f8-9bc7-6c3b8369fdae.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "heading_text_font": "helvetica_n4",
-            "heading_text_font_size": 20,
-            "heading_text_color": "#ffffff",
-            "content": "",
-            "content_text_font": "helvetica_n4",
-            "content_text_font_size": 12,
-            "content_text_color": "#ffffff",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify:\/\/collections\/best-sellers"
           }
         },
         "1664249260b7761d46-0": {
@@ -87,8 +86,8 @@
         }
       },
       "block_order": [
-        "9ebef176-2769-4f7e-903d-9120a54302a2",
         "1664249260b7761d46-1",
+        "9ebef176-2769-4f7e-903d-9120a54302a2",
         "1664249260b7761d46-0"
       ],
       "settings": {
@@ -323,7 +322,7 @@
           "settings": {
             "heading": "hoodies",
             "sensorsLinkName": "hoodies",
-            "link": "https:\/\/www.skamx.com\/collections\/hoodies",
+            "link": "https:\/\/www.skamx.com\/collections\/raglan-tees",
             "left": 0,
             "top": 0,
             "width": 20,
@@ -335,7 +334,7 @@
           "settings": {
             "heading": "swearshirts",
             "sensorsLinkName": "swearshirts",
-            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts",
+            "link": "https:\/\/www.skamx.com\/collections\/polo-shirts",
             "left": 21,
             "top": 0,
             "width": 19,
@@ -359,7 +358,7 @@
           "settings": {
             "heading": "cargopants",
             "sensorsLinkName": "cargopants",
-            "link": "https:\/\/www.skamx.com\/collections\/cargo-pants",
+            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts",
             "left": 61,
             "top": 0,
             "width": 17,
@@ -371,7 +370,7 @@
           "settings": {
             "heading": "raglantees",
             "sensorsLinkName": "raglantees",
-            "link": "https:\/\/www.skamx.com\/collections\/raglan-tees",
+            "link": "https:\/\/www.skamx.com\/collections\/hoodies",
             "left": 80,
             "top": 0,
             "width": 18,
@@ -419,7 +418,7 @@
           "settings": {
             "heading": "poloshirts",
             "sensorsLinkName": "poloshirts",
-            "link": "https:\/\/www.skamx.com\/collections\/polo-shirts",
+            "link": "https:\/\/www.skamx.com\/collections\/cargo-pants",
             "left": 61,
             "top": 59,
             "width": 18,
@@ -458,7 +457,7 @@
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
         "line": false,
-        "image": "shopify:\/\/shop_images\/skamx__06_cc4adf10-9cd6-45b2-aecc-4e30b40a3815.jpg",
+        "image": "shopify:\/\/shop_images\/skamx__06_08a023c6-8fd6-4dd0-b864-0818a27c22bd.jpg",
         "tpadding": 13,
         "rpadding": 0,
         "bpadding": 0,
