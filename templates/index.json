@@ -347,7 +347,7 @@
           "settings": {
             "heading": "Active Wear",
             "sensorsLinkName": "Active Wear",
-            "link": "https:\/\/www.skamx.com\/collections\/active-wear",
+            "link": "shopify:\/\/collections\/active-wear",
             "left": 40,
             "top": 0,
             "width": 20,
