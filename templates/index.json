@@ -636,9 +636,9 @@
         "2532a193-628e-4d3d-ab09-423c581f37d2": {
           "type": "link",
           "settings": {
-            "heading": "get2nd",
-            "sensorsLinkName": "get2nd",
-            "link": "https:\/\/www.skamx.com\/collections\/buy-1-get-2nd-50-off",
+            "heading": "basic",
+            "sensorsLinkName": "basic",
+            "link": "shopify:\/\/collections\/basic",
             "left": 24,
             "top": 0,
             "width": 25,
