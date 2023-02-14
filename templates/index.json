@@ -12,6 +12,30 @@
     "166424926021cbf149": {
       "type": "slideshow",
       "blocks": {
+        "1bd80b48-8696-4ede-9abc-d7b4ac29fd56": {
+          "type": "image",
+          "settings": {
+            "sensorsName": "",
+            "image": "shopify:\/\/shop_images\/skamx_06be0977-09ba-4055-a4a1-079a049ce190.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx_05dbac95-827b-4faf-b834-a3ecddbf0825.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_text_font": "helvetica_n4",
+            "heading_text_font_size": 20,
+            "heading_text_color": "#ffffff",
+            "content": "",
+            "content_text_font": "helvetica_n4",
+            "content_text_font_size": 12,
+            "content_text_color": "#ffffff",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.skamx.com\/collections\/washings-birthday"
+          }
+        },
         "1664249260b7761d46-1": {
           "type": "image",
           "settings": {
@@ -62,6 +86,7 @@
         },
         "1664249260b7761d46-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "sensorsName": "hoodiesandsweatshirts",
             "image": "shopify:\/\/shop_images\/skamx_bb169e8c-9fbd-4ee8-b089-52ee28a684e5.jpg",
@@ -86,6 +111,7 @@
         }
       },
       "block_order": [
+        "1bd80b48-8696-4ede-9abc-d7b4ac29fd56",
         "1664249260b7761d46-1",
         "9ebef176-2769-4f7e-903d-9120a54302a2",
         "1664249260b7761d46-0"
