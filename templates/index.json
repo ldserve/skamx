@@ -172,13 +172,22 @@
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-5": {
           "type": "link",
           "settings": {
-            "title": "HOODIES",
-            "link": "https:\/\/www.skamx.com\/collections\/hoodies",
+            "title": "SHIRT",
+            "link": "shopify:\/\/collections\/work-shirt",
+            "show_hot": true
+          }
+        },
+        "9a537ace-0c51-4b4c-a846-9f8d791f3348": {
+          "type": "link",
+          "settings": {
+            "title": "SHORT SLEEVE T-SHIRT",
+            "link": "shopify:\/\/collections\/short-leeve-t-shirt",
             "show_hot": true
           }
         },
         "62a0c337-f015-4c5e-8ab9-cd6389e33e7d": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "title": "WORK SHIRT",
             "link": "https:\/\/www.skamx.com\/collections\/work-shirt",
@@ -190,14 +199,6 @@
           "settings": {
             "title": "SWEATSHIRTS",
             "link": "https:\/\/www.skamx.com\/collections\/sweatshirts",
-            "show_hot": true
-          }
-        },
-        "9a537ace-0c51-4b4c-a846-9f8d791f3348": {
-          "type": "link",
-          "settings": {
-            "title": "JACKETS",
-            "link": "https:\/\/www.skamx.com\/collections\/jackets",
             "show_hot": true
           }
         },
@@ -217,9 +218,9 @@
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-4",
         "1f0fae7d-72ac-40f6-877d-95723fb0cacb",
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-5",
+        "9a537ace-0c51-4b4c-a846-9f8d791f3348",
         "62a0c337-f015-4c5e-8ab9-cd6389e33e7d",
         "ad5331e1-f888-475d-b298-91f6ee3aac78",
-        "9a537ace-0c51-4b4c-a846-9f8d791f3348",
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-3"
       ],
       "settings": {
