@@ -361,9 +361,10 @@
     {%- if request.page_type contains 'customers' -%}
     <link rel="stylesheet" href="{{'account.css' | asset_url}}">
     {%- endif -%}
-	</head>
+	  {% if template == 'cart' %}{% include "revy-bundle-script" %}{% endif %}
 
-  <body class="warehouse--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif%} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">
+	</head>
+<body class="warehouse--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif%} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">
  
     {%- comment -%}<!-- Google Tag Manager (noscript) -->{%- endcomment -%} 
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6T4DZD"
@@ -417,6 +418,8 @@
 <!-- Back in Stock helper snippet -->
 {%- render 'back-in-stock-helper' -%}
 <!-- End Back in Stock helper snippet -->
+
+  {% include 'revy-bundle-script' %}
 
 </body>
 {%- comment -%}PartnerBoost 营销代码{%- endcomment -%}
