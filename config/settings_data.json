@@ -407,7 +407,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "10570433277407501837": {
+        "type": "shopify:\/\/apps\/simprosys-google-shopping-feed\/blocks\/gsf-gcr\/1f0b859e-9fa6-4007-97e8-4513aff5ff3b",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Metal": {
