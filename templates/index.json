@@ -901,7 +901,7 @@
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
         "line": false,
-        "image": "shopify:\/\/shop_images\/skamx__10_d9e67a74-6cd0-44e1-aa54-a7c1df4e6b9a.jpg",
+        "image": "shopify:\/\/shop_images\/20230308-175639.jpg",
         "tpadding": 0,
         "rpadding": 0,
         "bpadding": 0,
@@ -932,9 +932,9 @@
         "0736ae2f-d8f9-4699-9348-1065c0a82879": {
           "type": "link",
           "settings": {
-            "heading": "hoodies",
-            "sensorsLinkName": "hoodies",
-            "link": "shopify:\/\/collections\/special-fabric",
+            "heading": "BOTTOMS",
+            "sensorsLinkName": "BOTTOMS",
+            "link": "shopify:\/\/collections\/bottoms",
             "left": 0,
             "top": 0,
             "width": 49,
@@ -944,9 +944,9 @@
         "17a0b0e4-b0fd-421f-ae02-f40770d11416": {
           "type": "link",
           "settings": {
-            "heading": "workshirt",
-            "sensorsLinkName": "workshirt",
-            "link": "https:\/\/www.skamx.com\/collections\/work-shirt",
+            "heading": "HAWAIISHIRTS",
+            "sensorsLinkName": "HAWAIISHIRTS",
+            "link": "https:\/\/www.skamx.com\/collections\/performance",
             "left": 51,
             "top": 0,
             "width": 53,
@@ -956,9 +956,9 @@
         "1a56e24f-fd33-4441-a6c2-3cf03868b44a": {
           "type": "link",
           "settings": {
-            "heading": "outwear",
-            "sensorsLinkName": "outwear",
-            "link": "https:\/\/www.skamx.com\/collections\/jackets",
+            "heading": "POLO",
+            "sensorsLinkName": "POLO",
+            "link": "shopify:\/\/collections\/polo-shirts",
             "left": 0,
             "top": 50,
             "width": 49,
@@ -968,9 +968,9 @@
         "dbe8a9a1-2bdd-4552-82ae-15b0ebb1e9cf": {
           "type": "link",
           "settings": {
-            "heading": "plaid",
-            "sensorsLinkName": "plaid",
-            "link": "https:\/\/www.skamx.com\/collections\/plaid-flannel",
+            "heading": "FORPATRIOTS",
+            "sensorsLinkName": "FORPATRIOTS",
+            "link": "https:\/\/www.skamx.com\/collections\/for-patriots",
             "left": 51,
             "top": 50,
             "width": 60,
