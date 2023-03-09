@@ -555,18 +555,6 @@
             "height": 27
           }
         },
-        "5c9bea1a-9931-43f5-ad66-f062dd1b303c": {
-          "type": "link",
-          "settings": {
-            "heading": "jackets",
-            "sensorsLinkName": "jackets",
-            "link": "shopify:\/\/collections\/polo-shirts",
-            "left": 65,
-            "top": 0,
-            "width": 31,
-            "height": 39
-          }
-        },
         "162db5f0-a4b5-438f-9562-ebb9b97ffc1c": {
           "type": "link",
           "settings": {
@@ -582,13 +570,25 @@
         "a3ef1afa-1856-4420-8f86-f4d23cf3c56b": {
           "type": "link",
           "settings": {
-            "heading": "accessories",
-            "sensorsLinkName": "accessories",
+            "heading": "women",
+            "sensorsLinkName": "women",
             "link": "shopify:\/\/collections\/women",
             "left": 0,
             "top": 72,
             "width": 26,
             "height": 38
+          }
+        },
+        "5c9bea1a-9931-43f5-ad66-f062dd1b303c": {
+          "type": "link",
+          "settings": {
+            "heading": "shirt",
+            "sensorsLinkName": "shirt",
+            "link": "https:\/\/www.skamx.com\/collections\/work-shirt",
+            "left": 65,
+            "top": 0,
+            "width": 31,
+            "height": 39
           }
         },
         "19f070c6-bfd3-4776-891c-593fb003c04d": {
@@ -610,9 +610,9 @@
         "4c7ca69e-35cd-46f0-a192-8c4cfc1a9820",
         "fa3d687c-6593-44a4-8f22-6efa7d3cb0ee",
         "1f560666-b52a-417d-99ac-2dd5a681c42d",
-        "5c9bea1a-9931-43f5-ad66-f062dd1b303c",
         "162db5f0-a4b5-438f-9562-ebb9b97ffc1c",
         "a3ef1afa-1856-4420-8f86-f4d23cf3c56b",
+        "5c9bea1a-9931-43f5-ad66-f062dd1b303c",
         "19f070c6-bfd3-4776-891c-593fb003c04d"
       ],
       "settings": {
