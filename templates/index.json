@@ -582,9 +582,9 @@
         "19f070c6-bfd3-4776-891c-593fb003c04d": {
           "type": "link",
           "settings": {
-            "heading": "poloshirts",
-            "sensorsLinkName": "poloshirts",
-            "link": "shopify:\/\/collections\/polo-shirts",
+            "heading": "shirts",
+            "sensorsLinkName": "shirts",
+            "link": "shopify:\/\/collections\/work-shirt",
             "left": 34,
             "top": 72,
             "width": 31,
