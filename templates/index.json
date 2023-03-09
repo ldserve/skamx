@@ -348,9 +348,9 @@
         "b4ae7096-a7e8-4271-bca0-ee1a15e658df": {
           "type": "link",
           "settings": {
-            "heading": "raglantees",
-            "sensorsLinkName": "raglantees",
-            "link": "https:\/\/www.skamx.com\/collections\/hoodies",
+            "heading": "longsleeves",
+            "sensorsLinkName": "longsleeves",
+            "link": "https:\/\/www.skamx.com\/collections\/long-sleeve-t-shirt",
             "left": 80,
             "top": 0,
             "width": 18,
@@ -396,9 +396,9 @@
         "060e1c79-7396-42ee-9112-b3607a636833": {
           "type": "link",
           "settings": {
-            "heading": "hoodies",
-            "sensorsLinkName": "hoodies",
-            "link": "https:\/\/www.skamx.com\/collections\/raglan-tees",
+            "heading": "shorts",
+            "sensorsLinkName": "shorts",
+            "link": "shopify:\/\/collections\/bottoms",
             "left": 0,
             "top": 0,
             "width": 20,
@@ -408,8 +408,8 @@
         "fe7547ca-3a15-46c9-ba87-ccbc010a9094": {
           "type": "link",
           "settings": {
-            "heading": "bestseller",
-            "sensorsLinkName": "bestseller",
+            "heading": "tees",
+            "sensorsLinkName": "tees",
             "link": "https:\/\/www.skamx.com\/collections\/best-sellers",
             "left": 0,
             "top": 61,
@@ -485,7 +485,7 @@
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
         "line": false,
-        "image": "shopify:\/\/shop_images\/skamx__06_08a023c6-8fd6-4dd0-b864-0818a27c22bd.jpg",
+        "image": "shopify:\/\/shop_images\/20230309-104054.jpg",
         "tpadding": 13,
         "rpadding": 0,
         "bpadding": 0,
