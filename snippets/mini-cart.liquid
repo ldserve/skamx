@@ -78,20 +78,20 @@
           {%- for str in arrstr -%}
             {%- assign itemstr = str | split: ' ' -%}
             {% assign order_price = itemstr[1] |times:100%}
-            {% assign minus_monry = itemstr[3] |times:100%}
+            {% assign minus_monry = itemstr[3] %}
             {% assign code_text = itemstr[4] | strip %}
             {% if cart.total_price < order_price %}
             {% break %}
             {% endif %}
             {%- endfor -%}
-            {% assign order_price = 99 |times:100%}        
+                 
             {%- if cart.total_price < order_price -%}
-            {%- comment -%}
             <span class="d-block step-discount" data-action="{{order_price}},{{minus_monry}},{{cart.total_price | minus: order_price | abs}}">
-              {%- render 'icon',icon:'discount' -%}Spend <span class='wh-original-price  mini-car-font'>{{cart.total_price | minus: order_price | abs | round  | money_without_trailing_zeros }}</span> more & <span class="text-prominent" >get {{minus_monry | money_without_trailing_zeros}} off！ {{code_text}}</span></span>
-            {%- endcomment -%}
-            <span class="d-block step-discount" data-action="{{order_price}},{{minus_monry}},{{cart.total_price | minus: order_price | abs}}">
-              {%- render 'icon',icon:'discount' -%}Spend <span class='wh-original-price  mini-car-font storn'>{{cart.total_price | minus: order_price | divided_by: 100  | abs | round | times: 100 | money_without_trailing_zeros}}</span> more <span class="text-prominent" >get 20% off！Code: SA20</span></span>
+              {%- render 'icon',icon:'discount' -%}Spend <span class='wh-original-price  mini-car-font'>{{cart.total_price | minus: order_price | abs | round  | money_without_trailing_zeros }}</span> more  <span class="text-prominent" >get {{minus_monry}} off！ {{code_text}}</span></span>
+              {%- comment -%}
+              <span class="d-block step-discount" data-action="{{order_price}},{{minus_monry}},{{cart.total_price | minus: order_price | abs}}">
+                {%- render 'icon',icon:'discount' -%}Spend <span class='wh-original-price  mini-car-font storn'>{{cart.total_price | minus: order_price | divided_by: 100  | abs | round | times: 100 | money_without_trailing_zeros}}</span> more <span class="text-prominent" >get 20% off！Code: SA20</span></span>
+              {%- endcomment -%}
 
             {%- endif -%}
           {% endif %}
