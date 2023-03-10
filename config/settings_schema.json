@@ -38,6 +38,10 @@
         "id": "autoplay_time",
         "label": "请输入轮播间隔时间",
         "default": "5"
+      },{
+        "type":"collection",
+        "id":"minicart_also",
+        "label":"底部推荐产品集合"
       }
     ]
   },
@@ -222,8 +226,31 @@
         "label":"活动 TAG 图片",
         "default":"Buy 4 Get EXTRA 20% Off=https://cdn.shopify.com/s/files/1/0595/0691/7535/files/6.png?v=1663667594,Choose 3 for $59=https://cdn.shopify.com/s/files/1/0595/0691/7535/files/5.png?v=1663667594,Buy 1 get 2nd 50% OFF=https://cdn.shopify.com/s/files/1/0595/0691/7535/files/4.png?v=1663667594",
         "info":"图片为透明背景图，第一个tag名称、区分大小写、注意空格,tag名称'='图片url，tag之间以','隔开"
+      },{
+        "type":"textarea",
+        "id":"activity_product_tag",
+        "label":"详情页活动标签",
+        "default":"default=https://cdn.shopify.com/s/files/1/0595/0691/7535/files/1_499b918d-2589-4803-bee0-6c020c20b326.jpg?v=1663814021,Buy 4 Get EXTRA 20% Off=https://cdn.shopify.com/s/files/1/0559/6237/0127/files/buy-more-save-more.jpg?v=1671188190,Choose 3 for $59=https://cdn.shopify.com/s/files/1/0559/6237/0127/files/3for59.jpg?v=1671188190,Buy 1 get 2nd 50% OFF=https://cdn.shopify.com/s/files/1/0559/6237/0127/files/2nd-50.jpg?v=1671188190,Choose 4 for $49=https://cdn.shopify.com/s/files/1/0559/6237/0127/files/4-for49.jpg?v=167118819",
+        "info":"规则同上，注意中英文符号，default为默认图片"
       }
     ]
+  },
+  {
+"name":"EDITOR'S PICKS",
+"settings":[
+  {
+    "type": "checkbox",
+    "id": "show_products_eid",
+    "label": "全部替换成当前SPU",
+    "default": true
+  },
+  {
+    "type": "textarea",
+    "id": "editor_items",
+    "label": "产品SPU",
+    "default": "SP221214IJSQ,SP220905LS2A,SP2209158SG5"
+}
+]
   },
   {
     "name": "巴西是否必填门牌号",
