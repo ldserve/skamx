@@ -2,9 +2,10 @@
   "current": {
     "collocation_spus": "sp220420j1oo,sp2204293w4u,sp220602mmsl,sp2208231usy,t11861820nh,sp221011nbbd,sp220806adf9,sp211221vw81,SP221013DYWV,SP221230SGKF,SP2212302UD9,SP2212306E2Q,SP221230GDS8",
     "autoplay_time": "3",
+    "minicart_also": "best-sellers",
     "full_reduction": "<p><strong>5% OFF 2 PIECES<\/strong>,<strong>10% OFF 3 PIECES,15% OFF 4 PIECES,20% OFF 5 PIECES,25% OFF 6 PIECES<\/strong>,<strong>30% OFF 7 PIECES<\/strong><\/p>",
     "full_isOpenview": false,
-    "full_minus": "<p>ORDER 79 minus 10 <strong>CODE:SK10<\/strong>,ORDER 139 minus 15 <strong>CODE:SK15<\/strong>,ORDER 169 minus 20 <strong>CODE:SK20<\/strong>,ORDER 299 minus 50 <strong>CODE:SK50<\/strong><\/p>",
+    "full_minus": "<p>ORDER 99 minus 20% <strong>CODE:SA20<\/strong><\/p>",
     "CustomPromotionUrl": "<p>Choose 3 for $59=https:\/\/www.skamx.com\/collections\/get-any-3-for-59,Buy 4 Get EXTRA 20% Off=https:\/\/www.skamx.com\/collections\/buy-more-save-more,Choose 4 for $49=https:\/\/www.skamx.com\/collections\/4-for-49,Buy 1 get 2nd 50% OFF=https:\/\/www.skamx.com\/collections\/buy-1-get-2nd-50-off<\/p>",
     "showFlake": false,
     "show_car_bar": false,
