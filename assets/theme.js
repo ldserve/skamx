@@ -13218,7 +13218,7 @@
                         // to both user experience and PageSpeed score. As a consequence, I am pre-setting the height
 
                         var firstSlide = filteredCells[initialIndex];
-                        firstSlide.classList.add('is-selected');
+                        firstSlide|| firstSlide.classList.add('is-selected');
                         this.productGalleryElement.style.height = "".concat(firstSlide.clientHeight, "px");
                         this.flickityInstance = new flickityFade(this.productGalleryElement, {
                             accessibility: false,
