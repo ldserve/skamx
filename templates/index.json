@@ -41,6 +41,7 @@
           "settings": {
             "sensorsName": "",
             "image": "shopify:\/\/shop_images\/2_3ece8b22-9ad0-4d2a-a57b-6c8d17fdcd40.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/2_61819878-5dce-4f65-ad6e-754fe7f5d1a0.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
