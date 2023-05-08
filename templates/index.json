@@ -169,6 +169,22 @@
             "show_hot": true
           }
         },
+        "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-3": {
+          "type": "link",
+          "settings": {
+            "title": "CARGO SHORTS  🔥",
+            "link": "https:\/\/www.skamx.com\/collections\/cargo-shorts-1",
+            "show_hot": false
+          }
+        },
+        "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-5": {
+          "type": "link",
+          "settings": {
+            "title": "GOLF POLO",
+            "link": "shopify:\/\/collections\/polo-shirts",
+            "show_hot": true
+          }
+        },
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-2": {
           "type": "link",
           "settings": {
@@ -185,37 +201,11 @@
             "show_hot": true
           }
         },
-        "1f0fae7d-72ac-40f6-877d-95723fb0cacb": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "title": "HALLOWEEN",
-            "link": "https:\/\/www.skamx.com\/collections\/halloween",
-            "show_hot": true
-          }
-        },
-        "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-5": {
-          "type": "link",
-          "settings": {
-            "title": "GOLF POLO",
-            "link": "shopify:\/\/collections\/polo-shirts",
-            "show_hot": true
-          }
-        },
         "9a537ace-0c51-4b4c-a846-9f8d791f3348": {
           "type": "link",
           "settings": {
             "title": "GRAPHIC TEES",
             "link": "shopify:\/\/collections\/short-leeve-t-shirt",
-            "show_hot": true
-          }
-        },
-        "62a0c337-f015-4c5e-8ab9-cd6389e33e7d": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "title": "WORK SHIRT",
-            "link": "https:\/\/www.skamx.com\/collections\/work-shirt",
             "show_hot": true
           }
         },
@@ -227,26 +217,36 @@
             "show_hot": true
           }
         },
-        "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-3": {
+        "1f0fae7d-72ac-40f6-877d-95723fb0cacb": {
           "type": "link",
+          "disabled": true,
           "settings": {
-            "title": "CARGO SHORTS  🔥",
-            "link": "https:\/\/www.skamx.com\/collections\/cargo-shorts-1",
-            "show_hot": false
+            "title": "HALLOWEEN",
+            "link": "https:\/\/www.skamx.com\/collections\/halloween",
+            "show_hot": true
+          }
+        },
+        "62a0c337-f015-4c5e-8ab9-cd6389e33e7d": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "title": "WORK SHIRT",
+            "link": "https:\/\/www.skamx.com\/collections\/work-shirt",
+            "show_hot": true
           }
         }
       },
       "block_order": [
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-0",
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-1",
+        "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-3",
+        "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-5",
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-2",
         "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-4",
-        "1f0fae7d-72ac-40f6-877d-95723fb0cacb",
-        "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-5",
         "9a537ace-0c51-4b4c-a846-9f8d791f3348",
-        "62a0c337-f015-4c5e-8ab9-cd6389e33e7d",
         "ad5331e1-f888-475d-b298-91f6ee3aac78",
-        "template--14882386968655__27df4773-b50b-49da-8bc2-aa62de2f9579-16669285260aa0e6b0-3"
+        "1f0fae7d-72ac-40f6-877d-95723fb0cacb",
+        "62a0c337-f015-4c5e-8ab9-cd6389e33e7d"
       ],
       "settings": {
         "title": "",
