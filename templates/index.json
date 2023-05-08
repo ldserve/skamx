@@ -352,35 +352,12 @@
             "button_text": "",
             "link": "https:\/\/www.hyfol.com\/collections\/halloween-theme-clothing"
           }
-        },
-        "6b81b536-820e-4159-b3d4-2b0eebf17fec": {
-          "type": "image",
-          "settings": {
-            "sensorsName": "",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Slide title",
-            "heading_text_font": "helvetica_n4",
-            "heading_text_font_size": 20,
-            "heading_text_color": "#ffffff",
-            "content": "Tell your story",
-            "content_text_font": "helvetica_n4",
-            "content_text_font_size": 12,
-            "content_text_color": "#ffffff",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "1650101273ef0886ca-1",
         "79cd2bfc-0629-4c7d-b333-56a486e24cfb",
-        "fb844d01-0475-4130-aeb7-a118c0a1b427",
-        "6b81b536-820e-4159-b3d4-2b0eebf17fec"
+        "fb844d01-0475-4130-aeb7-a118c0a1b427"
       ],
       "settings": {
         "edge_to_edge": true,
