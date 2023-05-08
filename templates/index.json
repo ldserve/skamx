@@ -595,9 +595,9 @@
         "a3ef1afa-1856-4420-8f86-f4d23cf3c56b": {
           "type": "link",
           "settings": {
-            "heading": "women",
-            "sensorsLinkName": "women",
-            "link": "shopify:\/\/collections\/women",
+            "heading": "active",
+            "sensorsLinkName": "active",
+            "link": "shopify:\/\/collections\/active-wear",
             "left": 0,
             "top": 65,
             "width": 33,
@@ -607,9 +607,9 @@
         "19f070c6-bfd3-4776-891c-593fb003c04d": {
           "type": "link",
           "settings": {
-            "heading": "shirts",
-            "sensorsLinkName": "shirts",
-            "link": "shopify:\/\/collections\/work-shirt",
+            "heading": "women",
+            "sensorsLinkName": "women",
+            "link": "shopify:\/\/collections\/womens-best-sellers",
             "left": 34,
             "top": 66,
             "width": 33,
@@ -619,9 +619,9 @@
         "4c7ca69e-35cd-46f0-a192-8c4cfc1a9820": {
           "type": "link",
           "settings": {
-            "heading": "accessories",
-            "sensorsLinkName": "accessories",
-            "link": "https:\/\/www.skamx.com\/collections\/accessories-1",
+            "heading": "indepenceday",
+            "sensorsLinkName": "indepenceday",
+            "link": "shopify:\/\/collections\/independence-day",
             "left": 67,
             "top": 65,
             "width": 34,
@@ -646,7 +646,7 @@
         "hidDesk": true,
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
-        "line": true,
+        "line": false,
         "image": "shopify:\/\/shop_images\/3_f7ef54ce-6e30-4704-9e76-aed0e531fd01.jpg",
         "tpadding": 13,
         "rpadding": 0,
