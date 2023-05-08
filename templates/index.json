@@ -906,9 +906,9 @@
             "heading": "FORPATRIOTS",
             "sensorsLinkName": "FORPATRIOTS",
             "link": "shopify:\/\/collections\/for-patriots",
-            "left": 76,
+            "left": 75,
             "top": 0,
-            "width": 40,
+            "width": 25,
             "height": 100
           }
         },
@@ -1029,7 +1029,7 @@
         "hidDesk": true,
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
-        "line": false,
+        "line": true,
         "image": "shopify:\/\/shop_images\/20230308-175643.jpg",
         "tpadding": 5,
         "rpadding": 0,
