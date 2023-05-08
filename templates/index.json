@@ -872,7 +872,7 @@
             "link": "shopify:\/\/collections\/bottoms",
             "left": 0,
             "top": 0,
-            "width": 24,
+            "width": 25,
             "height": 100
           }
         },
@@ -884,7 +884,7 @@
             "link": "shopify:\/\/collections\/performance",
             "left": 25,
             "top": 0,
-            "width": 24,
+            "width": 25,
             "height": 100
           }
         },
@@ -939,8 +939,8 @@
         "hidDesk": false,
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
-        "line": false,
-        "image": "shopify:\/\/shop_images\/20230308-175639.jpg",
+        "line": true,
+        "image": "shopify:\/\/shop_images\/5_287fcb62-781e-4d93-babb-35cd31850ebe.jpg",
         "tpadding": 0,
         "rpadding": 0,
         "bpadding": 0,
@@ -986,10 +986,10 @@
             "heading": "HAWAIISHIRTS",
             "sensorsLinkName": "HAWAIISHIRTS",
             "link": "https:\/\/www.skamx.com\/collections\/performance",
-            "left": 51,
+            "left": 25,
             "top": 0,
-            "width": 53,
-            "height": 49
+            "width": 25,
+            "height": 100
           }
         },
         "1a56e24f-fd33-4441-a6c2-3cf03868b44a": {
@@ -998,10 +998,10 @@
             "heading": "POLO",
             "sensorsLinkName": "POLO",
             "link": "shopify:\/\/collections\/polo-shirts",
-            "left": 0,
-            "top": 50,
-            "width": 49,
-            "height": 47
+            "left": 50,
+            "top": 0,
+            "width": 25,
+            "height": 100
           }
         },
         "dbe8a9a1-2bdd-4552-82ae-15b0ebb1e9cf": {
@@ -1010,10 +1010,10 @@
             "heading": "FORPATRIOTS",
             "sensorsLinkName": "FORPATRIOTS",
             "link": "https:\/\/www.skamx.com\/collections\/for-patriots",
-            "left": 51,
-            "top": 50,
-            "width": 60,
-            "height": 47
+            "left": 75,
+            "top": 0,
+            "width": 25,
+            "height": 100
           }
         }
       },
