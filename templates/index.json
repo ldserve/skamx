@@ -939,7 +939,7 @@
         "hidDesk": false,
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
-        "line": true,
+        "line": false,
         "image": "shopify:\/\/shop_images\/5_287fcb62-781e-4d93-babb-35cd31850ebe.jpg",
         "tpadding": 5,
         "rpadding": 0,
