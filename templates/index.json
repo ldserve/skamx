@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "sensorsName": "bestseller",
-            "image": "shopify:\/\/shop_images\/skamx_banner_cf5dd8a5-ce95-410e-b65f-e139bb74ed81.jpg",
+            "image": "shopify:\/\/shop_images\/1_4ee12444-16c6-4deb-bad7-a3d7affe54ad.jpg",
             "mobile_image": "shopify:\/\/shop_images\/skamx_045f8786-8ab1-405a-9283-4092865e9bbd.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
@@ -33,7 +33,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.skamx.com\/collections\/long-sleeve-t-shirt"
+            "link": "https:\/\/www.skamx.com\/collections\/best-sellers"
           }
         },
         "1664249260b7761d46-0": {
