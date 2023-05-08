@@ -36,6 +36,29 @@
             "link": "https:\/\/www.skamx.com\/collections\/best-sellers"
           }
         },
+        "98f4f37d-661d-4378-abb4-d82e9de6a6cd": {
+          "type": "image",
+          "settings": {
+            "sensorsName": "",
+            "image": "shopify:\/\/shop_images\/2_3ece8b22-9ad0-4d2a-a57b-6c8d17fdcd40.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_text_font": "helvetica_n4",
+            "heading_text_font_size": 20,
+            "heading_text_color": "#ffffff",
+            "content": "",
+            "content_text_font": "helvetica_n4",
+            "content_text_font_size": 12,
+            "content_text_color": "#ffffff",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.skamx.com\/collections\/bottoms"
+          }
+        },
         "1664249260b7761d46-0": {
           "type": "image",
           "settings": {
@@ -113,6 +136,7 @@
       },
       "block_order": [
         "1664249260b7761d46-1",
+        "98f4f37d-661d-4378-abb4-d82e9de6a6cd",
         "1664249260b7761d46-0",
         "1bd80b48-8696-4ede-9abc-d7b4ac29fd56",
         "9ebef176-2769-4f7e-903d-9120a54302a2"
@@ -327,12 +351,35 @@
             "button_text": "",
             "link": "https:\/\/www.hyfol.com\/collections\/halloween-theme-clothing"
           }
+        },
+        "6b81b536-820e-4159-b3d4-2b0eebf17fec": {
+          "type": "image",
+          "settings": {
+            "sensorsName": "",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "heading_text_font": "helvetica_n4",
+            "heading_text_font_size": 20,
+            "heading_text_color": "#ffffff",
+            "content": "Tell your story",
+            "content_text_font": "helvetica_n4",
+            "content_text_font_size": 12,
+            "content_text_color": "#ffffff",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "1650101273ef0886ca-1",
         "79cd2bfc-0629-4c7d-b333-56a486e24cfb",
-        "fb844d01-0475-4130-aeb7-a118c0a1b427"
+        "fb844d01-0475-4130-aeb7-a118c0a1b427",
+        "6b81b536-820e-4159-b3d4-2b0eebf17fec"
       ],
       "settings": {
         "edge_to_edge": true,
