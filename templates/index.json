@@ -385,10 +385,10 @@
         "d00c4492-eb2b-4ac5-824e-956b746fdad9": {
           "type": "link",
           "settings": {
-            "heading": "activewear",
-            "sensorsLinkName": "active wear",
-            "link": "shopify:\/\/collections\/active-wear",
-            "left": 40,
+            "heading": "tactical",
+            "sensorsLinkName": "tactical",
+            "link": "shopify:\/\/collections\/tactical-wear",
+            "left": 20,
             "top": 0,
             "width": 20,
             "height": 50
@@ -397,13 +397,13 @@
         "364ba111-1e47-4d4b-a5cd-5f33e07b58cb": {
           "type": "link",
           "settings": {
-            "heading": "swearshirts",
-            "sensorsLinkName": "swearshirts",
-            "link": "https:\/\/www.skamx.com\/collections\/polo-shirts",
-            "left": 21,
+            "heading": "active",
+            "sensorsLinkName": "active",
+            "link": "shopify:\/\/collections\/active-wear",
+            "left": 40,
             "top": 0,
-            "width": 19,
-            "height": 58
+            "width": 20,
+            "height": 50
           }
         },
         "b4ae7096-a7e8-4271-bca0-ee1a15e658df": {
@@ -411,11 +411,11 @@
           "settings": {
             "heading": "shorts",
             "sensorsLinkName": "shorts",
-            "link": "shopify:\/\/collections\/bottoms",
-            "left": 80,
+            "link": "shopify:\/\/collections\/cargo-shorts-1",
+            "left": 60,
             "top": 0,
-            "width": 18,
-            "height": 58
+            "width": 20,
+            "height": 50
           }
         },
         "fe7547ca-3a15-46c9-ba87-ccbc010a9094": {
@@ -423,22 +423,22 @@
           "settings": {
             "heading": "tees",
             "sensorsLinkName": "tees",
-            "link": "https:\/\/www.skamx.com\/collections\/best-sellers",
-            "left": 0,
-            "top": 61,
+            "link": "shopify:\/\/collections\/short-leeve-t-shirt",
+            "left": 80,
+            "top": 0,
             "width": 20,
-            "height": 60
+            "height": 50
           }
         },
         "4c059594-7c18-487a-9479-47ca70579d28": {
           "type": "link",
           "settings": {
-            "heading": "workshirt",
-            "sensorsLinkName": "workshirt",
-            "link": "https:\/\/www.skamx.com\/collections\/work-shirt",
-            "left": 21,
-            "top": 60,
-            "width": 18,
+            "heading": "longsleeve",
+            "sensorsLinkName": "longsleeve",
+            "link": "shopify:\/\/collections\/long-sleeve-t-shirt",
+            "left": 0,
+            "top": 50,
+            "width": 20,
             "height": 49
           }
         },
@@ -447,21 +447,21 @@
           "settings": {
             "heading": "women",
             "sensorsLinkName": "women",
-            "link": "shopify:\/\/collections\/women",
-            "left": 41,
-            "top": 60,
-            "width": 19,
-            "height": 60
+            "link": "shopify:\/\/collections\/womens-best-sellers",
+            "left": 20,
+            "top": 50,
+            "width": 20,
+            "height": 50
           }
         },
         "cc3e3b76-5387-45b8-8de0-07f086390707": {
           "type": "link",
           "settings": {
-            "heading": "cargopants",
-            "sensorsLinkName": "cargopants",
-            "link": "https:\/\/www.skamx.com\/collections\/sweatshirts",
-            "left": 61,
-            "top": 0,
+            "heading": "sweatshirt",
+            "sensorsLinkName": "sweatshirt",
+            "link": "shopify:\/\/collections\/sweatshirts",
+            "left": 40,
+            "top": 50,
             "width": 20,
             "height": 49
           }
@@ -471,7 +471,7 @@
           "settings": {
             "heading": "independenceday",
             "sensorsLinkName": "independenceday",
-            "link": "https:\/\/www.skamx.com\/collections\/independence-day",
+            "link": "shopify:\/\/collections\/independence-day",
             "left": 60,
             "top": 50,
             "width": 20,
@@ -483,10 +483,10 @@
           "settings": {
             "heading": "accessories",
             "sensorsLinkName": "accessories",
-            "link": "https:\/\/www.skamx.com\/collections\/accessories-1",
+            "link": "shopify:\/\/collections\/accessories",
             "left": 80,
             "top": 49,
-            "width": 35,
+            "width": 20,
             "height": 49
           }
         }
@@ -509,7 +509,7 @@
         "hidDesk": false,
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
-        "line": true,
+        "line": false,
         "image": "shopify:\/\/shop_images\/3_e851287a-0cc6-4f49-ada7-0e12ca58e86a.jpg",
         "tpadding": 14,
         "rpadding": 0,
