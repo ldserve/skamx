@@ -1029,7 +1029,7 @@
         "hidDesk": true,
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
-        "line": true,
+        "line": false,
         "image": "shopify:\/\/shop_images\/20230308-175643.jpg",
         "tpadding": 5,
         "rpadding": 0,
