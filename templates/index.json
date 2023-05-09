@@ -715,7 +715,7 @@
           "settings": {
             "heading": "for099",
             "sensorsLinkName": "for099",
-            "link": "https:\/\/www.skamx.com\/collections\/flash",
+            "link": "",
             "left": 76,
             "top": 0,
             "width": 25,
@@ -735,11 +735,11 @@
         "hidDesk": false,
         "sensorsName": "pc分类导流区",
         "hidWeb": true,
-        "line": false,
+        "line": true,
         "image": "shopify:\/\/shop_images\/skamx_2a67d7b4-0763-45dc-82b3-798d04158e11.jpg",
         "tpadding": 0,
         "rpadding": 0,
-        "bpadding": 20,
+        "bpadding": 28,
         "lpadding": 0
       }
     },
