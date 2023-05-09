@@ -807,7 +807,7 @@
         "hidDesk": true,
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
-        "line": true,
+        "line": false,
         "image": "shopify:\/\/shop_images\/skamx_10929091-8a2e-4cfe-9176-470a13aa03bd.jpg",
         "tpadding": 0,
         "rpadding": 0,
