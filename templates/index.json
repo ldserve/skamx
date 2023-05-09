@@ -754,8 +754,8 @@
             "link": "https:\/\/www.skamx.com\/collections\/buy-more-save-more",
             "left": 0,
             "top": 0,
-            "width": 45,
-            "height": 47
+            "width": 50,
+            "height": 50
           }
         },
         "97904934-fa6e-4f6d-bfcf-6b950135a2e4": {
@@ -766,8 +766,8 @@
             "link": "https:\/\/www.skamx.com\/collections\/basic",
             "left": 50,
             "top": 0,
-            "width": 46,
-            "height": 47
+            "width": 50,
+            "height": 50
           }
         },
         "06c7d764-cfca-4518-98f7-343f20b44cc2": {
@@ -777,9 +777,9 @@
             "sensorsLinkName": "for3",
             "link": "https:\/\/www.skamx.com\/collections\/get-any-3-for-59",
             "left": 0,
-            "top": 54,
-            "width": 44,
-            "height": 53
+            "top": 50,
+            "width": 50,
+            "height": 50
           }
         },
         "474fc5c8-b902-45c5-a887-4c605d305f17": {
@@ -787,11 +787,11 @@
           "settings": {
             "heading": "for099",
             "sensorsLinkName": "for099",
-            "link": "https:\/\/www.skamx.com\/collections\/flash",
+            "link": "",
             "left": 50,
-            "top": 48,
-            "width": 57,
-            "height": 53
+            "top": 50,
+            "width": 50,
+            "height": 50
           }
         }
       },
@@ -807,7 +807,7 @@
         "hidDesk": true,
         "sensorsName": "mobile分类导流区",
         "hidWeb": false,
-        "line": false,
+        "line": true,
         "image": "shopify:\/\/shop_images\/skamx_10929091-8a2e-4cfe-9176-470a13aa03bd.jpg",
         "tpadding": 0,
         "rpadding": 0,
