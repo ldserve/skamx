@@ -12,31 +12,6 @@
     "166424926021cbf149": {
       "type": "slideshow",
       "blocks": {
-        "1664249260b7761d46-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "sensorsName": "bestseller",
-            "image": "shopify:\/\/shop_images\/1_4ee12444-16c6-4deb-bad7-a3d7affe54ad.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/skamx__02_6c5f2a12-c948-4607-97e3-577e0e297b96.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "heading_text_font": "helvetica_n4",
-            "heading_text_font_size": 20,
-            "heading_text_color": "#ffffff",
-            "content": "",
-            "content_text_font": "helvetica_n4",
-            "content_text_font_size": 12,
-            "content_text_color": "#ffffff",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.skamx.com\/collections\/best-sellers"
-          }
-        },
         "98f4f37d-661d-4378-abb4-d82e9de6a6cd": {
           "type": "image",
           "settings": {
@@ -59,6 +34,54 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "https:\/\/www.skamx.com\/collections\/bottoms"
+          }
+        },
+        "c8fbfe16-4104-4a2f-9689-efbbfca57f1c": {
+          "type": "image",
+          "settings": {
+            "sensorsName": "",
+            "image": "shopify:\/\/shop_images\/skamx_banner_a147f5f5-e8d4-4f61-b9b0-aef17260bc9e.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx_moblie_banner-1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_text_font": "helvetica_n4",
+            "heading_text_font_size": 20,
+            "heading_text_color": "#ffffff",
+            "content": "",
+            "content_text_font": "helvetica_n4",
+            "content_text_font_size": 12,
+            "content_text_color": "#ffffff",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": "shopify:\/\/collections\/best-sellers"
+          }
+        },
+        "d4a2a443-411b-44eb-870e-8a4eba3079a1": {
+          "type": "image",
+          "settings": {
+            "sensorsName": "",
+            "image": "shopify:\/\/shop_images\/Skamx-banner.gif",
+            "mobile_image": "shopify:\/\/shop_images\/skamx-mobile-banner.gif",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_text_font": "helvetica_n4",
+            "heading_text_font_size": 20,
+            "heading_text_color": "#ffffff",
+            "content": "",
+            "content_text_font": "helvetica_n4",
+            "content_text_font_size": 12,
+            "content_text_color": "#ffffff",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
           }
         },
         "1664249260b7761d46-0": {
@@ -111,12 +134,13 @@
             "link": "https:\/\/www.skamx.com\/collections\/washings-birthday"
           }
         },
-        "c8fbfe16-4104-4a2f-9689-efbbfca57f1c": {
+        "1664249260b7761d46-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "sensorsName": "",
-            "image": "shopify:\/\/shop_images\/skamx_banner_a147f5f5-e8d4-4f61-b9b0-aef17260bc9e.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/skamx_moblie_banner-1.jpg",
+            "sensorsName": "bestseller",
+            "image": "shopify:\/\/shop_images\/1_4ee12444-16c6-4deb-bad7-a3d7affe54ad.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/skamx__02_6c5f2a12-c948-4607-97e3-577e0e297b96.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -131,42 +155,18 @@
             "content_position": "middle_center",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
-        },
-        "d4a2a443-411b-44eb-870e-8a4eba3079a1": {
-          "type": "image",
-          "settings": {
-            "sensorsName": "",
-            "image": "shopify:\/\/shop_images\/Skamx-banner.gif",
-            "mobile_image": "shopify:\/\/shop_images\/skamx-mobile-banner.gif",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "heading_text_font": "helvetica_n4",
-            "heading_text_font_size": 20,
-            "heading_text_color": "#ffffff",
-            "content": "",
-            "content_text_font": "helvetica_n4",
-            "content_text_font_size": 12,
-            "content_text_color": "#ffffff",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
+            "button_text": "",
+            "link": "https:\/\/www.skamx.com\/collections\/best-sellers"
           }
         }
       },
       "block_order": [
-        "1664249260b7761d46-1",
         "98f4f37d-661d-4378-abb4-d82e9de6a6cd",
+        "c8fbfe16-4104-4a2f-9689-efbbfca57f1c",
+        "d4a2a443-411b-44eb-870e-8a4eba3079a1",
         "1664249260b7761d46-0",
         "1bd80b48-8696-4ede-9abc-d7b4ac29fd56",
-        "c8fbfe16-4104-4a2f-9689-efbbfca57f1c",
-        "d4a2a443-411b-44eb-870e-8a4eba3079a1"
+        "1664249260b7761d46-1"
       ],
       "settings": {
         "edge_to_edge": true,
