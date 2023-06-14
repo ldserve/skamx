@@ -58,7 +58,7 @@
           "type": "policy",
           "settings": {
             "display_mode": "collapse",
-            "policy_info": "<p>You have a max of 30 days to make returns. <br>You must send back your items to an informed address by customer service.<br>No returns made after 30 days from the purchase date will be accepted.<\/p>"
+            "policy_info": "<p>Customers have a max of 30 days to make returns. <br\/>Customers need to send back your items to an informed address provided by customer service.<\/p>"
           }
         },
         "description": {
